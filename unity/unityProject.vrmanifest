@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.proto01.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\projets\\sitnvr\\unity\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Proto01 [Testing]"
+        }
+      }
+    }
+  ]
+}
