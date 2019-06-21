@@ -15,6 +15,7 @@ sitn-vr is a prototype of importing different kind of GIS data into a VR environ
 ## Requirements
 
 Playing the prototype:
+- Git LFS
 - Unity >= 2019.1
 - SteamVR
 
