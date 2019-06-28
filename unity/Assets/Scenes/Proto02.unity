@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
@@ -446,7 +446,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.3509887e-38, y: 9e-44, z: 0, w: 2.3509887e-38}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -493,7 +493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 123.69
+      value: 105.47
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -551,6 +551,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 00_buildings
       objectReference: {fileID: 0}
+    - target: {fileID: 2534866581884222612, guid: 8ef059970665db54aba2dfdde377f246,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 8ef059970665db54aba2dfdde377f246,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -559,7 +564,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 8ef059970665db54aba2dfdde377f246,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -412
+      value: -429
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 8ef059970665db54aba2dfdde377f246,
         type: 3}
@@ -647,7 +652,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046918893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 113.988106, y: 125.69464, z: 352.63504}
+  m_LocalPosition: {x: 113.988106, y: 109, z: 352.63504}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 856829325}
