@@ -19,7 +19,7 @@ Playing the prototype:
 - SteamVR
 
 Process the data:
-- FME >= 2019.0
+- FME >= 2019.1
 - QGIS >= 3.6
 
 ## Playing the prototype
