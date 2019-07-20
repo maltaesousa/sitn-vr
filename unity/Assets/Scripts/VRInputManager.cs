@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
 
-public class VRInputManager : MonoBehaviour
+public class VRInputManager : Valve.VR.InteractionSystem.InputModule
 {
     [Header("Actions")]
     public SteamVR_Action_Boolean press = null;
@@ -14,13 +14,15 @@ public class VRInputManager : MonoBehaviour
 
     private bool active = false;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         press.onStateDown += PressRelease;
     }
 
-    private void OnDestroy()
+    protected override void OnDestroy()
     {
+        base.OnDestroy();
         press.onStateDown -= PressRelease;
     }
 

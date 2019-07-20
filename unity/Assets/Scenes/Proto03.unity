@@ -13126,7 +13126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 922964950}
   - component: {fileID: 933920832}
-  - component: {fileID: 933924066}
+  - component: {fileID: 923167359}
   m_Layer: 0
   m_Name: InputModule
   m_TagString: Untagged
@@ -13134,6 +13134,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &923167359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923167358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb6c24869261774fa01b42bc3364a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  press:
+    actionPath: /actions/default/in/OpenMainMenu
+    needsReinit: 0
+  mainMenu: {fileID: 318635724}
+  menuPointer: {fileID: 1897913884}
 --- !u!1 &923169392
 GameObject:
   m_ObjectHideFlags: 0
@@ -13682,18 +13699,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highLightMaterial: {fileID: 2100000, guid: 7b939e5e799d98a469f594828ebab52e, type: 2}
   fireHapticsOnHightlight: 1
---- !u!114 &933924066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923167358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9e05292e0d62b542ac5bba92674a86d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &933926856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19597,54 +19602,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341815379}
   m_Mesh: {fileID: -5664588570185488677, guid: 86abf71ed13c865448e26e48a4cbe7df, type: 3}
---- !u!1 &1342051242
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1342051244}
-  - component: {fileID: 1342051243}
-  m_Layer: 0
-  m_Name: VRInputManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1342051243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1342051242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbb6c24869261774fa01b42bc3364a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  press:
-    actionPath: /actions/default/in/OpenMainMenu
-    needsReinit: 0
-  mainMenu: {fileID: 318635724}
-  menuPointer: {fileID: 1897913884}
---- !u!4 &1342051244
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1342051242}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 104.758354, y: 102.731155, z: 322.6883}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1345872954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 2cc286f84dcdf84409fcde396b481a65,
@@ -30768,6 +30725,6 @@ PrefabInstance:
         type: 3}
       propertyPath: inputModule
       value: 
-      objectReference: {fileID: 1342051243}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25c7202308cfc5e44b84e52f9c979af6, type: 3}
