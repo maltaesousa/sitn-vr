@@ -6,7 +6,7 @@ public class MenuPointer : MonoBehaviour
 {
     public float defaultLength = 0.5f;
     public GameObject endDot;
-    public VRInputModule inputModule;
+    public VRInputManager inputModule;
 
     private LineRenderer lineRenderer = null;
 
@@ -18,6 +18,11 @@ public class MenuPointer : MonoBehaviour
     private void Update()
     {
         UpdateLine();
+    }
+
+    public void Show(bool value)
+    {
+        gameObject.SetActive(value);
     }
 
     private void UpdateLine()
