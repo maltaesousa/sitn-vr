@@ -59,8 +59,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb6c24869261774fa01b42bc3364a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  press:
-    actionPath: /actions/default/in/OpenMainMenu
+  pressMenu:
+    actionPath: 
     needsReinit: 0
+  pressTouchAction:
+    actionPath: 
+    needsReinit: 0
+  touchButtonSource: 0
   mainMenu: {fileID: 0}
   menuPointer: {fileID: 0}
