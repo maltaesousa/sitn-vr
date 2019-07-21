@@ -68,10 +68,10 @@ public class VRInputManager : Valve.VR.InteractionSystem.InputModule
         HandlePointerExitAndEnter(data, currentObject);
 
         // Click
-        if (pressTouchAction.GetStateDown(touchButtonSource))
+        if(pressTouchAction[touchButtonSource].stateDown)
             ProcessTouchPress(data);
 
-        if (pressTouchAction.GetStateUp(touchButtonSource))
+        if(pressTouchAction[touchButtonSource].stateUp)
             ProcessTouchRelease(data);
     }
 
@@ -85,7 +85,7 @@ public class VRInputManager : Valve.VR.InteractionSystem.InputModule
         active = !active;
         mainMenu.Show(active);
         menuPointerWithCamera.Show(active);
-        if (active)
+        if(active)
             menuSet.Activate(touchButtonSource, 1);
         else
             menuSet.Deactivate(touchButtonSource);
@@ -93,12 +93,43 @@ public class VRInputManager : Valve.VR.InteractionSystem.InputModule
 
     private void ProcessTouchPress(PointerEventData data)
     {
-        print("TOUCH PRESS: " + data);
+        // Set Raycast
+        data.pointerPressRaycast = data.pointerCurrentRaycast;
+
+        // Check for object hit, get the down handler call
+        GameObject newPointerPress = ExecuteEvents.ExecuteHierarchy(currentObject, data, ExecuteEvents.pointerDownHandler);
+
+        // If no down handler, try to get the click handler
+        if(newPointerPress == null)
+            newPointerPress = ExecuteEvents.GetEventHandler<IPointerClickHandler>(currentObject);
+
+        // data
+        data.pressPosition = data.position;
+        data.pointerPress = newPointerPress;
+        data.rawPointerPress = currentObject;
     }
 
     private void ProcessTouchRelease(PointerEventData data)
     {
-        print(data);
+        // Execute pointer up
+        ExecuteEvents.Execute(currentObject, data, ExecuteEvents.pointerUpHandler);
+
+        // Check for click handler
+        GameObject pointerUpHandler = ExecuteEvents.GetEventHandler<IPointerClickHandler>(currentObject);
+
+        // Check if actual
+        if(data.pointerPress == pointerUpHandler)
+        {
+            ExecuteEvents.Execute(data.pointerPress, data, ExecuteEvents.pointerClickHandler);
+        }
+
+        // Clear selected object
+        eventSystem.SetSelectedGameObject(null);
+
+        // Reset data
+        data.pressPosition = Vector2.zero;
+        data.pointerPress = null;
+        data.rawPointerPress = null;
     }
 
 }

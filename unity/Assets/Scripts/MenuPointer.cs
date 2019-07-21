@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MenuPointer : MonoBehaviour
 {
@@ -28,7 +29,8 @@ public class MenuPointer : MonoBehaviour
     private void UpdateLine()
     {
         // Use default or provided distance
-        float targetLength = defaultLength;
+        PointerEventData data = inputModule.GetData();
+        float targetLength = data.pointerCurrentRaycast.distance == 0 ? defaultLength : data.pointerCurrentRaycast.distance;
 
         // Raycast
         RaycastHit hit = CreateRaycast(targetLength);
