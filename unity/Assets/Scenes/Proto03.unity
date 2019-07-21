@@ -30772,7 +30772,32 @@ PrefabInstance:
     - target: {fileID: 6920363479101061752, guid: d59c197272b23694c88a160a80800f6b,
         type: 3}
       propertyPath: pressTouchAction.actionPath
-      value: /actions/default/in/Teleport
+      value: /actions/menuSet/in/PressTrackpad
+      objectReference: {fileID: 0}
+    - target: {fileID: 6920363479101061752, guid: d59c197272b23694c88a160a80800f6b,
+        type: 3}
+      propertyPath: primarySet.actionSetPath
+      value: /actions/default
+      objectReference: {fileID: 0}
+    - target: {fileID: 6920363479101061752, guid: d59c197272b23694c88a160a80800f6b,
+        type: 3}
+      propertyPath: menuSet.actionSetPath
+      value: /actions/menuSet
+      objectReference: {fileID: 0}
+    - target: {fileID: 6920363479101061752, guid: d59c197272b23694c88a160a80800f6b,
+        type: 3}
+      propertyPath: menuPointerWithCamera
+      value: 
+      objectReference: {fileID: 1897913884}
+    - target: {fileID: 6920363479101061752, guid: d59c197272b23694c88a160a80800f6b,
+        type: 3}
+      propertyPath: openMenu.actionPath
+      value: /actions/default/in/OpenMainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6920363479101061752, guid: d59c197272b23694c88a160a80800f6b,
+        type: 3}
+      propertyPath: closeMenu.actionPath
+      value: /actions/menuSet/in/CloseMainMenu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d59c197272b23694c88a160a80800f6b, type: 3}

@@ -1,18 +1,37 @@
-﻿using System.Collections;
+﻿//======================================= 2019, Stéphane Malta e Sousa, sitn-vr =======================================
+//
+// This overrides the SteamVR InputModule allowing to add custom actions.
+// based on "VR with Andrew" YouTube videos.
+//
+//=====================================================================================================================
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Valve.VR;
 
+
+/// <summary>
+/// This manages the inputs from Valve Controller:
+///  - the physicall buttons
+///  - The Laser Pointer is also considered as an input inside the game
+/// </summary>
 public class VRInputManager : Valve.VR.InteractionSystem.InputModule
 {
     [Header("Actions")]
-    public SteamVR_Action_Boolean pressMenu = null;
+    public SteamVR_ActionSet menuSet;
+    [Tooltip("The action to open the menu")]
+    public SteamVR_Action_Boolean openMenu = null;
+    [Tooltip("")]
     public SteamVR_Action_Boolean pressTouchAction;
+    [Tooltip("")]
     public SteamVR_Input_Sources touchButtonSource;
 
     [Header("Scene Objects")]
+    [Tooltip("")]
     public MainMenu mainMenu = null;
+    [Tooltip("")]
     public MenuPointer menuPointerWithCamera = null;
 
     // stores the state of the menu
@@ -24,7 +43,7 @@ public class VRInputManager : Valve.VR.InteractionSystem.InputModule
     protected override void Awake()
     {
         base.Awake();
-        pressMenu.onStateDown += PressRelease;
+        openMenu.onStateDown += PressRelease;
         data = new PointerEventData(eventSystem);
         menuPointerCamera = menuPointerWithCamera.GetComponent<Camera>();
     }
@@ -32,7 +51,7 @@ public class VRInputManager : Valve.VR.InteractionSystem.InputModule
     protected override void OnDestroy()
     {
         base.OnDestroy();
-        pressMenu.onStateDown -= PressRelease;
+        openMenu.onStateDown -= PressRelease;
     }
 
     public override void Process()
@@ -66,7 +85,10 @@ public class VRInputManager : Valve.VR.InteractionSystem.InputModule
         active = !active;
         mainMenu.Show(active);
         menuPointerWithCamera.Show(active);
-        print("MENU :" + active);
+        if (active)
+            menuSet.Activate(touchButtonSource, 1);
+        else
+            menuSet.Deactivate(touchButtonSource);
     }
 
     private void ProcessTouchPress(PointerEventData data)

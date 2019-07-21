@@ -229,6 +229,28 @@
             }
          ]
       },
+      "/actions/menuset" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/menuset/in/presstrackpad"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/menuset/in/presstrackpad"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/right/input/trackpad"
+            }
+         ]
+      },
       "/actions/platformer" : {
          "sources" : [
             {
@@ -273,7 +295,7 @@
    "category" : "steamvr_input",
    "controller_type" : "vive_controller",
    "description" : "",
-   "name" : "Ma configuration de Proto03 pour Vive Controller",
+   "name" : "Proto3",
    "options" : {},
    "simulated_actions" : []
 }
