@@ -32,7 +32,7 @@ public class VRInputManager : Valve.VR.InteractionSystem.InputModule
     [Tooltip("")]
     public MainMenu mainMenu = null;
     [Tooltip("")]
-    public MenuPointer menuPointerWithCamera = null;
+    public SitnPointer menuPointerWithCamera = null;
 
     // stores the state of the menu
     private bool active = false;
