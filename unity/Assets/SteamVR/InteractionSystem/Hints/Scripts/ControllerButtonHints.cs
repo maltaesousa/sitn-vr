@@ -440,7 +440,7 @@ namespace Valve.VR.InteractionSystem
 
 
 		//-------------------------------------------------
-		private void ShowButtonHint( params ISteamVR_Action_In_Source[] actions )
+		protected void ShowButtonHint( params ISteamVR_Action_In_Source[] actions )
 		{
 			renderModel.gameObject.SetActive( true );
 
@@ -486,7 +486,7 @@ namespace Valve.VR.InteractionSystem
 
 
 		//-------------------------------------------------
-		private void HideButtonHint( params ISteamVR_Action_In_Source[] actions )
+		protected void HideButtonHint( params ISteamVR_Action_In_Source[] actions )
 		{
 			Color baseColor = controllerMaterial.GetColor( colorID );
 			for ( int i = 0; i < actions.Length; i++ )
@@ -647,7 +647,7 @@ namespace Valve.VR.InteractionSystem
 
 
 		//-------------------------------------------------
-		private void ShowText(ISteamVR_Action_In_Source action, string text, bool highlightButton = true )
+		protected void ShowText(ISteamVR_Action_In_Source action, string text, bool highlightButton = true )
         {
             if ( actionHintInfos.ContainsKey(action) )
             {

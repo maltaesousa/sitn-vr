@@ -24,13 +24,5 @@ namespace Valve.VR
                 return SteamVR_Actions.menuSet_PressTrackpad;
             }
         }
-        
-        public virtual SteamVR_Action_Boolean CloseMainMenu
-        {
-            get
-            {
-                return SteamVR_Actions.menuSet_CloseMainMenu;
-            }
-        }
     }
 }
