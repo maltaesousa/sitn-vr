@@ -10,6 +10,7 @@ public class SitnPointer : MonoBehaviour
     public VRInputManager inputModule;
 
     private LineRenderer lineRenderer = null;
+    private bool autoLength = true;
 
     private void Awake()
     {
@@ -26,6 +27,11 @@ public class SitnPointer : MonoBehaviour
         gameObject.SetActive(value);
     }
 
+    public void SetAutoLength(bool value)
+    {
+        autoLength = value;
+    }
+    
     private void UpdateLine()
     {
         // Use default or provided distance
@@ -40,7 +46,7 @@ public class SitnPointer : MonoBehaviour
         Vector3 endPosition = transform.position + (transform.forward * targetLength);
 
         // Get end position if collider is hit
-        if (hit.collider != null)
+        if (hit.collider != null && autoLength)
             endPosition = hit.point;
 
         // Update position of the dot
