@@ -89,27 +89,22 @@ public class VRInputManager : BaseInputModule
 
     public void ToggleMenu(bool pointerIsActive)
     {
-        Debug.Log(string.Format("[VRIM] ToggleMenu. Menu is active: {0} Pointer will be active {1}", active, pointerIsActive));
         active = !active;
         mainMenu.Show(active);
         menuPointerWithCamera.Show(pointerIsActive);
         if (active)
         {
             menuSet.Activate(touchButtonSource, 2);
-            Debug.Log(string.Format("[VRIM] ToggleMenu, Activate. {0} is active: ", menuSet.fullPath, menuSet.IsActive(touchButtonSource)));
         }
         else
         {
             menuSet.Deactivate(touchButtonSource);
-            Debug.Log(string.Format("[VRIM] ToggleMenu, Deactivate. {0} is active: ", menuSet.fullPath, menuSet.IsActive(touchButtonSource)));
         }
     }
 
     public void ActivateActionSet(SteamVR_ActionSet newActionSet, int priority)
     {
         newActionSet.Activate(SteamVR_Input_Sources.Any, 1);
-        Debug.Log(string.Format("[VRIM] ActivateActionSet. {0} is active: ", newActionSet.fullPath, newActionSet.IsActive(touchButtonSource)));
-        Debug.Log(string.Format("[VRIM] ActivateActionSet .{0} is active: ", menuSet.fullPath, menuSet.IsActive(touchButtonSource)));
     }   
 
     private void PressRelease(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
