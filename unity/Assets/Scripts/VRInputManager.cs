@@ -19,16 +19,22 @@ using Valve.VR;
 /// </summary>
 public class VRInputManager : BaseInputModule
 {
-    [Header("Actions")]
+    [Header("Actions Sets")]
     [Tooltip("The action set when menu is open")]
     public SteamVR_ActionSet menuSet;
     [Tooltip("The action set when buildings are being placed")]
     public SteamVR_ActionSet movingBuildingsSet;
+
+    [Header("Actions")]
     [Tooltip("The action to open the menu")]
     public SteamVR_Action_Boolean openMenu = null;
-    [Tooltip("")]
+    [Tooltip("The action to press a button in the menu")]
     public SteamVR_Action_Boolean selectInMenu;
+    [Tooltip("The action to grab a building")]
+    public SteamVR_Action_Boolean grabBuilding;
+    [Tooltip("The action to move a building")]
     public SteamVR_Action_Boolean moveBuilding;
+    [Tooltip("The action to know in which direction a building will be moved")]
     public SteamVR_Action_Vector2 fingerPosition;
     [Tooltip("")]
     public SteamVR_Input_Sources touchButtonSource;
@@ -48,6 +54,8 @@ public class VRInputManager : BaseInputModule
     protected override void Awake()
     {
         openMenu.onStateDown += PressRelease;
+        grabBuilding.onStateDown += GrabBuilding;
+        grabBuilding.onStateUp += StopGrabBuilding;
         moveBuilding.onStateDown += MoveBuilding;
         moveBuilding.onStateUp += StopMoveBuilding;
         data = new PointerEventData(eventSystem);
@@ -57,6 +65,8 @@ public class VRInputManager : BaseInputModule
     protected override void OnDestroy()
     {
         openMenu.onStateDown -= PressRelease;
+        grabBuilding.onStateDown -= GrabBuilding;
+        grabBuilding.onStateUp -= StopGrabBuilding;
         moveBuilding.onStateDown -= MoveBuilding;
         moveBuilding.onStateUp -= StopMoveBuilding;
     }
@@ -164,4 +174,15 @@ public class VRInputManager : BaseInputModule
     {
         print("STOP MOVING");
     }
+
+    private void GrabBuilding(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    {
+        menuPointerWithCamera.SetAutoLength(false);
+    }
+
+    private void StopGrabBuilding(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    {
+        menuPointerWithCamera.SetAutoLength(true);
+    }
+
 }
