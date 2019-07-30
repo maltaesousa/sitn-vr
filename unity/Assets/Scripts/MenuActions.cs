@@ -6,7 +6,8 @@ using Valve.VR.InteractionSystem;
 
 public class MenuActions : MonoBehaviour
 {
-    public float defaultLength = 10f;
+    public float defaultLength = 5f;
+    public VRInputManager inputModule;
     public void ReloadScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -15,9 +16,11 @@ public class MenuActions : MonoBehaviour
     public void SpawnBuilding(GameObject building)
     {     
         GameObject newObject = Instantiate(building);
-        Vector3 buildingPosition = Camera.current.transform.TransformPoint(Vector3.forward * defaultLength);
+        newObject.GetComponent<Rigidbody>().useGravity = true;
+        Vector3 buildingPosition = Camera.main.transform.TransformPoint(Vector3.forward * defaultLength);
         newObject.transform.position = buildingPosition;
         newObject.transform.localScale = new Vector3(1f, 1f, 1f);
-        newObject.SetActive(true);
+        inputModule.ToggleMenu(true);
+        inputModule.ActivateActionSet(inputModule.movingBuildingsSet, 1000);
     }
 }

@@ -59,12 +59,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb6c24869261774fa01b42bc3364a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pressMenu:
-    actionPath: 
+  menuSet:
+    actionSetPath: /actions/menuSet
+  movingBuildingsSet:
+    actionSetPath: /actions/MovingBuildings
+  openMenu:
+    actionPath: /actions/default/in/OpenMainMenu
     needsReinit: 0
-  pressTouchAction:
-    actionPath: 
+  selectInMenu:
+    actionPath: /actions/menuSet/in/PressTrackpad
     needsReinit: 0
-  touchButtonSource: 0
+  moveBuilding:
+    actionPath: /actions/MovingBuildings/in/Move
+    needsReinit: 0
+  fingerPosition:
+    actionPath: /actions/MovingBuildings/in/Rotate
+    needsReinit: 0
+  touchButtonSource: 2
   mainMenu: {fileID: 0}
-  menuPointer: {fileID: 0}
+  menuPointerWithCamera: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 469720659700929582}
   - component: {fileID: 6060311455851217229}
   - component: {fileID: 2475174574082598376}
-  - component: {fileID: 861159661}
+  - component: {fileID: 2121007684}
   m_Layer: 0
   m_Name: EndDot
   m_TagString: Untagged
@@ -78,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &861159661
+--- !u!114 &2121007684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherHand: {fileID: 0}
-  handType: 2
+  handType: 0
   trackedObject: {fileID: 0}
   grabPinchAction:
     actionPath: /actions/default/in/GrabPinch

@@ -16,5 +16,21 @@ namespace Valve.VR
     
     public class SteamVR_Input_ActionSet_MovingBuildings : Valve.VR.SteamVR_ActionSet
     {
+        
+        public virtual SteamVR_Action_Boolean Move
+        {
+            get
+            {
+                return SteamVR_Actions.movingBuildings_Move;
+            }
+        }
+        
+        public virtual SteamVR_Action_Vector2 Rotate
+        {
+            get
+            {
+                return SteamVR_Actions.movingBuildings_Rotate;
+            }
+        }
     }
 }

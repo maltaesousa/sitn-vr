@@ -251,6 +251,22 @@
             }
          ]
       },
+      "/actions/movingbuildings" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/movingbuildings/in/move"
+                  },
+                  "position" : {
+                     "output" : "/actions/movingbuildings/in/rotate"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/right/input/trackpad"
+            }
+         ]
+      },
       "/actions/platformer" : {
          "sources" : [
             {

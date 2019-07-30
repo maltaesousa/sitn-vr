@@ -82,6 +82,15 @@
       "name": "/actions/menuSet/in/PressTrackpad",
       "type": "boolean",
       "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/MovingBuildings/in/Move",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/MovingBuildings/in/Rotate",
+      "type": "vector2"
     }
   ],
   "action_sets": [
@@ -107,7 +116,7 @@
     },
     {
       "name": "/actions/MovingBuildings",
-      "usage": "single"
+      "usage": "leftright"
     }
   ],
   "default_bindings": [
