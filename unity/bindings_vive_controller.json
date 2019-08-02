@@ -260,6 +260,9 @@
                   },
                   "position" : {
                      "output" : "/actions/movingbuildings/in/rotate"
+                  },
+                  "touch" : {
+                     "output" : "/actions/movingbuildings/in/touchtrackpad"
                   }
                },
                "mode" : "trackpad",
@@ -311,7 +314,7 @@
    "category" : "steamvr_input",
    "controller_type" : "vive_controller",
    "description" : "",
-   "name" : "Proto3",
+   "name" : "Proto4",
    "options" : {},
    "simulated_actions" : []
 }

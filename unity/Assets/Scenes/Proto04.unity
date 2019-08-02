@@ -14915,6 +14915,14 @@ PrefabInstance:
       propertyPath: renderModelPrefab
       value: 
       objectReference: {fileID: 423217966}
+    - target: {fileID: 1441423731, guid: 25c7202308cfc5e44b84e52f9c979af6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441423730, guid: 25c7202308cfc5e44b84e52f9c979af6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25c7202308cfc5e44b84e52f9c979af6, type: 3}
 --- !u!1001 &6920363478949679111
