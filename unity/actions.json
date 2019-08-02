@@ -91,6 +91,11 @@
     {
       "name": "/actions/MovingBuildings/in/Rotate",
       "type": "vector2"
+    },
+    {
+      "name": "/actions/MovingBuildings/in/TouchTrackpad",
+      "type": "boolean",
+      "requirement": "mandatory"
     }
   ],
   "action_sets": [
