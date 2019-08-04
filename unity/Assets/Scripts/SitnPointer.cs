@@ -16,10 +16,23 @@ public class SitnPointer : MonoBehaviour
     private float lastLength = 0.5f;
 
     private float offset = 0.0f;
+    private float timer = 0.0f;
+    private float waitTime = 0.0f;
 
-    public void SetOffset(float value)
+
+    //-------------------------------------------------
+    // Summary :
+    //     Continuously changes the pointer laser length given an offset.
+    //     To stop it, call this method with a value of 0.0f
+    //
+    // Param :
+    //   value:
+    //     The speed value that will be add to the laser
+    //-------------------------------------------------
+    public void ChangeLaserLength(float value)
     {
-        offset = value;
+        waitTime = 0.01f;
+        offset = value/10;
     }
 
     private void Awake()
@@ -33,16 +46,37 @@ public class SitnPointer : MonoBehaviour
         UpdateLineState();
     }
 
+    //-------------------------------------------------
+    // Summary :
+    //     Controls the active state of the laser
+    //
+    // Param :
+    //   value:
+    //     If set to true, laser is active.
+    //-------------------------------------------------
     public void Show(bool value)
     {
         gameObject.SetActive(value);
     }
 
+    //-------------------------------------------------
+    // Summary :
+    //     Autolength is enabled by default. It means the laser reacts with colliders
+    //     and adapt its lenght.
+    //
+    // Param :
+    //   value:
+    //     If true, laser adapt its lenght with collides, if false, length will be fixed
+    //-------------------------------------------------
     public void SetAutoLength(bool value)
     {
         autoLength = value;
     }
 
+    //-------------------------------------------------
+    // Summary :
+    //     This returns the Gameobject attached to the hand
+    //-------------------------------------------------
     public GameObject GetAttachedObject()
     {
         return hand.currentAttachedObject;
@@ -51,22 +85,14 @@ public class SitnPointer : MonoBehaviour
     private void UpdateLineState()
     {
         PointerEventData data = inputModule.GetData();
-        float targetLength;
-        float inputRayLength = data.pointerCurrentRaycast.distance;
-        if (inputRayLength == 0)
-        {
-            targetLength = defaultLength;
-        } else
-        {
-            targetLength = inputRayLength;
-        }
+        float targetLength = data.pointerCurrentRaycast.distance == 0 ? defaultLength : data.pointerCurrentRaycast.distance;
 
         // Raycast
         RaycastHit hit = CreateRaycast(targetLength);
 
         Vector3 endPosition;
 
-        // Don't update en position until the attached object is released
+        // Don't update end position until the attached object is released
         if (GetAttachedObject() == null)
         {
             endPosition = transform.position + (transform.forward * targetLength);
@@ -84,10 +110,18 @@ public class SitnPointer : MonoBehaviour
         else if (!autoLength)
         {
             // if there's an offset update lenght otherwise continue using a fixed length
-            targetLength = offset == 0.0f ? lastLength : lastLength + offset;
+            timer += Time.deltaTime;
+            if (offset != 0.0f && timer > waitTime)
+            {
+                targetLength = lastLength + offset;
+                timer = 0.0f;
+            }
+            else
+            {
+                targetLength = lastLength;
+            }
             lastLength = targetLength;
             endPosition = transform.position + (transform.forward * targetLength);
-            print("FIXED" + lastLength);
         }
 
         // Update position of the dot
@@ -96,20 +130,15 @@ public class SitnPointer : MonoBehaviour
         // Update the line renderer
         lineRenderer.SetPosition(0, transform.position);
         lineRenderer.SetPosition(1, endPosition);
-        offset = 0.0f;
     }
 
     private RaycastHit CreateRaycast(float lenght)
     {
-        // collide against everything except layer 8.
-        int layerMask = 1 << 8;
-        layerMask = ~layerMask;
-
         RaycastHit hit;
         // This creates a ray with two Vector3.
         Ray ray = new Ray(transform.position, transform.forward);
         // This creates the Raycast. the variable hit will contain information about what is hit
-        Physics.Raycast(ray, out hit, lenght, layerMask);
+        Physics.Raycast(ray, out hit, lenght);
 
         return hit;
     }
