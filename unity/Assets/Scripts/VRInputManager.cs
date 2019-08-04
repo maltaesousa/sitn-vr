@@ -10,7 +10,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Valve.VR;
-using Valve.VR.InteractionSystem;
 
 
 /// <summary>
@@ -38,7 +37,7 @@ public class VRInputManager : BaseInputModule
     public SteamVR_Action_Boolean grabBuilding;
     [Tooltip("The action to move a building")]
     public SteamVR_Action_Boolean moveBuilding;
-    [Tooltip("The trackpad touch action")]
+    [Tooltip("The action when finger touches trackpad")]
     public SteamVR_Action_Boolean touchTrackpad;
     [Tooltip("Tracking finger on trackpad action")]
     public SteamVR_Action_Vector2 fingerPosition;
@@ -50,10 +49,11 @@ public class VRInputManager : BaseInputModule
     public SitnPointer menuPointerWithCamera = null;
 
     // stores the state of the menu
-    private bool active = false;
+    private bool menuIsActive = false;
     private GameObject currentObject = null;
     private PointerEventData data = null;
     private Camera menuPointerCamera = null;
+    private bool trackpadIsPristine = true;
 
     //-------------------------------------------------
     // Active GameObject attached to this Hand
@@ -68,7 +68,7 @@ public class VRInputManager : BaseInputModule
         grabBuilding.onStateUp += StopGrabBuilding;
         moveBuilding.onStateDown += BuildingMove;
         moveBuilding.onStateUp += BuildingStopMoving;
-        touchTrackpad.onChange += BuildingTouch;
+        touchTrackpad.onStateUp += TrackpadTouchOut;
         fingerPosition.onAxis += BuildingRotate;
         data = new PointerEventData(eventSystem);
         menuPointerCamera = menuPointerWithCamera.GetComponent<Camera>();
@@ -79,9 +79,9 @@ public class VRInputManager : BaseInputModule
         openMenu.onStateDown -= PressRelease;
         grabBuilding.onStateDown -= GrabBuilding;
         grabBuilding.onStateUp -= StopGrabBuilding;
-        moveBuilding.onStateDown -= BuildingMove;
         moveBuilding.onStateUp -= BuildingStopMoving;
-        touchTrackpad.onChange -= BuildingTouch;
+        moveBuilding.onStateDown -= BuildingMove;
+        touchTrackpad.onStateUp -= TrackpadTouchOut;
         fingerPosition.onAxis -= BuildingRotate;
     }
 
@@ -116,10 +116,10 @@ public class VRInputManager : BaseInputModule
     //-------------------------------------------------
     public void ToggleMenu(bool pointerIsActive)
     {
-        active = !active;
-        mainMenu.Show(active);
+        menuIsActive = !menuIsActive;
+        mainMenu.Show(menuIsActive);
         menuPointerWithCamera.Show(pointerIsActive);
-        if (active)
+        if (menuIsActive)
         {
             menuSet.Activate(touchButtonSource, 2);
         }
@@ -142,7 +142,7 @@ public class VRInputManager : BaseInputModule
     //-------------------------------------------------
     private void PressRelease(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        ToggleMenu(!active);
+        ToggleMenu(!menuIsActive);
     }
 
     //-------------------------------------------------
@@ -200,13 +200,8 @@ public class VRInputManager : BaseInputModule
     //-------------------------------------------------
     private void BuildingMove(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        currentAttachedObject = menuPointerWithCamera.GetAttachedObject();
-        if (currentAttachedObject)
-        {
-            //print("START MOVING");
-            menuPointerWithCamera.SetOffset(0.5f);
-        }
-        // if finger is 
+        float speed = fingerPosition[fromSource].axis.y * 0.5f;
+        menuPointerWithCamera.ChangeLaserLength(speed);
     }
 
     //-------------------------------------------------
@@ -214,23 +209,51 @@ public class VRInputManager : BaseInputModule
     //-------------------------------------------------
     private void BuildingStopMoving(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-       // print("STOP MOVING");
+        menuPointerWithCamera.ChangeLaserLength(0.0f);
+    }
+
+    //-------------------------------------------------
+    // Handles trackpad untouch
+    //-------------------------------------------------
+    private void TrackpadTouchOut(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    {
+        trackpadIsPristine = true;
     }
 
     //-------------------------------------------------
     // Handles finger position and rotates building
+    // Needs an BuildingWrapper prefab
     //-------------------------------------------------
-    private void BuildingTouch(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource, bool newState)
+    private void BuildingRotate(
+        SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta)
     {
-        //print("Touching");
-    }
+        float minimumAngle = 2;
+        float currentAngle = Mathf.Atan2(axis.x, axis.y) * Mathf.Rad2Deg;
+        float previousAngle;
+        if (trackpadIsPristine)
+        {
+            previousAngle = currentAngle;
+            trackpadIsPristine = false;
+        }
+        else
+        {
+            previousAngle = Mathf.Atan2(
+                fromAction[fromSource].lastAxis.x, fromAction[fromSource].lastAxis.y) * Mathf.Rad2Deg;
+        }
+        float angleDiff = currentAngle - previousAngle;
 
-    //-------------------------------------------------
-    // Handles finger position and rotates building
-    //-------------------------------------------------
-    private void BuildingRotate(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta)
-    {
-       // print("ROTATING");
+        if (Mathf.Abs(angleDiff) > minimumAngle && menuPointerWithCamera.GetAttachedObject() != null)
+        {
+            GameObject building = menuPointerWithCamera.GetAttachedObject().transform.GetChild(0).gameObject;
+            if (angleDiff > 0)
+            {
+                building.transform.Rotate(0.0f, 5.0f, 0.0f);
+            }
+            else
+            {
+                building.transform.Rotate(0.0f, -5.0f, 0.0f);
+            }
+        }
     }
 
     //-------------------------------------------------
