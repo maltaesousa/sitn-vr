@@ -18,6 +18,7 @@ public class MenuActions : MonoBehaviour
         GameObject newObject = Instantiate(building);
         newObject.GetComponent<Rigidbody>().useGravity = true;
         Vector3 buildingPosition = Camera.main.transform.TransformPoint(Vector3.forward * defaultLength);
+        buildingPosition.y = Camera.main.transform.position.y;
         newObject.transform.position = buildingPosition;
         newObject.transform.localScale = new Vector3(1f, 1f, 1f);
         inputModule.ToggleMenu(true);
