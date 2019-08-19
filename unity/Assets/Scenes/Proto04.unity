@@ -4280,7 +4280,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 6.183858e-35, z: 5.63e-43, w: 5.8335606e-35}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -4568,6 +4568,7 @@ Transform:
   m_LocalPosition: {x: 353.19522, y: 21.76915, z: 465.93964}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1807989223}
   - {fileID: 1420887185}
   - {fileID: 2022173396}
   m_Father: {fileID: 0}
@@ -9606,7 +9607,7 @@ Transform:
   m_LocalScale: {x: 9, y: 1, z: 4.1999993}
   m_Children: []
   m_Father: {fileID: 761610662}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 14.5, z: -0.8}
 --- !u!1001 &1425649020
 PrefabInstance:
@@ -12165,8 +12166,9 @@ GameObject:
   - component: {fileID: 1807989223}
   - component: {fileID: 1807989224}
   - component: {fileID: 1807989225}
-  m_Layer: 9
-  m_Name: GameObject
+  - component: {fileID: 1807989226}
+  m_Layer: 0
+  m_Name: BuildingAuthorized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12180,11 +12182,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807989222}
   m_LocalRotation: {x: -0.00088103476, y: 0.1261959, z: -0.0069254995, w: 0.9919808}
-  m_LocalPosition: {x: 152.5, y: 125, z: 340}
+  m_LocalPosition: {x: -200.69522, y: 103.23085, z: -125.93964}
   m_LocalScale: {x: 90.00002, y: 50, z: 42}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 761610662}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 14.5, z: -0.8}
 --- !u!65 &1807989224
 BoxCollider:
@@ -12209,6 +12211,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 796fd0f1b3a39654da0e41a1aadf3eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1807989226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807989222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3be917a80086a48b97933694257f09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1815290196
@@ -13675,7 +13689,7 @@ Transform:
   m_Children:
   - {fileID: 866300221}
   m_Father: {fileID: 761610662}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2037266873 stripped
 Transform:
@@ -15048,7 +15062,7 @@ PrefabInstance:
     - target: {fileID: 7188187610033564810, guid: 621af6a106a5e4a4ea9bb091f9efc216,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 621af6a106a5e4a4ea9bb091f9efc216, type: 3}
