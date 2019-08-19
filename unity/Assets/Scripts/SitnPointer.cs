@@ -102,7 +102,7 @@ public class SitnPointer : MonoBehaviour
             endPosition = transform.position + (transform.forward * lastLength);
         }
 
-        if (autoLength && hit.collider != null)
+        if (autoLength && hit.collider != null && !hit.collider.isTrigger)
         {   
             endPosition = hit.point;
             lastLength = hit.distance;
