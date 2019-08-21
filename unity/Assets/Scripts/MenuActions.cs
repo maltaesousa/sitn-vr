@@ -6,7 +6,7 @@ using Valve.VR.InteractionSystem;
 
 public class MenuActions : MonoBehaviour
 {
-    public float defaultLength = 5f;
+    public float defaultLength = 30f;
     public VRInputManager inputModule;
     public void ReloadScene()
     {

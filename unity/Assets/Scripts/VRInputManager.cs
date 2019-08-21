@@ -200,7 +200,7 @@ public class VRInputManager : BaseInputModule
     //-------------------------------------------------
     private void BuildingMove(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        float speed = fingerPosition[fromSource].axis.y * 0.5f;
+        float speed = fingerPosition[fromSource].axis.y * 2.0f;
         menuPointerWithCamera.ChangeLaserLength(speed);
     }
 
