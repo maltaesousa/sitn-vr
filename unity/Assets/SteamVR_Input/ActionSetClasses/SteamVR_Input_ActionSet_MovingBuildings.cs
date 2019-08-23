@@ -32,5 +32,13 @@ namespace Valve.VR
                 return SteamVR_Actions.movingBuildings_Rotate;
             }
         }
+        
+        public virtual SteamVR_Action_Boolean TouchTrackpad
+        {
+            get
+            {
+                return SteamVR_Actions.movingBuildings_TouchTrackpad;
+            }
+        }
     }
 }

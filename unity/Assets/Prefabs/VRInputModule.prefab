@@ -69,12 +69,18 @@ MonoBehaviour:
   selectInMenu:
     actionPath: /actions/menuSet/in/PressTrackpad
     needsReinit: 0
+  touchButtonSource: 2
+  grabBuilding:
+    actionPath: /actions/default/in/GrabPinch
+    needsReinit: 0
   moveBuilding:
     actionPath: /actions/MovingBuildings/in/Move
+    needsReinit: 0
+  touchTrackpad:
+    actionPath: /actions/MovingBuildings/in/TouchTrackpad
     needsReinit: 0
   fingerPosition:
     actionPath: /actions/MovingBuildings/in/Rotate
     needsReinit: 0
-  touchButtonSource: 2
   mainMenu: {fileID: 0}
   menuPointerWithCamera: {fileID: 0}

@@ -19,19 +19,28 @@ using Valve.VR;
 /// </summary>
 public class VRInputManager : BaseInputModule
 {
-    [Header("Actions")]
+    [Header("Actions Sets")]
     [Tooltip("The action set when menu is open")]
     public SteamVR_ActionSet menuSet;
     [Tooltip("The action set when buildings are being placed")]
     public SteamVR_ActionSet movingBuildingsSet;
+
+    [Header("Menu actions")]
     [Tooltip("The action to open the menu")]
     public SteamVR_Action_Boolean openMenu = null;
-    [Tooltip("")]
+    [Tooltip("The action to press a button in the menu")]
     public SteamVR_Action_Boolean selectInMenu;
-    public SteamVR_Action_Boolean moveBuilding;
-    public SteamVR_Action_Vector2 fingerPosition;
-    [Tooltip("")]
     public SteamVR_Input_Sources touchButtonSource;
+
+    [Header("Building actions")]
+    [Tooltip("The action to grab a building")]
+    public SteamVR_Action_Boolean grabBuilding;
+    [Tooltip("The action to move a building")]
+    public SteamVR_Action_Boolean moveBuilding;
+    [Tooltip("The action when finger touches trackpad")]
+    public SteamVR_Action_Boolean touchTrackpad;
+    [Tooltip("Tracking finger on trackpad action")]
+    public SteamVR_Action_Vector2 fingerPosition;
 
     [Header("Scene Objects")]
     [Tooltip("")]
@@ -40,16 +49,27 @@ public class VRInputManager : BaseInputModule
     public SitnPointer menuPointerWithCamera = null;
 
     // stores the state of the menu
-    private bool active = false;
+    private bool menuIsActive = false;
     private GameObject currentObject = null;
     private PointerEventData data = null;
     private Camera menuPointerCamera = null;
+    private bool trackpadIsPristine = true;
+
+    //-------------------------------------------------
+    // Active GameObject attached to this Hand
+    //-------------------------------------------------
+    private GameObject currentAttachedObject;
+ 
 
     protected override void Awake()
     {
         openMenu.onStateDown += PressRelease;
-        moveBuilding.onStateDown += MoveBuilding;
-        moveBuilding.onStateUp += StopMoveBuilding;
+        grabBuilding.onStateDown += GrabBuilding;
+        grabBuilding.onStateUp += StopGrabBuilding;
+        moveBuilding.onStateDown += BuildingMove;
+        moveBuilding.onStateUp += BuildingStopMoving;
+        touchTrackpad.onStateUp += TrackpadTouchOut;
+        fingerPosition.onAxis += BuildingRotate;
         data = new PointerEventData(eventSystem);
         menuPointerCamera = menuPointerWithCamera.GetComponent<Camera>();
     }
@@ -57,8 +77,12 @@ public class VRInputManager : BaseInputModule
     protected override void OnDestroy()
     {
         openMenu.onStateDown -= PressRelease;
-        moveBuilding.onStateDown -= MoveBuilding;
-        moveBuilding.onStateUp -= StopMoveBuilding;
+        grabBuilding.onStateDown -= GrabBuilding;
+        grabBuilding.onStateUp -= StopGrabBuilding;
+        moveBuilding.onStateUp -= BuildingStopMoving;
+        moveBuilding.onStateDown -= BuildingMove;
+        touchTrackpad.onStateUp -= TrackpadTouchOut;
+        fingerPosition.onAxis -= BuildingRotate;
     }
 
     public override void Process()
@@ -87,43 +111,51 @@ public class VRInputManager : BaseInputModule
         return data;
     }
 
+    //-------------------------------------------------
+    // Controls the menu state
+    //-------------------------------------------------
     public void ToggleMenu(bool pointerIsActive)
     {
-        Debug.Log(string.Format("[VRIM] ToggleMenu. Menu is active: {0} Pointer will be active {1}", active, pointerIsActive));
-        active = !active;
-        mainMenu.Show(active);
+        menuIsActive = !menuIsActive;
+        mainMenu.Show(menuIsActive);
         menuPointerWithCamera.Show(pointerIsActive);
-        if (active)
+        if (menuIsActive)
         {
             menuSet.Activate(touchButtonSource, 2);
-            Debug.Log(string.Format("[VRIM] ToggleMenu, Activate. {0} is active: ", menuSet.fullPath, menuSet.IsActive(touchButtonSource)));
         }
         else
         {
             menuSet.Deactivate(touchButtonSource);
-            Debug.Log(string.Format("[VRIM] ToggleMenu, Deactivate. {0} is active: ", menuSet.fullPath, menuSet.IsActive(touchButtonSource)));
         }
     }
 
+    //-------------------------------------------------
+    // Helper to activate an Action Set
+    //-------------------------------------------------
     public void ActivateActionSet(SteamVR_ActionSet newActionSet, int priority)
     {
         newActionSet.Activate(SteamVR_Input_Sources.Any, 1);
-        Debug.Log(string.Format("[VRIM] ActivateActionSet. {0} is active: ", newActionSet.fullPath, newActionSet.IsActive(touchButtonSource)));
-        Debug.Log(string.Format("[VRIM] ActivateActionSet .{0} is active: ", menuSet.fullPath, menuSet.IsActive(touchButtonSource)));
-    }   
-
-    private void PressRelease(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
-    {
-        ToggleMenu(!active);
     }
 
+    //-------------------------------------------------
+    // Handles menu button action
+    //-------------------------------------------------
+    private void PressRelease(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    {
+        ToggleMenu(!menuIsActive);
+    }
+
+    //-------------------------------------------------
+    // Handles trackpad press action while menu is activated
+    //-------------------------------------------------
     private void ProcessTouchPress(PointerEventData data)
     {
         // Set Raycast
         data.pointerPressRaycast = data.pointerCurrentRaycast;
 
         // Check for object hit, get the down handler call
-        GameObject newPointerPress = ExecuteEvents.ExecuteHierarchy(currentObject, data, ExecuteEvents.pointerDownHandler);
+        GameObject newPointerPress = ExecuteEvents.ExecuteHierarchy(
+            currentObject, data, ExecuteEvents.pointerDownHandler);
 
         // If no down handler, try to get the click handler
         if(newPointerPress == null)
@@ -137,6 +169,9 @@ public class VRInputManager : BaseInputModule
         data.rawPointerPress = currentObject;
     }
 
+    //-------------------------------------------------
+    // Handles trackpad release action while menu is activated
+    //-------------------------------------------------
     private void ProcessTouchRelease(PointerEventData data)
     {
         // Execute pointer up
@@ -160,13 +195,82 @@ public class VRInputManager : BaseInputModule
         data.rawPointerPress = null;
     }
 
-    private void MoveBuilding(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    //-------------------------------------------------
+    // Handles trackpad press action while moving buildings
+    //-------------------------------------------------
+    private void BuildingMove(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        print("START MOVING");
+        float speed = fingerPosition[fromSource].axis.y * 2.0f;
+        menuPointerWithCamera.ChangeLaserLength(speed);
     }
 
-    private void StopMoveBuilding(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    //-------------------------------------------------
+    // Handles trackpad release action while moving buildings
+    //-------------------------------------------------
+    private void BuildingStopMoving(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        print("STOP MOVING");
+        menuPointerWithCamera.ChangeLaserLength(0.0f);
     }
+
+    //-------------------------------------------------
+    // Handles trackpad untouch
+    //-------------------------------------------------
+    private void TrackpadTouchOut(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    {
+        trackpadIsPristine = true;
+    }
+
+    //-------------------------------------------------
+    // Handles finger position and rotates building
+    // Needs an BuildingWrapper prefab
+    //-------------------------------------------------
+    private void BuildingRotate(
+        SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta)
+    {
+        float minimumAngle = 2;
+        float currentAngle = Mathf.Atan2(axis.x, axis.y) * Mathf.Rad2Deg;
+        float previousAngle;
+        if (trackpadIsPristine)
+        {
+            previousAngle = currentAngle;
+            trackpadIsPristine = false;
+        }
+        else
+        {
+            previousAngle = Mathf.Atan2(
+                fromAction[fromSource].lastAxis.x, fromAction[fromSource].lastAxis.y) * Mathf.Rad2Deg;
+        }
+        float angleDiff = currentAngle - previousAngle;
+
+        if (Mathf.Abs(angleDiff) > minimumAngle && menuPointerWithCamera.GetAttachedObject() != null)
+        {
+            GameObject building = menuPointerWithCamera.GetAttachedObject().transform.GetChild(0).gameObject;
+            if (angleDiff > 0)
+            {
+                building.transform.Rotate(0.0f, 5.0f, 0.0f);
+            }
+            else
+            {
+                building.transform.Rotate(0.0f, -5.0f, 0.0f);
+            }
+        }
+    }
+
+    //-------------------------------------------------
+    // Handles trigger hold action to grab a building
+    //-------------------------------------------------
+    private void GrabBuilding(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    {
+        menuPointerWithCamera.SetAutoLength(false);
+
+    }
+
+    //-------------------------------------------------
+    // Handles trigger release action to drop the building
+    //-------------------------------------------------
+    private void StopGrabBuilding(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    {
+        menuPointerWithCamera.SetAutoLength(true);
+    }
+
 }
