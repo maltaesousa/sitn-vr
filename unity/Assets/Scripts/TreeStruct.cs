@@ -10,6 +10,7 @@
             public int prototypeIndex;
             public float heightScale;
             public float widthScale;
+            public float rotation;
         }
 
         public SITNTree[] trees;
