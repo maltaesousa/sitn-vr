@@ -1,0 +1,303 @@
+﻿{ "trees": [
+  {
+    "coordinates": [0.0206300, 0.5813496],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 6.26
+  },
+  {
+    "coordinates": [0.0185956, 0.1099140],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.39
+  },
+  {
+    "coordinates": [0.4232540, 0.9972564],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.62
+  },
+  {
+    "coordinates": [0.4124524, 0.3116032],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.42
+  },
+  {
+    "coordinates": [0.4810260, 0.2952052],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.34
+  },
+  {
+    "coordinates": [0.6231368, 0.2589488],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.39
+  },
+  {
+    "coordinates": [0.7248412, 0.2335276],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 4.50
+  },
+  {
+    "coordinates": [0.3033728, 0.2284944],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 1.64
+  },
+  {
+    "coordinates": [0.2958252, 0.1193000],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 1.36
+  },
+  {
+    "coordinates": [0.3528552, 0.0426384],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 4.20
+  },
+  {
+    "coordinates": [0.9672640, 0.3973064],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 0.31
+  },
+  {
+    "coordinates": [0.9158336, 0.4602400],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 1.44
+  },
+  {
+    "coordinates": [0.2242408, 0.8241708],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 1.38
+  },
+  {
+    "coordinates": [0.3065876, 0.6097556],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 2.86
+  },
+  {
+    "coordinates": [0.1287860, 0.5827240],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 6.25
+  },
+  {
+    "coordinates": [0.1881800, 0.5567740],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 2.39
+  },
+  {
+    "coordinates": [0.2092556, 0.4551360],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 4.88
+  },
+  {
+    "coordinates": [0.2219152, 0.4045612],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.73
+  },
+  {
+    "coordinates": [0.3142040, 0.3504244],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.79
+  },
+  {
+    "coordinates": [0.1058592, 0.4249064],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 0.37
+  },
+  {
+    "coordinates": [0.3819900, 0.1031500],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.32
+  },
+  {
+    "coordinates": [0.6592880, 0.0552732],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 0.26
+  },
+  {
+    "coordinates": [0.5241012, 0.0801616],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 5.26
+  },
+  {
+    "coordinates": [0.7958428, 0.8363960],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 1.46
+  },
+  {
+    "coordinates": [0.8037832, 0.7061288],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 2.15
+  },
+  {
+    "coordinates": [0.6892784, 0.6869508],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.10
+  },
+  {
+    "coordinates": [0.5603820, 0.6711164],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 2.96
+  },
+  {
+    "coordinates": [0.4338948, 0.6451580],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 2.90
+  },
+  {
+    "coordinates": [0.8649236, 0.4378672],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 1.87
+  },
+  {
+    "coordinates": [0.9268900, 0.2027808],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 2.93
+  },
+  {
+    "coordinates": [0.8312772, 0.2124424],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.39
+  },
+  {
+    "coordinates": [0.5169088, 0.2854580],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.39
+  },
+  {
+    "coordinates": [0.6992980, 0.2404988],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 2.76
+  },
+  {
+    "coordinates": [0.7438800, 0.4435884],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 0.33
+  },
+  {
+    "coordinates": [0.5248360, 0.4914548],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 6.28
+  },
+  {
+    "coordinates": [0.2479256, 0.9616032],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 4.30
+  },
+  {
+    "coordinates": [0.3455200, 0.9225600],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 2.97
+  },
+  {
+    "coordinates": [0.4818800, 0.9065600],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 4.54
+  },
+  {
+    "coordinates": [0.2960000, 0.9313200],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 6.12
+  },
+  {
+    "coordinates": [0.1806000, 0.9116000],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.11
+  },
+  {
+    "coordinates": [0.4127200, 0.9528800],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 0.24
+  },
+  {
+    "coordinates": [0.1061716, 0.3170964],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 1.61
+  },
+  {
+    "coordinates": [0.1051204, 0.0267492],
+    "prototypeIndex": 2,
+    "heightScale": 1.00,
+    "widthScale": 1.00,
+    "rotation" : 3.59
+  }
+]}
