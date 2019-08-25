@@ -15,18 +15,14 @@ namespace SITN
     {
         public Terrain terrain;
         public TextAsset treeData;
+        public bool randomRotation;
+        public bool replaceExisting;
         private List<TreeInstance> trees;
 
         TreeImporter()
         {
             terrain = null;
             treeData = null;
-            TreeInstance tree1 = new TreeInstance {
-                position = new Vector3(0.6f, 1.0f, 0.5f),
-                prototypeIndex = 0,
-                heightScale = 1f,
-                widthScale = 1f
-            };
             trees = new List<TreeInstance>();
         }
 
@@ -43,18 +39,21 @@ namespace SITN
             try
             {
                 TreeStruct loadedTrees = JsonUtility.FromJson<TreeStruct>(treeData.ToString());
-                foreach (TreeStruct.SITNTree tree in loadedTrees.trees)
+                if (replaceExisting)
                 {
-                    trees.Add(new TreeInstance {
-                         position = new Vector3(tree.coordinates[0], 0.0f, tree.coordinates[1]),
-                         prototypeIndex = tree.prototypeIndex,
-                         heightScale = tree.heightScale,
-                         widthScale = tree.widthScale
-                    });
+                    foreach (TreeStruct.SITNTree tree in loadedTrees.trees)
+                    {
+                        trees.Add(TreeFactory(tree));
+                    }
+                    terrain.terrainData.SetTreeInstances(trees.ToArray(), true);
+                } else
+                {
+                    foreach (TreeStruct.SITNTree tree in loadedTrees.trees)
+                    {
+                        terrain.AddTreeInstance(TreeFactory(tree));
+                    }
                 }
-                terrain.terrainData.SetTreeInstances(trees.ToArray(), true);
                 Debug.Log("Number of trees: " + terrain.terrainData.treeInstanceCount);
-                terrain.terrainData.RefreshPrototypes();
             }
             catch (UnityException)
             {
@@ -66,7 +65,7 @@ namespace SITN
 
         void OnWizardUpdate()
         {
-            helpString = "Before importing trees, please make sur your terrain has at least one Tree prototype";
+            helpString = "Before importing trees, please make sure your terrain has at least one Tree prototype";
             isValid = (terrain != null && treeData != null);
         }
 
@@ -92,6 +91,18 @@ namespace SITN
                 EditorUtility.DisplayDialog("Error", "Something went terribly wrong!", "Cancel");
                 return;
             }
+        }
+
+        private TreeInstance TreeFactory(TreeStruct.SITNTree tree)
+        {
+            return new TreeInstance
+            {
+                position = new Vector3(tree.coordinates[0], 0.0f, tree.coordinates[1]),
+                prototypeIndex = tree.prototypeIndex,
+                heightScale = tree.heightScale,
+                widthScale = tree.widthScale,
+                rotation = randomRotation ? Random.Range(0f, 2.0f * Mathf.PI) : tree.rotation
+            };
         }
     }
 }
