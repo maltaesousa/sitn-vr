@@ -16,8 +16,8 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="2841.64 1283.39"
-#!   DOC_TOP_LEFT="13.7499 -1504.32"
+#!   DOC_EXTENTS="2882.27 1328.39"
+#!   DOC_TOP_LEFT="-30.0005 -1504.32"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
@@ -32,7 +32,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.1.1.0 (20190801 - Build 19617 - WIN64)"
-#!   LAST_SAVE_DATE="2019-08-25T20:05:00"
+#!   LAST_SAVE_DATE="2019-08-25T21:59:13"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -51,7 +51,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1015.64 -165.627"
+#!   VIEW_POSITION="-1021.89 -290.628"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -1133,7 +1133,7 @@
 #!   COLLAPSED="true"
 #!   KEYWORD="TEXTLINE_1"
 #!   PARMS_EDITED="true"
-#!   ENABLED="false"
+#!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="text_line_data" ATTR_TYPE="buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1169,8 +1169,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="29"
 #!   FEAT_GEOMTYPE="shapefile_polygon"
-#!   POSITION="13.749937499375051 -443.75443754437538"
-#!   BOUNDING_RECT="13.749937499375051 -443.75443754437538 454 71"
+#!   POSITION="-30.000500004999964 -175.93635936359468"
+#!   BOUNDING_RECT="-30.000500004999964 -175.93635936359468 454 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="SHAPEFILE_2"
@@ -1366,7 +1366,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_closest_base_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; unity_x SET_TO &lt;at&gt;Evaluate&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;easting&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_xmin&lt;closeparen&gt;&lt;closeparen&gt;&lt;solidus&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_xmax&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_xmin&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;  unity_z SET_TO &lt;at&gt;Evaluate&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;northing&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_ymin&lt;closeparen&gt;&lt;closeparen&gt;&lt;solidus&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_ymax&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_ymin&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;  prototypeIndex SET_TO 2  heightscale SET_TO 1  widthScale SET_TO &lt;at&gt;Value&lt;openparen&gt;heightscale&lt;closeparen&gt;  rotation SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;degToRad&lt;openparen&gt;90+&lt;openparen&gt;360-&lt;at&gt;Value&lt;openparen&gt;_angle&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;TEST &lt;at&gt;Value&lt;openparen&gt;_angle&lt;closeparen&gt; &lt;= 90&apos;&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;degToRad&lt;openparen&gt;90-&lt;at&gt;Value&lt;openparen&gt;_angle&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&apos;FME_NUM_CONDITIONS2___&quot;  feature SET_TO &lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;coordinates&lt;quote&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;at&gt;Value&lt;openparen&gt;unity_x&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;unity_z&lt;closeparen&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;prototypeIndex&lt;quote&gt;:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;prototypeIndex&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;heightScale&lt;quote&gt;:&lt;space&gt;&lt;at&gt;Format&lt;openparen&gt;%.2f&lt;comma&gt;&lt;at&gt;Value&lt;openparen&gt;heightscale&lt;closeparen&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;widthScale&lt;quote&gt;:&lt;space&gt;&lt;at&gt;Format&lt;openparen&gt;%.2f&lt;comma&gt;&lt;at&gt;Value&lt;openparen&gt;widthScale&lt;closeparen&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;rotation&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;at&gt;Format&lt;openparen&gt;%.2f&lt;comma&gt;&lt;at&gt;Value&lt;openparen&gt;rotation&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; unity_x SET_TO &lt;at&gt;Evaluate&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;easting&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_xmin&lt;closeparen&gt;&lt;closeparen&gt;&lt;solidus&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_xmax&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_xmin&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;  unity_z SET_TO &lt;at&gt;Evaluate&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;northing&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_ymin&lt;closeparen&gt;&lt;closeparen&gt;&lt;solidus&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;_ymax&lt;closeparen&gt;-&lt;at&gt;Value&lt;openparen&gt;_ymin&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;  prototypeIndex SET_TO 2  heightscale SET_TO 1  widthScale SET_TO &lt;at&gt;Value&lt;openparen&gt;heightscale&lt;closeparen&gt;  rotation SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;degToRad&lt;openparen&gt;90+&lt;openparen&gt;360-&lt;at&gt;Value&lt;openparen&gt;_angle&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;1;TEST &lt;at&gt;Value&lt;openparen&gt;_angle&lt;closeparen&gt; &lt;= 90&apos;&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;degToRad&lt;openparen&gt;90-&lt;at&gt;Value&lt;openparen&gt;_angle&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&apos;FME_NUM_CONDITIONS2___&quot;  feature SET_TO &lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;coordinates&lt;quote&gt;:&lt;space&gt;&lt;openbracket&gt;&lt;at&gt;Format&lt;openparen&gt;%.7f&lt;comma&gt;&lt;at&gt;Value&lt;openparen&gt;unity_x&lt;closeparen&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;at&gt;Format&lt;openparen&gt;%.7f&lt;comma&gt;&lt;at&gt;Value&lt;openparen&gt;unity_z&lt;closeparen&gt;&lt;closeparen&gt;&lt;closebracket&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;prototypeIndex&lt;quote&gt;:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;prototypeIndex&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;heightScale&lt;quote&gt;:&lt;space&gt;&lt;at&gt;Format&lt;openparen&gt;%.2f&lt;comma&gt;&lt;at&gt;Value&lt;openparen&gt;heightscale&lt;closeparen&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;widthScale&lt;quote&gt;:&lt;space&gt;&lt;at&gt;Format&lt;openparen&gt;%.2f&lt;comma&gt;&lt;at&gt;Value&lt;openparen&gt;widthScale&lt;closeparen&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;rotation&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;at&gt;Format&lt;openparen&gt;%.2f&lt;comma&gt;&lt;at&gt;Value&lt;openparen&gt;rotation&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1554,8 +1554,8 @@
 #!   IDENTIFIER="33"
 #!   TYPE="Tester"
 #!   VERSION="3"
-#!   POSITION="643.75643756437603 -443.75443754437538"
-#!   BOUNDING_RECT="643.75643756437603 -443.75443754437538 454 71"
+#!   POSITION="672.75643756437603 -175.93635936359468"
+#!   BOUNDING_RECT="672.75643756437603 -175.93635936359468 454 71"
 #!   ORDER="500000000000019"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1666,7 +1666,7 @@
 #!   BOUNDING_RECT="1854.5126251262514 -978.75693756937608 611.00106825772946 71"
 #!   ORDER="500000000000021"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="19617"
 #! >
 #!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
@@ -1690,11 +1690,11 @@
 #!   IDENTIFIER="40"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="2401.3930939309398 -220.93560935609457"
-#!   BOUNDING_RECT="2401.3930939309398 -220.93560935609457 454 71"
+#!   POSITION="2398.2680626806273 -224.06064060640711"
+#!   BOUNDING_RECT="2398.2680626806273 -224.06064060640711 454 71"
 #!   ORDER="500000000000022"
 #!   PARMS_EDITED="false"
-#!   ENABLED="true"
+#!   ENABLED="false"
 #!   LAST_PARM_EDIT="19617"
 #! >
 #!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
@@ -1713,6 +1713,31 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_Passed"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="42"
+#!   TYPE="CenterLineReplacer"
+#!   VERSION="5"
+#!   POSITION="672.75643756437603 -443.75443754437538"
+#!   BOUNDING_RECT="672.75643756437603 -443.75443754437538 454 71"
+#!   ORDER="500000000000023"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19617"
+#! >
+#!     <OUTPUT_FEAT NAME="CENTERLINE"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="covertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="covertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Approximate Center Line"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CenterLineReplacer"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1827,11 +1852,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="36"
+#!   IDENTIFIER="43"
 #!   SOURCE_NODE="33"
-#!   TARGET_NODE="35"
+#!   TARGET_NODE="42"
 #!   SOURCE_PORT_DESC="fo 0 PASSED"
-#!   TARGET_PORT_DESC="fi 1 CANDIDATE"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1854,6 +1879,17 @@
 #!   TARGET_NODE="17"
 #!   SOURCE_PORT_DESC="fo 0 MATCHED"
 #!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="44"
+#!   SOURCE_NODE="42"
+#!   TARGET_NODE="35"
+#!   SOURCE_PORT_DESC="fo 0 CENTERLINE"
+#!   TARGET_PORT_DESC="fi 1 CANDIDATE"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -2361,12 +2397,6 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME 00_StreetLights2JSON
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
-
-INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
-MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
-MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
-MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
-# -------------------------------------------------------------------------
 ESRISHAPE_1_DEF perimeter   SHAPE_GEOMETRY               shape_polygon   secteur_ID                   long
 # -------------------------------------------------------------------------
 SHAPEFILE_1_DEF streetlights   shapefile_type               shapefile_point   idobj                        char(200)
@@ -2392,18 +2422,12 @@ DEFAULT_MACRO WB_CURRENT_CONTEXT
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE landcover_SHAPEFILE_2    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>covertype<closeparen>,Tester) = hard ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    FEATURE_TABLE_SHIM_SUPPORT Yes    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester PASSED Splitter"   INPUT FEATURE_TYPE Tester_PASSED   OUTPUT FEATURE_TYPE Tester_PASSED_0_M1wqjkih4e0=   OUTPUT FEATURE_TYPE Tester_PASSED_1_8t6d0F2OYOU=
 # -------------------------------------------------------------------------
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {Tester_Passed} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME Tester_Passed_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Tester_PASSED_1_8t6d0F2OYOU=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { Tester_Passed }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME Tester_Passed_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA covertype,varchar<openparen>255<closeparen>,id,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_Passed (Disabled) Nuker"   INPUT FEATURE_TYPE Tester_PASSED_1_8t6d0F2OYOU=
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME CenterLineReplacer    INPUT  FEATURE_TYPE Tester_PASSED_0_M1wqjkih4e0=    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @ConvertToLine(APPROX_CENTER_LINE, ___fme_rejection_code___, FILTER_COLLINEAR_POINTS)
+FACTORY_DEF * TestFactory    FACTORY_NAME CenterLineReplacer_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(___fme_rejection_code___) != ""    OUTPUT PASSED FEATURE_TYPE CenterLineReplacer_<REJECTED>       @RenameAttributes(fme_rejection_code,___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE CenterLineReplacer_CENTERLINE
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME CenterLineReplacer_<Rejected> INPUT FEATURE_TYPE CenterLineReplacer_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, CenterLineReplacer<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 INCLUDE [    set supplyZFunc {};    if { {} != {} }    {    };    puts "MACRO CoordinateExtractor_SUPPLY_Z ${supplyZFunc}"; ]
 FACTORY_DEF * TestFactory    FACTORY_NAME CoordinateExtractor_TESTZDEFAULT    INPUT  FEATURE_TYPE streetlights_SHAPEFILE_1    TEST "" NOT_ATTRIBUTE_HAS_A_VALUE "" ENCODED    TEST "" TYPE NUM ENCODED    BOOLEAN_OPERATOR OR    FEATURE_TABLE_SHIM_SUPPORT Yes    OUTPUT PASSED FEATURE_TYPE CoordinateExtractor_TESTMODE_INPUT    OUTPUT FAILED FEATURE_TYPE CoordinateExtractor_<REJECTED>       @SupplyAttributes(fme_rejection_code, INVALID_PARAMETER_DEFAULT_Z)
@@ -2424,38 +2448,22 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_<Rejected> INPUT FEATURE_TYPE FeatureMerger_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 DEFAULT_MACRO INPUT_BASE_LINES
-FACTORY_DEF {*} ProximityFactory    FACTORY_NAME NeighborFinder    INPUT BASE FEATURE_TYPE FeatureMerger_MERGED    INPUT CANDIDATE FEATURE_TYPE Tester_PASSED_0_M1wqjkih4e0=    FLUSH_WHEN_GROUPS_CHANGE No    REQUIRE_BASE YES    K_NEAREST "1" ""    INSERT_VERTEX_ON_BASE No    TAKE_MEASURES_FROM_CANDIDATE Yes    COMPUTE_MEASURES_MODE CONTINUOUS    REJECT_NULL Yes    CANDIDATE_FEATURES_FIRST No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    DISTANCE_ATTR _distance    TREAT_POLYGON_AS LINE    NEVER_OVERWRITE_MERGED_ATTRS Yes    MERGE_ATTRS "NO"    ATTR_ACCUM_MODE "<Unused>"    ATTR_CONFLICT_RES "<Unused>"    INCOMING_PREFIX "<Unused>"    REJECT_INVALID_GEOM YES    OUTPUT MATCHED FEATURE_TYPE NeighborFinder_MATCHED        @RenameAttributes(_angle,angle,_candidate_angle,candidate_angle,_candidate_label_angle,candidate_label_angle,_closest_candidate_x,closest_candidate_x,_closest_candidate_y,closest_candidate_y,_closest_base_x,closest_base_x,_closest_base_y,closest_base_y)    OUTPUT UNMATCHED_BASE FEATURE_TYPE NeighborFinder_UNMATCHED_BASE    OUTPUT REJECTED FEATURE_TYPE NeighborFinder_<REJECTED>
+FACTORY_DEF {*} ProximityFactory    FACTORY_NAME NeighborFinder    INPUT BASE FEATURE_TYPE FeatureMerger_MERGED    INPUT CANDIDATE FEATURE_TYPE CenterLineReplacer_CENTERLINE    FLUSH_WHEN_GROUPS_CHANGE No    REQUIRE_BASE YES    K_NEAREST "1" ""    INSERT_VERTEX_ON_BASE No    TAKE_MEASURES_FROM_CANDIDATE Yes    COMPUTE_MEASURES_MODE CONTINUOUS    REJECT_NULL Yes    CANDIDATE_FEATURES_FIRST No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    DISTANCE_ATTR _distance    TREAT_POLYGON_AS LINE    NEVER_OVERWRITE_MERGED_ATTRS Yes    MERGE_ATTRS "NO"    ATTR_ACCUM_MODE "<Unused>"    ATTR_CONFLICT_RES "<Unused>"    INCOMING_PREFIX "<Unused>"    REJECT_INVALID_GEOM YES    OUTPUT MATCHED FEATURE_TYPE NeighborFinder_MATCHED        @RenameAttributes(_angle,angle,_candidate_angle,candidate_angle,_candidate_label_angle,candidate_label_angle,_closest_candidate_x,closest_candidate_x,_closest_candidate_y,closest_candidate_y,_closest_base_x,closest_base_x,_closest_base_y,closest_base_y)    OUTPUT UNMATCHED_BASE FEATURE_TYPE NeighborFinder_UNMATCHED_BASE    OUTPUT REJECTED FEATURE_TYPE NeighborFinder_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME NeighborFinder_<Rejected> INPUT FEATURE_TYPE NeighborFinder_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, NeighborFinder<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE NeighborFinder_MATCHED    INPUT  FEATURE_TYPE NeighborFinder_UNMATCHED_BASE    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "unity_x" "SET_TO" "<at>Evaluate<openparen><openparen><at>Value<openparen>easting<closeparen>-<at>Value<openparen>_xmin<closeparen><closeparen><solidus><openparen><at>Value<openparen>_xmax<closeparen>-<at>Value<openparen>_xmin<closeparen><closeparen><closeparen>" }      ATTR_ACTION { "" "unity_z" "SET_TO" "<at>Evaluate<openparen><openparen><at>Value<openparen>northing<closeparen>-<at>Value<openparen>_ymin<closeparen><closeparen><solidus><openparen><at>Value<openparen>_ymax<closeparen>-<at>Value<openparen>_ymin<closeparen><closeparen><closeparen>" }      ATTR_ACTION { "" "prototypeIndex" "SET_TO" "2" }      ATTR_ACTION { "" "heightscale" "SET_TO" "1" }      ATTR_ACTION { "" "widthScale" "SET_TO" "<at>Value<openparen>heightscale<closeparen>" }      ATTR_ACTION { "" "rotation" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Evaluate<openparen><at>degToRad<openparen>90+<openparen>360-<at>Value<openparen>_angle<closeparen><closeparen><closeparen><closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;TEST <at>Value<openparen>_angle<closeparen> <= 90'<at>Evaluate<openparen><at>degToRad<openparen>90-<at>Value<openparen>_angle<closeparen><closeparen><closeparen>'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "feature" "SET_TO" "<space><space><opencurly><lf><space><space><space><space><quote>coordinates<quote>:<space><openbracket><at>Value<openparen>unity_x<closeparen><comma><space><at>Value<openparen>unity_z<closeparen><closebracket><comma><lf><space><space><space><space><quote>prototypeIndex<quote>:<space><at>Value<openparen>prototypeIndex<closeparen><comma><lf><space><space><space><space><quote>heightScale<quote>:<space><at>Format<openparen>%.2f<comma><at>Value<openparen>heightscale<closeparen><closeparen><comma><lf><space><space><space><space><quote>widthScale<quote>:<space><at>Format<openparen>%.2f<comma><at>Value<openparen>widthScale<closeparen><closeparen><comma><lf><space><space><space><space><quote>rotation<quote><space>:<space><at>Format<openparen>%.2f<comma><at>Value<openparen>rotation<closeparen><closeparen><lf><space><space><closecurly>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE NeighborFinder_MATCHED    INPUT  FEATURE_TYPE NeighborFinder_UNMATCHED_BASE    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "unity_x" "SET_TO" "<at>Evaluate<openparen><openparen><at>Value<openparen>easting<closeparen>-<at>Value<openparen>_xmin<closeparen><closeparen><solidus><openparen><at>Value<openparen>_xmax<closeparen>-<at>Value<openparen>_xmin<closeparen><closeparen><closeparen>" }      ATTR_ACTION { "" "unity_z" "SET_TO" "<at>Evaluate<openparen><openparen><at>Value<openparen>northing<closeparen>-<at>Value<openparen>_ymin<closeparen><closeparen><solidus><openparen><at>Value<openparen>_ymax<closeparen>-<at>Value<openparen>_ymin<closeparen><closeparen><closeparen>" }      ATTR_ACTION { "" "prototypeIndex" "SET_TO" "2" }      ATTR_ACTION { "" "heightscale" "SET_TO" "1" }      ATTR_ACTION { "" "widthScale" "SET_TO" "<at>Value<openparen>heightscale<closeparen>" }      ATTR_ACTION { "" "rotation" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Evaluate<openparen><at>degToRad<openparen>90+<openparen>360-<at>Value<openparen>_angle<closeparen><closeparen><closeparen><closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;TEST <at>Value<openparen>_angle<closeparen> <= 90'<at>Evaluate<openparen><at>degToRad<openparen>90-<at>Value<openparen>_angle<closeparen><closeparen><closeparen>'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "feature" "SET_TO" "<space><space><opencurly><lf><space><space><space><space><quote>coordinates<quote>:<space><openbracket><at>Format<openparen>%.7f<comma><at>Value<openparen>unity_x<closeparen><closeparen><comma><space><at>Format<openparen>%.7f<comma><at>Value<openparen>unity_z<closeparen><closeparen><closebracket><comma><lf><space><space><space><space><quote>prototypeIndex<quote>:<space><at>Value<openparen>prototypeIndex<closeparen><comma><lf><space><space><space><space><quote>heightScale<quote>:<space><at>Format<openparen>%.2f<comma><at>Value<openparen>heightscale<closeparen><closeparen><comma><lf><space><space><space><space><quote>widthScale<quote>:<space><at>Format<openparen>%.2f<comma><at>Value<openparen>widthScale<closeparen><closeparen><comma><lf><space><space><space><space><quote>rotation<quote><space>:<space><at>Format<openparen>%.2f<comma><at>Value<openparen>rotation<closeparen><closeparen><lf><space><space><closecurly>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_2 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_2_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT_0_j0uI5yR3ojs=   OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT_1_RySErNGX5NA=
 # -------------------------------------------------------------------------
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {AttributeCreator_2_Output} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME AttributeCreator_2_Output_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT_1_RySErNGX5NA=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { AttributeCreator_2_Output }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeCreator_2_Output_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA unity_x,varchar<openparen>255<closeparen>,unity_z,varchar<openparen>255<closeparen>,prototypeIndex,varchar<openparen>255<closeparen>,heightscale,varchar<openparen>255<closeparen>,widthScale,varchar<openparen>255<closeparen>,rotation,varchar<openparen>255<closeparen>,feature,varchar<openparen>255<closeparen>,idobj,varchar<openparen>255<closeparen>,easting,varchar<openparen>255<closeparen>,northing,varchar<openparen>255<closeparen>,secteur_ID,varchar<openparen>255<closeparen>,_xmax,varchar<openparen>255<closeparen>,_xmin,varchar<openparen>255<closeparen>,_ymax,varchar<openparen>255<closeparen>,_ymin,varchar<openparen>255<closeparen>,_distance,varchar<openparen>255<closeparen>,_angle,varchar<openparen>255<closeparen>,_candidate_angle,varchar<openparen>255<closeparen>,_candidate_label_angle,varchar<openparen>255<closeparen>,_closest_candidate_x,varchar<openparen>255<closeparen>,_closest_candidate_y,varchar<openparen>255<closeparen>,_closest_base_x,varchar<openparen>255<closeparen>,_closest_base_y,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_2_Output (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeCreator_2_OUTPUT_1_RySErNGX5NA=
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT_0_j0uI5yR3ojs=    MODE ONE_LEVEL    FLUSH_WHEN_GROUPS_CHANGE No    REMOVE_GEOMETRY NO    ACCUMULATE_ATTRIBUTES One    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CONCATENATE_FIELDS { feature }    SEPARATOR <comma><lf>    PRODUCE_MULTIS YES    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "text_line_data" "SET_TO" "<opencurly><space><quote>trees<quote>:<space><openbracket><lf><at>Value<openparen>feature<closeparen><lf><closebracket><closecurly>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,__wb_out_feat_type__,__nuke_me__ GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
-# -------------------------------------------------------------------------
-
-DEFAULT_MACRO FME_LAUNCH_VIEWER_APP NO
-FACTORY_DEF * CreationFactory    FACTORY_NAME VisualizerProcessor   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if {{$(FME_LAUNCH_VIEWER_APP)} == {YES}} {  if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; }; ")
-FACTORY_DEF * TeeFactory    FACTORY_NAME VisualizerCleaner   INPUT FEATURE_TYPE __NUKEME__
