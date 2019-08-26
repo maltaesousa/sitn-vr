@@ -130,6 +130,15 @@ public class VRInputManager : BaseInputModule
     }
 
     //-------------------------------------------------
+    // Controls the menu state
+    //-------------------------------------------------
+    public void ToggleMenu(bool pointerIsActive, string mode)
+    {
+        ToggleMenu(pointerIsActive);
+        menuPointerWithCamera.SetMode(mode);
+    }
+
+    //-------------------------------------------------
     // Helper to activate an Action Set
     //-------------------------------------------------
     public void ActivateActionSet(SteamVR_ActionSet newActionSet, int priority)
@@ -262,7 +271,6 @@ public class VRInputManager : BaseInputModule
     private void GrabBuilding(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
         menuPointerWithCamera.SetAutoLength(false);
-
     }
 
     //-------------------------------------------------

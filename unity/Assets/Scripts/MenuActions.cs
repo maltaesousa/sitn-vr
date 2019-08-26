@@ -20,7 +20,23 @@ public class MenuActions : MonoBehaviour
         Vector3 buildingPosition = spawnPoint.transform.position;
         newObject.transform.localScale = new Vector3(1f, 1f, 1f);
         newObject.transform.position = buildingPosition;
-        inputModule.ToggleMenu(true);
+        inputModule.ToggleMenu(true, "default");
         inputModule.ActivateActionSet(inputModule.movingBuildingsSet, 1000);
+    }
+
+    public void ActivateInfo()
+    {
+        inputModule.ToggleMenu(true, "info");
+    }
+
+    public void MoveBuilding()
+    {
+        inputModule.ToggleMenu(true, "default");
+        inputModule.ActivateActionSet(inputModule.movingBuildingsSet, 1000);
+    }
+
+    public void DeleteBuilding()
+    {
+        inputModule.ToggleMenu(true, "delete");
     }
 }

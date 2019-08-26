@@ -10,6 +10,8 @@ public class SitnPointer : MonoBehaviour
     public GameObject endDot;
     public Hand hand;
     public VRInputManager inputModule;
+    public Material deleteMaterial;
+    public Material infoMaterial;
 
     private LineRenderer lineRenderer = null;
     private bool autoLength = true;
@@ -18,6 +20,8 @@ public class SitnPointer : MonoBehaviour
     private float offset = 0.0f;
     private float timer = 0.0f;
     private float waitTime = 0.0f;
+
+    private Dictionary<string, Material> modes;
 
 
     //-------------------------------------------------
@@ -39,6 +43,10 @@ public class SitnPointer : MonoBehaviour
     {
         lineRenderer = GetComponent<LineRenderer>();
         lastLength = defaultLength;
+        modes = new Dictionary<string, Material>();
+        modes.Add("default", lineRenderer.material);
+        modes.Add("delete", deleteMaterial);
+        modes.Add("info", infoMaterial);
     }
 
     private void Update()
@@ -81,7 +89,14 @@ public class SitnPointer : MonoBehaviour
     {
         return hand.currentAttachedObject;
     }
-    
+
+    public void SetMode(string mode)
+    {
+        Material newMaterial = modes[mode];
+        lineRenderer.material = newMaterial;
+        endDot.gameObject.GetComponent<Renderer>().material = newMaterial;
+    }
+
     private void UpdateLineState()
     {
         PointerEventData data = inputModule.GetData();
