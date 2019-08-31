@@ -7,14 +7,9 @@ public class MainMenu : MonoBehaviour
     [Header("Scene Objects")]
     public Camera thecamera = null;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        Show(false);
-    }
-
     public void Show(bool value)
     {
+        Debug.Log("MENU: " + value);
         gameObject.SetActive(value);
     }
 }

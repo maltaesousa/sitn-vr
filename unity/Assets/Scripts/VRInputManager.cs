@@ -5,7 +5,6 @@
 //
 //=====================================================================================================================
 
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -20,10 +19,14 @@ using Valve.VR;
 public class VRInputManager : BaseInputModule
 {
     [Header("Actions Sets")]
+    [Tooltip("The default action set")]
+    public SteamVR_ActionSet defaultSet;
     [Tooltip("The action set when menu is open")]
     public SteamVR_ActionSet menuSet;
     [Tooltip("The action set when buildings are being placed")]
     public SteamVR_ActionSet movingBuildingsSet;
+    [Tooltip("The action set when buildings are being deleted")]
+    public SteamVR_ActionSet deletingBuildingsSet;
 
     [Header("Menu actions")]
     [Tooltip("The action to open the menu")]
@@ -41,6 +44,8 @@ public class VRInputManager : BaseInputModule
     public SteamVR_Action_Boolean touchTrackpad;
     [Tooltip("Tracking finger on trackpad action")]
     public SteamVR_Action_Vector2 fingerPosition;
+    [Tooltip("The action to delete a building")]
+    public SteamVR_Action_Boolean touchDeleteTrackpad;
 
     [Header("Scene Objects")]
     [Tooltip("")]
@@ -54,12 +59,12 @@ public class VRInputManager : BaseInputModule
     private PointerEventData data = null;
     private Camera menuPointerCamera = null;
     private bool trackpadIsPristine = true;
+    private Dictionary<string, SteamVR_ActionSet> modes;
 
     //-------------------------------------------------
     // Active GameObject attached to this Hand
     //-------------------------------------------------
     private GameObject currentAttachedObject;
- 
 
     protected override void Awake()
     {
@@ -70,8 +75,17 @@ public class VRInputManager : BaseInputModule
         moveBuilding.onStateUp += BuildingStopMoving;
         touchTrackpad.onStateUp += TrackpadTouchOut;
         fingerPosition.onAxis += BuildingRotate;
+        touchDeleteTrackpad.onStateDown += DeleteBuilding;
         data = new PointerEventData(eventSystem);
         menuPointerCamera = menuPointerWithCamera.GetComponent<Camera>();
+
+        modes = new Dictionary<string, SteamVR_ActionSet>
+        {
+            {"default", null },
+            {"delete", deletingBuildingsSet },
+            {"moving", movingBuildingsSet },
+            {"menu", menuSet}
+        };
     }
 
     protected override void OnDestroy()
@@ -83,6 +97,8 @@ public class VRInputManager : BaseInputModule
         moveBuilding.onStateDown -= BuildingMove;
         touchTrackpad.onStateUp -= TrackpadTouchOut;
         fingerPosition.onAxis -= BuildingRotate;
+        touchDeleteTrackpad.onStateDown -= DeleteBuilding;
+
     }
 
     public override void Process()
@@ -114,18 +130,20 @@ public class VRInputManager : BaseInputModule
     //-------------------------------------------------
     // Controls the menu state
     //-------------------------------------------------
-    public void ToggleMenu(bool pointerIsActive)
+    private void ToggleMenu(bool pointerIsActive)
     {
         menuIsActive = !menuIsActive;
         mainMenu.Show(menuIsActive);
         menuPointerWithCamera.Show(pointerIsActive);
         if (menuIsActive)
         {
-            menuSet.Activate(touchButtonSource, 2);
+            Debug.Log("ACTIVATE MENU");
+            ActivateActionSetByMode("menu");
         }
         else
         {
-            menuSet.Deactivate(touchButtonSource);
+            Debug.Log("DEACTIVATE MENU");
+            ActivateActionSetByMode("default");
         }
     }
 
@@ -134,8 +152,11 @@ public class VRInputManager : BaseInputModule
     //-------------------------------------------------
     public void ToggleMenu(bool pointerIsActive, string mode)
     {
+        Debug.Log("ToggleMenu called");
         ToggleMenu(pointerIsActive);
         menuPointerWithCamera.SetMode(mode);
+        ActivateActionSetByMode(mode);
+        
     }
 
     //-------------------------------------------------
@@ -281,4 +302,41 @@ public class VRInputManager : BaseInputModule
         menuPointerWithCamera.SetAutoLength(true);
     }
 
+
+    private void DeleteBuilding(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
+    {
+        if(menuPointerWithCamera.GetHoverObject() != null)
+        {
+            Destroy(menuPointerWithCamera.GetHoverObject());
+        } else
+        {
+            Debug.Log("DeleteBuilding was called but nothing has been found!");
+        }
+    }
+
+
+    //-------------------------------------------------
+    // Handles trigger release action to drop the building
+    //-------------------------------------------------
+    private void ActivateActionSetByMode(string mode)
+    {
+        Dictionary<string, SteamVR_ActionSet> deactivateModes = new Dictionary<string, SteamVR_ActionSet>(modes);
+        deactivateModes.Remove(mode);
+        Debug.Log("ActivateActionSets called with mode: " + mode);
+        for (int actionSetIndex = 0; actionSetIndex < SteamVR_Input.actionSets.Length; actionSetIndex++)
+        {
+            if (modes[mode] != null && SteamVR_Input.actionSets[actionSetIndex].Equals(modes[mode]))
+            {
+                Debug.Log("ACTIVATE " + SteamVR_Input.actionSets[actionSetIndex].fullPath);
+                SteamVR_Input.actionSets[actionSetIndex].Activate(SteamVR_Input_Sources.Any, 2);
+                SteamVR_Input.actionSets[actionSetIndex].Activate(SteamVR_Input_Sources.RightHand, 2);
+            } else if (deactivateModes.ContainsValue(SteamVR_Input.actionSets[actionSetIndex]))
+            {
+                Debug.Log("DEACTIVATE " + SteamVR_Input.actionSets[actionSetIndex].fullPath);
+                SteamVR_Input.actionSets[actionSetIndex].Deactivate(SteamVR_Input_Sources.Any);
+                SteamVR_Input.actionSets[actionSetIndex].Deactivate(SteamVR_Input_Sources.RightHand);
+            }
+        }
+
+    }
 }

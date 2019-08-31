@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using Valve.VR.InteractionSystem;
+using SITN;
 
 public class SitnPointer : MonoBehaviour
 {
@@ -12,6 +14,7 @@ public class SitnPointer : MonoBehaviour
     public VRInputManager inputModule;
     public Material deleteMaterial;
     public Material infoMaterial;
+    public Text attributeTextArea;
 
     private LineRenderer lineRenderer = null;
     private bool autoLength = true;
@@ -22,6 +25,7 @@ public class SitnPointer : MonoBehaviour
     private float waitTime = 0.0f;
 
     private Dictionary<string, Material> modes;
+    private string enabledMode = "default";
 
 
     //-------------------------------------------------
@@ -90,8 +94,18 @@ public class SitnPointer : MonoBehaviour
         return hand.currentAttachedObject;
     }
 
+    //-------------------------------------------------
+    // Summary :
+    //     This returns the Gameobject attached to the hand
+    //-------------------------------------------------
+    public GameObject GetHoverObject()
+    {
+        return hand.hoveringInteractable.gameObject;
+    }
+
     public void SetMode(string mode)
     {
+        enabledMode = mode;
         Material newMaterial = modes[mode];
         lineRenderer.material = newMaterial;
         endDot.gameObject.GetComponent<Renderer>().material = newMaterial;
@@ -121,6 +135,7 @@ public class SitnPointer : MonoBehaviour
         {   
             endPosition = hit.point;
             lastLength = hit.distance;
+            InteractWithCollider(hit.collider);
         }
         else if (!autoLength)
         {
@@ -156,5 +171,20 @@ public class SitnPointer : MonoBehaviour
         Physics.Raycast(ray, out hit, lenght);
 
         return hit;
+    }
+
+    private void InteractWithCollider(Collider collider)
+    {
+        if (enabledMode == "info")
+        {
+            QueryableObject qo = collider.GetComponent<QueryableObject>();
+            Debug.Log("INFO ENABLED");
+            if (qo != null)
+            {
+                string attributesContent = qo.ToString();
+                attributeTextArea.GetComponentInParent<Canvas>().enabled = true;
+                attributeTextArea.text = attributesContent;
+            }
+        }
     }
 }

@@ -229,6 +229,19 @@
             }
          ]
       },
+      "/actions/deletebuildings" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/deletebuildings/in/presstrackpad"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/right/input/trackpad"
+            }
+         ]
+      },
       "/actions/menuset" : {
          "sources" : [
             {
@@ -314,7 +327,7 @@
    "category" : "steamvr_input",
    "controller_type" : "vive_controller",
    "description" : "",
-   "name" : "Proto4",
+   "name" : "Ma configuration de Proto01 [Testing] pour Vive Controller",
    "options" : {},
    "simulated_actions" : []
 }

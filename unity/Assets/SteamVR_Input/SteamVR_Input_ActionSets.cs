@@ -29,6 +29,8 @@ namespace Valve.VR
         
         private static SteamVR_Input_ActionSet_MovingBuildings p_MovingBuildings;
         
+        private static SteamVR_Input_ActionSet_deleteBuildings p_deleteBuildings;
+        
         public static SteamVR_Input_ActionSet_default _default
         {
             get
@@ -77,6 +79,14 @@ namespace Valve.VR
             }
         }
         
+        public static SteamVR_Input_ActionSet_deleteBuildings deleteBuildings
+        {
+            get
+            {
+                return SteamVR_Actions.p_deleteBuildings.GetCopy<SteamVR_Input_ActionSet_deleteBuildings>();
+            }
+        }
+        
         private static void StartPreInitActionSets()
         {
             SteamVR_Actions.p__default = ((SteamVR_Input_ActionSet_default)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_default>("/actions/default")));
@@ -85,13 +95,15 @@ namespace Valve.VR
             SteamVR_Actions.p_mixedreality = ((SteamVR_Input_ActionSet_mixedreality)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_mixedreality>("/actions/mixedreality")));
             SteamVR_Actions.p_menuSet = ((SteamVR_Input_ActionSet_menuSet)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_menuSet>("/actions/menuSet")));
             SteamVR_Actions.p_MovingBuildings = ((SteamVR_Input_ActionSet_MovingBuildings)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_MovingBuildings>("/actions/MovingBuildings")));
+            SteamVR_Actions.p_deleteBuildings = ((SteamVR_Input_ActionSet_deleteBuildings)(SteamVR_ActionSet.Create<SteamVR_Input_ActionSet_deleteBuildings>("/actions/deleteBuildings")));
             Valve.VR.SteamVR_Input.actionSets = new Valve.VR.SteamVR_ActionSet[] {
                     SteamVR_Actions._default,
                     SteamVR_Actions.platformer,
                     SteamVR_Actions.buggy,
                     SteamVR_Actions.mixedreality,
                     SteamVR_Actions.menuSet,
-                    SteamVR_Actions.MovingBuildings};
+                    SteamVR_Actions.MovingBuildings,
+                    SteamVR_Actions.deleteBuildings};
         }
     }
 }

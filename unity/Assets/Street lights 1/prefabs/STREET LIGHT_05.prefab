@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4127414332290694}
   - component: {fileID: 33607055418103440}
   - component: {fileID: 23373819909106334}
-  - component: {fileID: 64703615234999768}
   - component: {fileID: 4853568394415438628}
   m_Layer: 0
   m_Name: STREET LIGHT_05
@@ -83,20 +82,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64703615234999768
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462955731909132}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300008, guid: 3c949e03523d26940aafdff2f32e6411, type: 3}
 --- !u!205 &4853568394415438628
 LODGroup:
   m_ObjectHideFlags: 0

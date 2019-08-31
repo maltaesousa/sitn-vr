@@ -61,6 +61,8 @@ namespace Valve.VR
         
         private static SteamVR_Action_Boolean p_movingBuildings_TouchTrackpad;
         
+        private static SteamVR_Action_Boolean p_deleteBuildings_PressTrackpad;
+        
         public static SteamVR_Action_Boolean default_InteractUI
         {
             get
@@ -237,6 +239,14 @@ namespace Valve.VR
             }
         }
         
+        public static SteamVR_Action_Boolean deleteBuildings_PressTrackpad
+        {
+            get
+            {
+                return SteamVR_Actions.p_deleteBuildings_PressTrackpad.GetCopy<SteamVR_Action_Boolean>();
+            }
+        }
+        
         private static void InitializeActionArrays()
         {
             Valve.VR.SteamVR_Input.actions = new Valve.VR.SteamVR_Action[] {
@@ -261,7 +271,8 @@ namespace Valve.VR
                     SteamVR_Actions.menuSet_PressTrackpad,
                     SteamVR_Actions.movingBuildings_Move,
                     SteamVR_Actions.movingBuildings_Rotate,
-                    SteamVR_Actions.movingBuildings_TouchTrackpad};
+                    SteamVR_Actions.movingBuildings_TouchTrackpad,
+                    SteamVR_Actions.deleteBuildings_PressTrackpad};
             Valve.VR.SteamVR_Input.actionsIn = new Valve.VR.ISteamVR_Action_In[] {
                     SteamVR_Actions.default_InteractUI,
                     SteamVR_Actions.default_Teleport,
@@ -283,7 +294,8 @@ namespace Valve.VR
                     SteamVR_Actions.menuSet_PressTrackpad,
                     SteamVR_Actions.movingBuildings_Move,
                     SteamVR_Actions.movingBuildings_Rotate,
-                    SteamVR_Actions.movingBuildings_TouchTrackpad};
+                    SteamVR_Actions.movingBuildings_TouchTrackpad,
+                    SteamVR_Actions.deleteBuildings_PressTrackpad};
             Valve.VR.SteamVR_Input.actionsOut = new Valve.VR.ISteamVR_Action_Out[] {
                     SteamVR_Actions.default_Haptic};
             Valve.VR.SteamVR_Input.actionsVibration = new Valve.VR.SteamVR_Action_Vibration[] {
@@ -303,7 +315,8 @@ namespace Valve.VR
                     SteamVR_Actions.buggy_Reset,
                     SteamVR_Actions.menuSet_PressTrackpad,
                     SteamVR_Actions.movingBuildings_Move,
-                    SteamVR_Actions.movingBuildings_TouchTrackpad};
+                    SteamVR_Actions.movingBuildings_TouchTrackpad,
+                    SteamVR_Actions.deleteBuildings_PressTrackpad};
             Valve.VR.SteamVR_Input.actionsSingle = new Valve.VR.SteamVR_Action_Single[] {
                     SteamVR_Actions.default_Squeeze,
                     SteamVR_Actions.buggy_Throttle};
@@ -332,7 +345,8 @@ namespace Valve.VR
                     SteamVR_Actions.menuSet_PressTrackpad,
                     SteamVR_Actions.movingBuildings_Move,
                     SteamVR_Actions.movingBuildings_Rotate,
-                    SteamVR_Actions.movingBuildings_TouchTrackpad};
+                    SteamVR_Actions.movingBuildings_TouchTrackpad,
+                    SteamVR_Actions.deleteBuildings_PressTrackpad};
         }
         
         private static void PreInitActions()
@@ -359,6 +373,7 @@ namespace Valve.VR
             SteamVR_Actions.p_movingBuildings_Move = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/MovingBuildings/in/Move")));
             SteamVR_Actions.p_movingBuildings_Rotate = ((SteamVR_Action_Vector2)(SteamVR_Action.Create<SteamVR_Action_Vector2>("/actions/MovingBuildings/in/Rotate")));
             SteamVR_Actions.p_movingBuildings_TouchTrackpad = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/MovingBuildings/in/TouchTrackpad")));
+            SteamVR_Actions.p_deleteBuildings_PressTrackpad = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/deleteBuildings/in/PressTrackpad")));
         }
     }
 }
