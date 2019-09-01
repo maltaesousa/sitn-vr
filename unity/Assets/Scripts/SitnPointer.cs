@@ -14,6 +14,7 @@ public class SitnPointer : MonoBehaviour
     public VRInputManager inputModule;
     public Material deleteMaterial;
     public Material infoMaterial;
+    public Canvas attributeTextCanvas;
     public Text attributeTextArea;
 
     private LineRenderer lineRenderer = null;
@@ -105,6 +106,7 @@ public class SitnPointer : MonoBehaviour
 
     public void SetMode(string mode)
     {
+        attributeTextCanvas.gameObject.SetActive(false);
         enabledMode = mode;
         Material newMaterial = modes[mode];
         lineRenderer.material = newMaterial;
@@ -152,6 +154,9 @@ public class SitnPointer : MonoBehaviour
             }
             lastLength = targetLength;
             endPosition = transform.position + (transform.forward * targetLength);
+        } else
+        {
+            attributeTextCanvas.gameObject.SetActive(false);
         }
 
         // Update position of the dot
@@ -177,13 +182,15 @@ public class SitnPointer : MonoBehaviour
     {
         if (enabledMode == "info")
         {
-            QueryableObject qo = collider.GetComponent<QueryableObject>();
-            Debug.Log("INFO ENABLED");
+            QueryableBuilding qo = collider.GetComponent<QueryableBuilding>();
             if (qo != null)
             {
                 string attributesContent = qo.ToString();
-                attributeTextArea.GetComponentInParent<Canvas>().enabled = true;
+                attributeTextCanvas.gameObject.SetActive(true);
                 attributeTextArea.text = attributesContent;
+            } else
+            {
+                attributeTextCanvas.gameObject.SetActive(false);
             }
         }
     }

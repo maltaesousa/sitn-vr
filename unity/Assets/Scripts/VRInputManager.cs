@@ -82,6 +82,7 @@ public class VRInputManager : BaseInputModule
         modes = new Dictionary<string, SteamVR_ActionSet>
         {
             {"default", null },
+            {"info", null },
             {"delete", deletingBuildingsSet },
             {"moving", movingBuildingsSet },
             {"menu", menuSet}
