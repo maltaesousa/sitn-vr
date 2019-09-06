@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using Valve.VR.InteractionSystem;
+
 
 public class MenuActions : MonoBehaviour
 {
@@ -21,7 +19,7 @@ public class MenuActions : MonoBehaviour
         newObject.transform.localScale = new Vector3(1f, 1f, 1f);
         newObject.transform.position = buildingPosition;
         inputModule.ToggleMenu(true, "default");
-        inputModule.ActivateActionSet(inputModule.movingBuildingsSet, 1000);
+        inputModule.ActivateActionSetByMode("moving");
     }
 
     public void ActivateInfo()
@@ -32,7 +30,7 @@ public class MenuActions : MonoBehaviour
     public void MoveBuilding()
     {
         inputModule.ToggleMenu(true, "default");
-        inputModule.ActivateActionSet(inputModule.movingBuildingsSet, 1000);
+        inputModule.ActivateActionSetByMode("moving");
     }
 
     public void DeleteBuilding()

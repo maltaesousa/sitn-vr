@@ -1,11 +1,12 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        "C:\Program Files\FME\fme.exe" C:\Projects\sitn-vr\import\05_attributes\shapefile2textline2.fmw
+#        "C:\Program Files\FME\fme.exe" C:\Projects\sitn-vr\import\05_attributes\00_ImportAttributes.fmw
 #              --SourceDataset_SHAPEFILE "C:\Projects\sitn-vr\datasource\02_buildings\Ground.shp"
 #              --DestDataset_TEXTLINE "C:\Projects\sitn-vr\unity\Assets\Models"
 #              --DestDataset_TEXTLINE_5 "C:\Projects\sitn-vr\unity\Assets\Models"
 #              --DestDataset_TEXTLINE_4 "C:\Projects\sitn-vr\unity\Assets\Models"
+#              --SourceDataset_XLSXR "C:\Projects\sitn-vr\datasource\05_attributes\land_registry.xlsx"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -14,14 +15,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="3543.37 1470.89"
-#!   DOC_TOP_LEFT="10.6249 -2074.64"
+#!   DOC_EXTENTS="4524.63 1196.33"
+#!   DOC_TOP_LEFT="-17.5004 -1800.08"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="19617"
-#!   FME_DOCUMENT_GUID="07e4a5e4-76e1-4d3e-a12d-2d4f0fc3862b"
-#!   FME_DOCUMENT_PRIORGUID="667a629f-0435-4788-9e52-b74bc7284950,14d88938-c747-4063-9ce7-0ce5ca206e95,78ff7e85-2916-499c-af89-b66e99dd409e,887b9424-ba7b-44ce-a626-3af2a493ae3d,774facca-caff-4bae-8122-2fd9e964daac"
+#!   FME_DOCUMENT_GUID="9f566f6d-be4b-4ab4-a8e7-328587eb576f"
+#!   FME_DOCUMENT_PRIORGUID="667a629f-0435-4788-9e52-b74bc7284950,14d88938-c747-4063-9ce7-0ce5ca206e95,78ff7e85-2916-499c-af89-b66e99dd409e,887b9424-ba7b-44ce-a626-3af2a493ae3d,774facca-caff-4bae-8122-2fd9e964daac,07e4a5e4-76e1-4d3e-a12d-2d4f0fc3862b,a7138c08-bb0e-484a-ac29-a362701ac284"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -30,7 +31,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.1.1.0 (20190801 - Build 19617 - WIN64)"
-#!   LAST_SAVE_DATE="2019-09-01T14:23:45"
+#!   LAST_SAVE_DATE="2019-09-02T20:53:01"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -49,7 +50,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="175.002 -1009.39"
+#!   VIEW_POSITION="1431.26 -793.758"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -68,7 +69,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="shapefile_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type char(50) multi_reader_full_id long fme_text_size double shape_geometry_error char(254) fme_secondary_axis double multi_reader_keyword char(50) multi_reader_id long fme_sweep_angle double fme_text_string char(50) multi_reader_type char(50) fme_feature_type char(50) fme_start_angle double fme_rotation double fme_color char(50) shapefile_type char(30) fme_basename char(50) fme_primary_axis double fme_fill_color char(50) fme_geometry char(50) fme_dataset char(50)"
+#!   EXPOSABLE_ATTRS="multi_reader_type char(50) fme_sweep_angle double fme_type char(50) fme_secondary_axis double fme_color char(50) fme_text_string char(50) fme_fill_color char(50) multi_reader_id long fme_text_size double fme_geometry char(50) multi_reader_full_id long fme_rotation double shapefile_type char(30) fme_feature_type char(50) fme_primary_axis double shape_geometry_error char(254) fme_start_angle double fme_basename char(50) multi_reader_keyword char(50) fme_dataset char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -114,6 +115,64 @@
 #! />
 #! </DATASET>
 #! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="XLSXR"
+#!   DATASET="$(SourceDataset_XLSXR)"
+#!   KEYWORD="XLSXR_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="xlsx_start_row &quot;&quot; xlsx_end_row &quot;&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="multi_reader_type char(50) fme_sweep_angle number(31,15) fme_type char(50) fme_secondary_axis number(31,15) fme_color char(50) fme_text_string char(50) fme_fill_color char(50) multi_reader_id number(11,0) fme_text_size number(31,15) fme_geometry char(50) multi_reader_full_id number(11,0) xlsx_row_id number(11,0) fme_rotation number(31,15) fme_feature_type char(50) fme_primary_axis number(31,15) fme_start_angle number(31,15) fme_basename char(50) multi_reader_keyword char(50) fme_dataset char(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP xlsx_table_settings_group xlsx_start_row%xlsx_end_row Table&quot; &quot;&quot; &quot;GUI FORCE_DEFS OPTIONAL INTEGER xlsx_start_row Start Row:&quot; &quot;&quot; &quot;GUI FORCE_DEFS OPTIONAL INTEGER xlsx_end_row End Row:&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   GENERATE_FME_BUILD_NUM="19617"
+#!   COORDSYS=""
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="XLSXR_IN_READ_BLANK_AS XLSXR_IN_EXPAND_MERGED_CELLS XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ALLOW_DATASET_CONFLICT"
+#!   VALUE="YES"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="xlsx file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Sheet"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/vnd.ms-excel ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Excel file(s)"
+#! />
+#! </DATASET>
+#! <DATASET
 #!   IS_SOURCE="false"
 #!   ROLE="WRITER"
 #!   FORMAT="TEXTLINE"
@@ -126,7 +185,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_size number(31,15) fme_sweep_angle number(31,15) fme_primary_axis number(31,15) text_line_eol char(10) fme_secondary_axis number(31,15) fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) fme_color char(50) fme_start_angle number(31,15) fme_basename char(50) fme_text_string char(50) fme_rotation number(31,15) fme_type char(50) fme_dataset char(50)"
+#!   EXPOSABLE_ATTRS="fme_type char(50) text_line_eol char(10) fme_feature_type char(50) fme_color char(50) fme_primary_axis number(31,15) fme_geometry char(50) fme_basename char(50) fme_sweep_angle number(31,15) fme_text_string char(50) fme_start_angle number(31,15) fme_fill_color char(50) fme_text_size number(31,15) fme_secondary_axis number(31,15) fme_rotation number(31,15) fme_dataset char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -181,7 +240,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_size number(31,15) fme_sweep_angle number(31,15) fme_primary_axis number(31,15) text_line_eol char(10) fme_secondary_axis number(31,15) fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) fme_color char(50) fme_start_angle number(31,15) fme_basename char(50) fme_text_string char(50) fme_rotation number(31,15) fme_type char(50) fme_dataset char(50)"
+#!   EXPOSABLE_ATTRS="fme_type char(50) text_line_eol char(10) fme_feature_type char(50) fme_color char(50) fme_primary_axis number(31,15) fme_geometry char(50) fme_basename char(50) fme_sweep_angle number(31,15) fme_text_string char(50) fme_start_angle number(31,15) fme_fill_color char(50) fme_text_size number(31,15) fme_secondary_axis number(31,15) fme_rotation number(31,15) fme_dataset char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -236,7 +295,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle number(31,15) fme_text_size number(31,15) fme_primary_axis number(31,15) text_line_eol char(10) fme_feature_type char(50) fme_fill_color char(50) fme_secondary_axis number(31,15) fme_geometry char(50) fme_color char(50) fme_basename char(50) fme_start_angle number(31,15) fme_text_string char(50) fme_rotation number(31,15) fme_type char(50) fme_dataset char(50)"
+#!   EXPOSABLE_ATTRS="fme_type char(50) text_line_eol char(10) fme_feature_type char(50) fme_color char(50) fme_primary_axis number(31,15) fme_geometry char(50) fme_basename char(50) fme_sweep_angle number(31,15) fme_text_string char(50) fme_start_angle number(31,15) fme_fill_color char(50) fme_text_size number(31,15) fme_secondary_axis number(31,15) fme_rotation number(31,15) fme_dataset char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -465,6 +524,162 @@
 #!   FORMAT_TYPE="number(width,decimal)"
 #!   FME_TYPE="fme_decimal(width,decimal)"
 #!   FORMAT="SHAPEFILE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="x_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="y_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="z_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="XLSXR"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
@@ -709,6 +924,102 @@
 #!   FORMAT="SHAPEFILE"
 #! />
 #! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="text_line_none"
 #!   FME_TYPE="fme_no_geom"
@@ -834,8 +1145,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="12"
 #!   FEAT_GEOMTYPE="text_line_none"
-#!   POSITION="2899.9979999799989 -1746.8924689246887"
-#!   BOUNDING_RECT="2899.9979999799989 -1746.8924689246887 454 71"
+#!   POSITION="3853.1325313253128 -1472.3300783007817"
+#!   BOUNDING_RECT="3853.1325313253128 -1472.3300783007817 454 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="TEXTLINE_1"
@@ -853,8 +1164,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="27"
 #!   FEAT_GEOMTYPE="text_line_none"
-#!   POSITION="2899.9979999799989 -1929.0166251662513"
-#!   BOUNDING_RECT="2899.9979999799989 -1929.0166251662513 454 71"
+#!   POSITION="3853.1325313253128 -1654.4542345423442"
+#!   BOUNDING_RECT="3853.1325313253128 -1654.4542345423442 454 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="TEXTLINE_2"
@@ -869,11 +1180,11 @@
 #!   NODE_NAME="text_line"
 #!   FEATURE_TYPE_NAME=""
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
-#!   IS_EDITABLE="true"
+#!   IS_EDITABLE="false"
 #!   IDENTIFIER="36"
 #!   FEAT_GEOMTYPE="text_line_none"
-#!   POSITION="2899.9979999799989 -1453.3601691864096"
-#!   BOUNDING_RECT="2899.9979999799989 -1453.3601691864096 454 71"
+#!   POSITION="3853.1325313253128 -1178.7977785625026"
+#!   BOUNDING_RECT="3853.1325313253128 -1178.7977785625026 454 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="TEXTLINE_3"
@@ -883,6 +1194,36 @@
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="text_line_data" ATTR_TYPE="buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Feuil1"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="33"
+#!   FEAT_GEOMTYPE="xlsx_none"
+#!   POSITION="-17.500375003750008 -1385.8838438384382"
+#!   BOUNDING_RECT="-17.500375003750008 -1385.8838438384382 454 71"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="true"
+#!   KEYWORD="XLSXR_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   READ_SELECT_ATTRS="true"
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="id" ATTR_TYPE="number(7,0)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="owner" ATTR_TYPE="char(39)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="easements" ATTR_TYPE="char(136)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <NON_GUI_DEFLINE_PARM VALUE="xlsx_header_row,0;xlsx_schema_end_col,0;xlsx_schema_start_col,0;xlsx_schema_end_row,0;xlsx_schema_start_row,1"/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_end_row" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_start_row" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_table_settings_group" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
 #! <READER_DATASETS>
@@ -890,6 +1231,11 @@
 #!   NAME="SHAPEFILE_1"
 #!   OVERRIDE="-SHAPEFILE_1_DATASET"
 #!   DATASET="SHAPEFILE_1/Ground.shp"
+#! />
+#! <DATASET 
+#!   NAME="XLSXR_1"
+#!   OVERRIDE="-XLSXR_1_DATASET"
+#!   DATASET="XLSXR_1/land_registry.xlsx"
 #! />
 #! </READER_DATASETS>
 #! <WRITER_DATASETS>
@@ -931,15 +1277,20 @@
 #!   DEFAULT_VALUE="C:\Projects\sitn-vr\unity\Assets\Models"
 #!   IS_STAND_ALONE="false"
 #! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_XLSXR Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|Excel_Workbook_2007(*.xlsx)|*.xlsx|Excel_Macro_Workbook(*.xlsm)|*.xlsm|Excel_Workbook_Pre_2007(*.xls)|*.xls|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_files(*)|* Source Microsoft Excel File(s):"
+#!   DEFAULT_VALUE="C:\Projects\sitn-vr\datasource\05_attributes\land_registry.xlsx"
+#!   IS_STAND_ALONE="false"
+#! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
 #! <COMMENT
 #!   IDENTIFIER="29"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Importer&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="2899.9979999799989 -1582.1416564165643"
-#!   TOP_LEFT="2899.9979999799989 -1582.1416564165643"
-#!   BOTTOM_RIGHT="3553.9979999799989 -1583.1416564165643"
-#!   BOUNDING_RECT="2899.9979999799989 -1582.1416564165643 654 1"
+#!   POSITION="3853.1325313253128 -1307.5792657926572"
+#!   TOP_LEFT="3853.1325313253128 -1307.5792657926572"
+#!   BOTTOM_RIGHT="4507.1325313253128 -1308.5792657926572"
+#!   BOUNDING_RECT="3853.1325313253128 -1307.5792657926572 654 1"
 #!   ORDER="500000000000022"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -951,10 +1302,10 @@
 #! <COMMENT
 #!   IDENTIFIER="30"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Destroyer&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="2899.9979999799989 -2073.6439064390643"
-#!   TOP_LEFT="2899.9979999799989 -2073.6439064390643"
-#!   BOTTOM_RIGHT="3553.9979999799989 -2074.6439064390643"
-#!   BOUNDING_RECT="2899.9979999799989 -2073.6439064390643 654 1"
+#!   POSITION="3853.1325313253128 -1799.0815158151572"
+#!   TOP_LEFT="3853.1325313253128 -1799.0815158151572"
+#!   BOTTOM_RIGHT="4507.1325313253128 -1800.0815158151572"
+#!   BOUNDING_RECT="3853.1325313253128 -1799.0815158151572 654 1"
 #!   ORDER="500000000000023"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -966,10 +1317,10 @@
 #! <COMMENT
 #!   IDENTIFIER="38"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;QueryableBuilding&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="2861.9979999799989 -1301.1094816795346"
-#!   TOP_LEFT="2861.9979999799989 -1301.1094816795346"
-#!   BOTTOM_RIGHT="3418.9979999799989 -1302.1094816795346"
-#!   BOUNDING_RECT="2861.9979999799989 -1301.1094816795346 557 1"
+#!   POSITION="3815.1325313253119 -1026.5470910556276"
+#!   TOP_LEFT="3815.1325313253119 -1026.5470910556276"
+#!   BOTTOM_RIGHT="4372.1325313253119 -1027.5470910556276"
+#!   BOUNDING_RECT="3815.1325313253119 -1026.5470910556276 557 1"
 #!   ORDER="500000000000025"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1010,7 +1361,7 @@
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;BuildingId&lt;closeparen&gt; IN 102328&lt;comma&gt;102327&lt;comma&gt;102325&lt;comma&gt;10236&lt;comma&gt;102322&lt;comma&gt;102312&lt;comma&gt;102351&lt;comma&gt;102307&lt;comma&gt;102305&lt;comma&gt;102302&lt;comma&gt;107870&lt;comma&gt;107873&lt;comma&gt;102301&lt;comma&gt;102295"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;BuildingId&lt;closeparen&gt; IN 102328&lt;comma&gt;102327&lt;comma&gt;102325&lt;comma&gt;102326&lt;comma&gt;102322&lt;comma&gt;102312&lt;comma&gt;102351&lt;comma&gt;102307&lt;comma&gt;102305&lt;comma&gt;102302&lt;comma&gt;107870&lt;comma&gt;107873&lt;comma&gt;102301&lt;comma&gt;102324&lt;comma&gt;102295"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
 #!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1059,8 +1410,8 @@
 #!   IDENTIFIER="19"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
-#!   POSITION="728.13228132281324 -1132.7337629223471"
-#!   BOUNDING_RECT="728.13228132281324 -1132.7337629223471 454 71"
+#!   POSITION="1681.2668126681265 -858.17137229844002"
+#!   BOUNDING_RECT="1681.2668126681265 -858.17137229844002 454 71"
 #!   ORDER="500000000000005"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1075,9 +1426,12 @@
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="easements" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; feature SET_TO &lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;BuildingId&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;new&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Aire&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;round&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;Area&lt;closeparen&gt;&lt;comma&gt;0&lt;closeparen&gt;&lt;space&gt;m&lt;u00b2&gt;&lt;quote&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Altitude&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;Format&lt;openparen&gt;%.2f&lt;comma&gt;&lt;at&gt;Value&lt;openparen&gt;_z&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;m&lt;quote&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;  object_name SET_TO Building"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; feature SET_TO &lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;BuildingId&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;new&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Aire&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;round&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;Area&lt;closeparen&gt;&lt;comma&gt;0&lt;closeparen&gt;&lt;space&gt;m&lt;u00b2&gt;&lt;quote&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Altitude&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;Format&lt;openparen&gt;%.2f&lt;comma&gt;&lt;at&gt;Value&lt;openparen&gt;_z&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;m&lt;quote&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Propri&lt;u00e9&gt;taire&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;owner&lt;closeparen&gt;&lt;quote&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Servitudes&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;&lt;at&gt;Value&lt;openparen&gt;easements&lt;closeparen&gt;&lt;quote&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;  object_name SET_TO Building"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1090,8 +1444,8 @@
 #!   IDENTIFIER="17"
 #!   TYPE="Aggregator"
 #!   VERSION="15"
-#!   POSITION="728.13228132281324 -1453.3601691864096"
-#!   BOUNDING_RECT="728.13228132281324 -1453.3601691864096 454 71"
+#!   POSITION="1681.2668126681265 -1178.7977785625026"
+#!   BOUNDING_RECT="1681.2668126681265 -1178.7977785625026 454 71"
 #!   ORDER="500000000000019"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1106,6 +1460,9 @@
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="easements" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Use Attributes From One Feature"/>
 #!     <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="Homogeneous Collection (If Possible)"/>
 #!     <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE=""/>
@@ -1140,8 +1497,8 @@
 #!   IDENTIFIER="23"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
-#!   POSITION="1351.1386731384407 -1631.2663126631251"
-#!   BOUNDING_RECT="1351.1386731384407 -1631.2663126631251 454 71"
+#!   POSITION="2304.2732044837539 -1356.703922039218"
+#!   BOUNDING_RECT="2304.2732044837539 -1356.703922039218 454 71"
 #!   ORDER="500000000000020"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1157,9 +1514,12 @@
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="easements" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; text_line_data SET_TO &lt;solidus&gt;&lt;solidus&gt;=======================================&lt;space&gt;2019&lt;comma&gt;&lt;space&gt;St&lt;u00e9&gt;phane&lt;space&gt;Malta&lt;space&gt;e&lt;space&gt;Sousa&lt;comma&gt;&lt;space&gt;sitn-vr&lt;space&gt;=======================================&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;space&gt;This&lt;space&gt;script&lt;space&gt;was&lt;space&gt;generated&lt;space&gt;by&lt;space&gt;FME:&lt;space&gt;$(WORKSPACE_NAME)&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;=====================================================================================================================&lt;lf&gt;&lt;lf&gt;using&lt;space&gt;UnityEditor&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;UnityEngine&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;System.Collections.Generic&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;System&lt;semicolon&gt;&lt;lf&gt;&lt;lf&gt;namespace&lt;space&gt;SITN&lt;lf&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;class&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;DataImporter&lt;space&gt;:&lt;space&gt;ScriptableWizard&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;private&lt;space&gt;List&lt;lt&gt;string&lt;gt&gt;&lt;space&gt;notFounds&lt;space&gt;=&lt;space&gt;new&lt;space&gt;List&lt;lt&gt;string&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;private&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;gt&gt;&lt;space&gt;&lt;at&gt;LowerCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;&lt;closeparen&gt;s&lt;space&gt;=&lt;space&gt;new&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;gt&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;at&gt;Value&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openbracket&gt;MenuItem&lt;openparen&gt;&lt;quote&gt;SITN&lt;solidus&gt;Import&lt;space&gt;&lt;at&gt;LowerCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;data&lt;quote&gt;&lt;closeparen&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;static&lt;space&gt;void&lt;space&gt;CreateWizard&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ScriptableWizard.DisplayWizard&lt;lt&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;DataImporter&lt;gt&gt;&lt;openparen&gt;&lt;quote&gt;Import&lt;space&gt;&lt;at&gt;LowerCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;data&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;OK!&lt;quote&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;void&lt;space&gt;OnWizardCreate&lt;openparen&gt;&lt;closeparen&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;void&lt;space&gt;OnWizardUpdate&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;&lt;openparen&gt;notFounds.ToArray&lt;openparen&gt;&lt;closeparen&gt;.Length&lt;space&gt;&lt;gt&gt;&lt;space&gt;0&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;helpString&lt;space&gt;=&lt;space&gt;String.Join&lt;openparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;notFounds.ToArray&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;+&lt;space&gt;&lt;quote&gt;&lt;space&gt;not&lt;space&gt;found!&lt;quote&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;helpString&lt;space&gt;+=&lt;space&gt;Environment.NewLine&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;helpString&lt;space&gt;+=&lt;space&gt;&lt;quote&gt;Please&lt;space&gt;be&lt;space&gt;sure&lt;space&gt;the&lt;space&gt;names&lt;space&gt;used&lt;space&gt;in&lt;space&gt;this&lt;space&gt;script&lt;space&gt;match&lt;space&gt;the&lt;space&gt;names&lt;space&gt;of&lt;space&gt;your&lt;space&gt;GameObjects.&lt;quote&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;space&gt;Find&lt;space&gt;objects&lt;space&gt;and&lt;space&gt;add&lt;space&gt;attributes&lt;space&gt;to&lt;space&gt;them&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;private&lt;space&gt;void&lt;space&gt;Awake&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;foreach&lt;space&gt;&lt;openparen&gt;KeyValuePair&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;gt&gt;&lt;space&gt;entry&lt;space&gt;in&lt;space&gt;&lt;at&gt;LowerCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;&lt;closeparen&gt;s&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;GameObject&lt;space&gt;go&lt;space&gt;=&lt;space&gt;GameObject.Find&lt;openparen&gt;entry.Key&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;&lt;openparen&gt;go&lt;space&gt;!=&lt;space&gt;null&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;Process&lt;openparen&gt;&lt;quote&gt;Import&lt;quote&gt;&lt;comma&gt;&lt;space&gt;entry&lt;comma&gt;&lt;space&gt;go&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;space&gt;else&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;notFounds.Add&lt;openparen&gt;entry.Key&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;catch&lt;space&gt;&lt;openparen&gt;UnityException&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;EditorUtility.DisplayDialog&lt;openparen&gt;&lt;quote&gt;Error&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;Something&lt;space&gt;went&lt;space&gt;terribly&lt;space&gt;wrong!&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;Cancel&lt;quote&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;private&lt;space&gt;void&lt;space&gt;Process&lt;openparen&gt;string&lt;space&gt;mode&lt;comma&gt;&lt;space&gt;KeyValuePair&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;gt&gt;&lt;space&gt;entry&lt;comma&gt;&lt;space&gt;GameObject&lt;space&gt;go&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;&lt;openparen&gt;mode.ToLower&lt;openparen&gt;&lt;closeparen&gt;&lt;space&gt;==&lt;space&gt;&lt;quote&gt;import&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;QueryableBuilding&lt;space&gt;qo&lt;space&gt;=&lt;space&gt;go.AddComponent&lt;lt&gt;QueryableBuilding&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;qo.aire&lt;space&gt;=&lt;space&gt;entry.Value&lt;openbracket&gt;&lt;quote&gt;Aire&lt;quote&gt;&lt;closebracket&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;qo.altitude&lt;space&gt;=&lt;space&gt;entry.Value&lt;openbracket&gt;&lt;quote&gt;Altitude&lt;quote&gt;&lt;closebracket&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;go.AddComponent&lt;lt&gt;BoxCollider&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;DestroyImmediate&lt;openparen&gt;go.GetComponent&lt;lt&gt;Queryable&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;DestroyImmediate&lt;openparen&gt;go.GetComponent&lt;lt&gt;BoxCollider&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;closecurly&gt;&lt;lf&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; text_line_data SET_TO &lt;solidus&gt;&lt;solidus&gt;=======================================&lt;space&gt;2019&lt;comma&gt;&lt;space&gt;St&lt;u00e9&gt;phane&lt;space&gt;Malta&lt;space&gt;e&lt;space&gt;Sousa&lt;comma&gt;&lt;space&gt;sitn-vr&lt;space&gt;=======================================&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;space&gt;This&lt;space&gt;script&lt;space&gt;was&lt;space&gt;generated&lt;space&gt;by&lt;space&gt;FME:&lt;space&gt;$(WORKSPACE_NAME)&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;=====================================================================================================================&lt;lf&gt;&lt;lf&gt;using&lt;space&gt;UnityEditor&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;UnityEngine&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;System.Collections.Generic&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;System&lt;semicolon&gt;&lt;lf&gt;&lt;lf&gt;namespace&lt;space&gt;SITN&lt;lf&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;class&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;DataImporter&lt;space&gt;:&lt;space&gt;ScriptableWizard&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;private&lt;space&gt;List&lt;lt&gt;string&lt;gt&gt;&lt;space&gt;notFounds&lt;space&gt;=&lt;space&gt;new&lt;space&gt;List&lt;lt&gt;string&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;private&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;gt&gt;&lt;space&gt;&lt;at&gt;LowerCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;&lt;closeparen&gt;s&lt;space&gt;=&lt;space&gt;new&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;gt&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;at&gt;Value&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;openbracket&gt;MenuItem&lt;openparen&gt;&lt;quote&gt;SITN&lt;solidus&gt;Import&lt;space&gt;&lt;at&gt;LowerCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;data&lt;quote&gt;&lt;closeparen&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;static&lt;space&gt;void&lt;space&gt;CreateWizard&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;ScriptableWizard.DisplayWizard&lt;lt&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;DataImporter&lt;gt&gt;&lt;openparen&gt;&lt;quote&gt;Import&lt;space&gt;&lt;at&gt;LowerCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;data&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;OK!&lt;quote&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;void&lt;space&gt;OnWizardCreate&lt;openparen&gt;&lt;closeparen&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;void&lt;space&gt;OnWizardUpdate&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;&lt;openparen&gt;notFounds.ToArray&lt;openparen&gt;&lt;closeparen&gt;.Length&lt;space&gt;&lt;gt&gt;&lt;space&gt;0&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;helpString&lt;space&gt;=&lt;space&gt;String.Join&lt;openparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;notFounds.ToArray&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;+&lt;space&gt;&lt;quote&gt;&lt;space&gt;not&lt;space&gt;found!&lt;quote&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;helpString&lt;space&gt;+=&lt;space&gt;Environment.NewLine&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;helpString&lt;space&gt;+=&lt;space&gt;&lt;quote&gt;Please&lt;space&gt;be&lt;space&gt;sure&lt;space&gt;the&lt;space&gt;names&lt;space&gt;used&lt;space&gt;in&lt;space&gt;this&lt;space&gt;script&lt;space&gt;match&lt;space&gt;the&lt;space&gt;names&lt;space&gt;of&lt;space&gt;your&lt;space&gt;GameObjects.&lt;quote&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;space&gt;Find&lt;space&gt;objects&lt;space&gt;and&lt;space&gt;add&lt;space&gt;attributes&lt;space&gt;to&lt;space&gt;them&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;private&lt;space&gt;void&lt;space&gt;Awake&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;foreach&lt;space&gt;&lt;openparen&gt;KeyValuePair&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;gt&gt;&lt;space&gt;entry&lt;space&gt;in&lt;space&gt;&lt;at&gt;LowerCase&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;&lt;closeparen&gt;s&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;GameObject&lt;space&gt;go&lt;space&gt;=&lt;space&gt;GameObject.Find&lt;openparen&gt;entry.Key&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;&lt;openparen&gt;go&lt;space&gt;!=&lt;space&gt;null&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;Process&lt;openparen&gt;&lt;quote&gt;Import&lt;quote&gt;&lt;comma&gt;&lt;space&gt;entry&lt;comma&gt;&lt;space&gt;go&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;space&gt;else&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;notFounds.Add&lt;openparen&gt;entry.Key&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;catch&lt;space&gt;&lt;openparen&gt;UnityException&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;EditorUtility.DisplayDialog&lt;openparen&gt;&lt;quote&gt;Error&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;Something&lt;space&gt;went&lt;space&gt;terribly&lt;space&gt;wrong!&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;Cancel&lt;quote&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;private&lt;space&gt;void&lt;space&gt;Process&lt;openparen&gt;string&lt;space&gt;mode&lt;comma&gt;&lt;space&gt;KeyValuePair&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;gt&gt;&lt;space&gt;entry&lt;comma&gt;&lt;space&gt;GameObject&lt;space&gt;go&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;&lt;openparen&gt;mode.ToLower&lt;openparen&gt;&lt;closeparen&gt;&lt;space&gt;==&lt;space&gt;&lt;quote&gt;import&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;QueryableBuilding&lt;space&gt;qo&lt;space&gt;=&lt;space&gt;go.AddComponent&lt;lt&gt;QueryableBuilding&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;qo.aire&lt;space&gt;=&lt;space&gt;entry.Value&lt;openbracket&gt;&lt;quote&gt;Aire&lt;quote&gt;&lt;closebracket&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;qo.altitude&lt;space&gt;=&lt;space&gt;entry.Value&lt;openbracket&gt;&lt;quote&gt;Altitude&lt;quote&gt;&lt;closebracket&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;qo.owner&lt;space&gt;=&lt;space&gt;entry.Value&lt;openbracket&gt;&lt;quote&gt;Propri&lt;u00e9&gt;taire&lt;quote&gt;&lt;closebracket&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;qo.easements&lt;space&gt;=&lt;space&gt;entry.Value&lt;openbracket&gt;&lt;quote&gt;Servitudes&lt;quote&gt;&lt;closebracket&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;go.AddComponent&lt;lt&gt;BoxCollider&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;DestroyImmediate&lt;openparen&gt;go.GetComponent&lt;lt&gt;Queryable&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;DestroyImmediate&lt;openparen&gt;go.GetComponent&lt;lt&gt;BoxCollider&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;closecurly&gt;&lt;lf&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1172,8 +1532,8 @@
 #!   IDENTIFIER="14"
 #!   TYPE="StringReplacer"
 #!   VERSION="5"
-#!   POSITION="1937.5193751937525 -1631.2663126631251"
-#!   BOUNDING_RECT="1937.5193751937525 -1631.2663126631251 454 71"
+#!   POSITION="2890.6539065390657 -1356.703922039218"
+#!   BOUNDING_RECT="2890.6539065390657 -1356.703922039218 454 71"
 #!   ORDER="500000000000021"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1189,6 +1549,9 @@
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="easements" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;openbracket&gt;&lt;backslash&gt;n|&lt;backslash&gt;r&lt;backslash&gt;n&lt;closebracket&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
@@ -1204,8 +1567,8 @@
 #!   IDENTIFIER="25"
 #!   TYPE="StringReplacer"
 #!   VERSION="5"
-#!   POSITION="1937.5193751937525 -1869.0166251662513"
-#!   BOUNDING_RECT="1937.5193751937525 -1869.0166251662513 454 71"
+#!   POSITION="2890.6539065390657 -1594.4542345423442"
+#!   BOUNDING_RECT="2890.6539065390657 -1594.4542345423442 454 71"
 #!   ORDER="500000000000021"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1221,6 +1584,9 @@
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="easements" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="YES"/>
 #!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="Import"/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
@@ -1236,8 +1602,8 @@
 #!   IDENTIFIER="31"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
-#!   POSITION="1351.1386731384407 -1453.3601691864096"
-#!   BOUNDING_RECT="1351.1386731384407 -1453.3601691864096 454 71"
+#!   POSITION="2304.2732044837539 -1178.7977785625026"
+#!   BOUNDING_RECT="2304.2732044837539 -1178.7977785625026 454 71"
 #!   ORDER="500000000000020"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1253,9 +1619,12 @@
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="easements" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; text_line_data SET_TO &lt;solidus&gt;&lt;solidus&gt;=======================================&lt;space&gt;2019&lt;comma&gt;&lt;space&gt;St&lt;u00e9&gt;phane&lt;space&gt;Malta&lt;space&gt;e&lt;space&gt;Sousa&lt;comma&gt;&lt;space&gt;sitn-vr&lt;space&gt;=======================================&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;space&gt;This&lt;space&gt;script&lt;space&gt;was&lt;space&gt;generated&lt;space&gt;by&lt;space&gt;FME:&lt;space&gt;$(WORKSPACE_NAME)&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;=====================================================================================================================&lt;lf&gt;&lt;lf&gt;using&lt;space&gt;UnityEditor&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;UnityEngine&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;System.Collections.Generic&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;System&lt;semicolon&gt;&lt;lf&gt;&lt;lf&gt;namespace&lt;space&gt;SITN&lt;lf&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;class&lt;space&gt;Queryable&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;:&lt;space&gt;MonoBehaviour&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;string&lt;space&gt;aire&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;string&lt;space&gt;altitude&lt;semicolon&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;space&gt;GetData&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;space&gt;new&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Aire:&lt;space&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;aire&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Altitude:&lt;space&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;altitude&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;override&lt;space&gt;string&lt;space&gt;ToString&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;List&lt;lt&gt;string&lt;gt&gt;&lt;space&gt;dataString&lt;space&gt;=&lt;space&gt;new&lt;space&gt;List&lt;lt&gt;string&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;dataString.Add&lt;openparen&gt;&lt;quote&gt;Aire:&lt;space&gt;&lt;quote&gt;&lt;space&gt;+&lt;space&gt;aire&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;dataString.Add&lt;openparen&gt;&lt;quote&gt;Altitude:&lt;space&gt;&lt;quote&gt;&lt;space&gt;+&lt;space&gt;altitude&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;space&gt;String.Join&lt;openparen&gt;Environment.NewLine&lt;comma&gt;&lt;space&gt;dataString.ToArray&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; text_line_data SET_TO &lt;solidus&gt;&lt;solidus&gt;=======================================&lt;space&gt;2019&lt;comma&gt;&lt;space&gt;St&lt;u00e9&gt;phane&lt;space&gt;Malta&lt;space&gt;e&lt;space&gt;Sousa&lt;comma&gt;&lt;space&gt;sitn-vr&lt;space&gt;=======================================&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;space&gt;This&lt;space&gt;script&lt;space&gt;was&lt;space&gt;generated&lt;space&gt;by&lt;space&gt;FME:&lt;space&gt;$(WORKSPACE_NAME)&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;lf&gt;&lt;solidus&gt;&lt;solidus&gt;=====================================================================================================================&lt;lf&gt;&lt;lf&gt;using&lt;space&gt;UnityEditor&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;UnityEngine&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;System.Collections.Generic&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;System&lt;semicolon&gt;&lt;lf&gt;using&lt;space&gt;System.Text.RegularExpressions&lt;semicolon&gt;&lt;lf&gt;&lt;lf&gt;namespace&lt;space&gt;SITN&lt;lf&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;class&lt;space&gt;Queryable&lt;at&gt;Value&lt;openparen&gt;object_name&lt;closeparen&gt;:&lt;space&gt;MonoBehaviour&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;string&lt;space&gt;aire&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;string&lt;space&gt;altitude&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;string&lt;space&gt;owner&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;string&lt;space&gt;easements&lt;semicolon&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;space&gt;GetData&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;space&gt;new&lt;space&gt;Dictionary&lt;lt&gt;string&lt;comma&gt;&lt;space&gt;string&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Aire:&lt;space&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;aire&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Altitude:&lt;space&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;altitude&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Propri&lt;u00e9&gt;taire:&lt;space&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;owner&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;quote&gt;Servitudes:&lt;space&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;easements&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;public&lt;space&gt;override&lt;space&gt;string&lt;space&gt;ToString&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;List&lt;lt&gt;string&lt;gt&gt;&lt;space&gt;dataString&lt;space&gt;=&lt;space&gt;new&lt;space&gt;List&lt;lt&gt;string&lt;gt&gt;&lt;openparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;dataString.Add&lt;openparen&gt;&lt;quote&gt;&lt;lt&gt;line-height=150%&lt;gt&gt;Aire:&lt;space&gt;&lt;quote&gt;&lt;space&gt;+&lt;space&gt;aire&lt;space&gt;+&lt;space&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;altitude:&lt;space&gt;&lt;quote&gt;&lt;space&gt;+&lt;space&gt;altitude&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;dataString.Add&lt;openparen&gt;&lt;quote&gt;&lt;lt&gt;b&lt;gt&gt;&lt;lt&gt;uppercase&lt;gt&gt;Propri&lt;u00e9&gt;t&lt;u00e9&gt;&lt;space&gt;de:&lt;lt&gt;&lt;solidus&gt;uppercase&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;b&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;line-height&lt;gt&gt;&lt;quote&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;dataString.Add&lt;openparen&gt;Regex.Replace&lt;openparen&gt;owner&lt;comma&gt;&lt;space&gt;&lt;at&gt;&lt;quote&gt;&lt;space&gt;et&lt;space&gt;&lt;quote&gt;&lt;comma&gt;&lt;space&gt;&lt;quote&gt;&lt;lt&gt;br&lt;gt&gt;&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;+&lt;space&gt;&lt;quote&gt;&lt;lt&gt;line-height=150%&lt;gt&gt;&lt;quote&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;dataString.Add&lt;openparen&gt;&lt;quote&gt;&lt;lt&gt;b&lt;gt&gt;&lt;lt&gt;uppercase&lt;gt&gt;Servitudes:&lt;lt&gt;&lt;solidus&gt;uppercase&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;b&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;line-height&lt;gt&gt;&lt;quote&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;dataString.Add&lt;openparen&gt;&lt;quote&gt;&lt;lt&gt;align=justified&lt;gt&gt;&lt;quote&gt;&lt;space&gt;+&lt;space&gt;easements&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;space&gt;String.Join&lt;openparen&gt;Environment.NewLine&lt;comma&gt;&lt;space&gt;dataString.ToArray&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;semicolon&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1268,8 +1637,8 @@
 #!   IDENTIFIER="26"
 #!   TYPE="StringReplacer"
 #!   VERSION="5"
-#!   POSITION="1937.5193751937525 -1453.3601691864096"
-#!   BOUNDING_RECT="1937.5193751937525 -1453.3601691864096 454 71"
+#!   POSITION="2890.6539065390657 -1178.7977785625026"
+#!   BOUNDING_RECT="2890.6539065390657 -1178.7977785625026 454 71"
 #!   ORDER="500000000000021"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1285,6 +1654,9 @@
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="easements" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;openbracket&gt;&lt;backslash&gt;n|&lt;backslash&gt;r&lt;backslash&gt;n&lt;closebracket&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
@@ -1296,6 +1668,81 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_4"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="34"
+#!   TYPE="FeatureMerger"
+#!   VERSION="18"
+#!   POSITION="699.13228132281324 -1268.7626876268764"
+#!   BOUNDING_RECT="699.13228132281324 -1268.7626876268764 483 71"
+#!   ORDER="500000000000026"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19617"
+#! >
+#!     <OUTPUT_FEAT NAME="MERGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="owner" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="easements" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_z" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="owner" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="easements" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="owner" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="easements" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_z" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="owner" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="easements" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
+#!     <XFORM_PARM PARM_NAME="CLEANING_TOLERANCE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;BuildingId&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;id&lt;closeparen&gt; AUTO"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -1304,6 +1751,17 @@
 #!   TARGET_NODE="5"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="40"
+#!   SOURCE_NODE="33"
+#!   TARGET_NODE="34"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 1 SUPPLIER"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1323,9 +1781,9 @@
 #! <FEAT_LINK
 #!   IDENTIFIER="20"
 #!   SOURCE_NODE="8"
-#!   TARGET_NODE="19"
+#!   TARGET_NODE="34"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
+#!   TARGET_PORT_DESC="fi 0 REQUESTOR"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1430,6 +1888,17 @@
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
+#! <FEAT_LINK
+#!   IDENTIFIER="41"
+#!   SOURCE_NODE="34"
+#!   TARGET_NODE="19"
+#!   SOURCE_PORT_DESC="fo 0 MERGED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
@@ -1442,7 +1911,7 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 37
-GUI IGNORE SourceDataset_SHAPEFILE_1,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1,SHAPEFILE_IN_ENCODING_SHAPEFILE_1,SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1,SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_ADVANCED_SHAPEFILE_1,SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_1,SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_1,SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_1,SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_1,SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_1,DestDataset_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED1_TEXTLINE_1,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED2_TEXTLINE_1,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1,TEXTLINE_OUT_ENCODING_TEXTLINE_1,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED3_TEXTLINE_1,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_1,DestDataset_TEXTLINE_2,TEXTLINE_OUT_FME_GROUP_NAMED1_TEXTLINE_2,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_2,TEXTLINE_OUT_FME_GROUP_NAMED2_TEXTLINE_2,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_2,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_2,TEXTLINE_OUT_ENCODING_TEXTLINE_2,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_2,TEXTLINE_OUT_FME_GROUP_NAMED3_TEXTLINE_2,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_2,DestDataset_TEXTLINE_3,TEXTLINE_OUT_FME_GROUP_NAMED1_TEXTLINE_3,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_3,TEXTLINE_OUT_FME_GROUP_NAMED2_TEXTLINE_3,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_3,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_3,TEXTLINE_OUT_ENCODING_TEXTLINE_3,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_3,TEXTLINE_OUT_FME_GROUP_NAMED3_TEXTLINE_3,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_3
+GUI IGNORE SourceDataset_SHAPEFILE_1,SHAPEFILE_IN_READER_PARAMETERS_SHAPEFILE_1,SHAPEFILE_IN_ENCODING_SHAPEFILE_1,SHAPEFILE_IN_USE_SEARCH_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MINY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXX_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_MAXY_SHAPEFILE_1,SHAPEFILE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_SHAPEFILE_1,SHAPEFILE_IN_CLIP_TO_ENVELOPE_SHAPEFILE_1,SHAPEFILE_IN_ADVANCED_SHAPEFILE_1,SHAPEFILE_IN_TRIM_PRECEDING_SPACES_SHAPEFILE_1,SHAPEFILE_IN_DONUT_DETECTION_SHAPEFILE_1,SHAPEFILE_IN_MEASURES_AS_Z_SHAPEFILE_1,SHAPEFILE_IN_REPORT_BAD_GEOMETRY_SHAPEFILE_1,SHAPEFILE_IN_NETWORK_AUTHENTICATION_SHAPEFILE_1,SourceDataset_XLSXR_1,XLSXR_IN_MANYFILE_XLSXR_1,XLSXR_IN_ADVANCED_XLSXR_1,XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC_XLSXR_1,XLSXR_IN_READ_BLANK_AS_XLSXR_1,XLSXR_IN_EXPAND_MERGED_CELLS_XLSXR_1,XLSXR_IN_NETWORK_AUTHENTICATION_XLSXR_1,DestDataset_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED1_TEXTLINE_1,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED2_TEXTLINE_1,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1,TEXTLINE_OUT_ENCODING_TEXTLINE_1,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED3_TEXTLINE_1,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_1,DestDataset_TEXTLINE_2,TEXTLINE_OUT_FME_GROUP_NAMED1_TEXTLINE_2,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_2,TEXTLINE_OUT_FME_GROUP_NAMED2_TEXTLINE_2,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_2,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_2,TEXTLINE_OUT_ENCODING_TEXTLINE_2,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_2,TEXTLINE_OUT_FME_GROUP_NAMED3_TEXTLINE_2,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_2,DestDataset_TEXTLINE_3,TEXTLINE_OUT_FME_GROUP_NAMED1_TEXTLINE_3,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_3,TEXTLINE_OUT_FME_GROUP_NAMED2_TEXTLINE_3,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_3,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_3,TEXTLINE_OUT_ENCODING_TEXTLINE_3,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_3,TEXTLINE_OUT_FME_GROUP_NAMED3_TEXTLINE_3,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_3
 DEFAULT_MACRO SourceDataset_SHAPEFILE C:\Projects\sitn-vr\datasource\02_buildings\Ground.shp
 GUI MULTIFILE SourceDataset_SHAPEFILE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
 DEFAULT_MACRO DestDataset_TEXTLINE C:\Projects\sitn-vr\unity\Assets\Models
@@ -1451,16 +1920,22 @@ DEFAULT_MACRO DestDataset_TEXTLINE_5 C:\Projects\sitn-vr\unity\Assets\Models
 GUI FILENAME DestDataset_TEXTLINE_5 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
 DEFAULT_MACRO DestDataset_TEXTLINE_4 C:\Projects\sitn-vr\unity\Assets\Models
 GUI FILENAME DestDataset_TEXTLINE_4 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
+DEFAULT_MACRO SourceDataset_XLSXR C:\Projects\sitn-vr\datasource\05_attributes\land_registry.xlsx
+GUI MULTIFILE SourceDataset_XLSXR Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|Excel_Workbook_2007(*.xlsx)|*.xlsx|Excel_Macro_Workbook(*.xlsm)|*.xlsm|Excel_Workbook_Pre_2007(*.xls)|*.xls|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_files(*)|* Source Microsoft Excel File(s):
 INCLUDE [ if {{$(SourceDataset_SHAPEFILE)} == {}} { puts_real {Parameter 'SourceDataset_SHAPEFILE' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_TEXTLINE)} == {}} { puts_real {Parameter 'DestDataset_TEXTLINE' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_TEXTLINE_5)} == {}} { puts_real {Parameter 'DestDataset_TEXTLINE_5' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_TEXTLINE_4)} == {}} { puts_real {Parameter 'DestDataset_TEXTLINE_4' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_XLSXR)} == {}} { puts_real {Parameter 'SourceDataset_XLSXR' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
 MULTI_READER_TYPE{0} SHAPEFILE
 MULTI_READER_KEYWORD{0} SHAPEFILE_1
 MULTI_READER_GEN_DIRECTIVES{0} SEARCH_ENVELOPE_MAXX,0,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_MAXY,0,SEARCH_ENVELOPE_MINY,0,_MERGE_SCHEMAS,YES,MEASURES_AS_Z,No,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,TRIM_PRECEDING_SPACES,Yes,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,ENCODING,fme-source-encoding,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,CLIP_TO_ENVELOPE,NO,SHAPEFILE_EXPOSE_FORMAT_ATTRS,,REPORT_BAD_GEOMETRY,No,ADVANCED,,DONUT_DETECTION,ORIENTATION
+MULTI_READER_TYPE{1} XLSXR
+MULTI_READER_KEYWORD{1} XLSXR_1
+MULTI_READER_GEN_DIRECTIVES{1} TABLELIST,Feuil1,CREATE_FEATURE_TABLES_FROM_DATA,Yes,EXPOSE_ATTRS_GROUP,,READ_BLANK_AS,Missing,_MERGE_SCHEMAS,YES,CONFIGURATION_DATASET,C:<backslash>Projects<backslash>sitn-vr<backslash>datasource<backslash>05_attributes<backslash>land_registry.xlsx,SCHEMA,Feuil1<comma>0<lt>comma<gt>id<lt>comma<gt>number<lt>comma<gt>7<lt>comma<gt>0<lt>comma<gt><lt>comma<gt>1<lt>comma<gt>owner<lt>comma<gt>char<lt>comma<gt>39<lt>comma<gt><lt>comma<gt><lt>comma<gt>2<lt>comma<gt>easements<lt>comma<gt>char<lt>comma<gt>136<lt>comma<gt><lt>comma<gt><comma>1<lt>comma<gt><lt>comma<gt><lt>comma<gt><comma>NO<lt>comma<gt>NO<lt>comma<gt>1<lt>comma<gt>C:<lt>backslash<gt>Projects<lt>backslash<gt>sitn-vr<lt>backslash<gt>datasource<lt>backslash<gt>05_attributes<lt>backslash<gt>land_registry.xlsx<lt>comma<gt><lt>quote<gt>0<lt>comma<gt>0<lt>comma<gt>2<lt>comma<gt>14<lt>quote<gt><lt>comma<gt><lt>comma<gt>NO<lt>comma<gt>NO,ADVANCED,,EXPAND_MERGED_CELLS,Yes,XLSXR_EXPOSE_FORMAT_ATTRS,,STRIP_SHEETNAME_SPACES,YES,FORCE_DATETIME,NO,USE_SCHEMA_OTHER_FILES,No,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,ALLOW_DOLLAR_SIGNS,YES,SCAN_SCHEMA_IF_DYNAMIC,No,CASE_SENSITIVE_FEATURE_TYPES,YES,MANYFILE,,EXCEL_COL_NAMES,YES
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
 MULTI_WRITER_FIRST_WRITER_ID 0
@@ -1583,6 +2058,74 @@ SHAPEFILE_1_ATTRIBUTE_READING "$(SHAPEFILE_IN_ATTRIBUTE_READING_SHAPEFILE_1)"
 # ============================================================================ 
 SHAPEFILE_1_GENERATE_FME_BUILD_NUM 19617
 SHAPEFILE_1_DATASET "$(SourceDataset_SHAPEFILE_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "XLSXR_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER XLSXR XLSXR_1
+# ============================================================================
+# First get the dataset for the database. For Excel, it's the file name.
+# For now we'll use whatever they had when they generated this mapping file,
+# and not reprompt
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_XLSXR_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER XLSXR XLSXR_1
+DEFAULT_MACRO SourceDataset_XLSXR_1 $(SourceDataset_XLSXR)
+GUI MULTIFILE SourceDataset_XLSXR_1 Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|Excel_Workbook_2007(*.xlsx)|*.xlsx|Excel_Macro_Workbook(*.xlsm)|*.xlsm|Excel_Workbook_Pre_2007(*.xls)|*.xls|All_files(*)|* Source Microsoft Excel File(s):
+#GUI GROUP TABLELIST Constraints
+# TABLELIST is not shown in GUI, but is required for infrastructure
+# to not show the Table List popup
+DEFAULT_MACRO XLSXR_IN_CONFIGURATION_DATASET_XLSXR_1 C:\Projects\sitn-vr\datasource\05_attributes\land_registry.xlsx
+XLSXR_1_CONFIGURATION_DATASET "$(XLSXR_IN_CONFIGURATION_DATASET_XLSXR_1)"
+# Flag to switch from old naming scheme of col_1, col_2 etc. to a, b, etc.
+# To better match up with Excel files
+DEFAULT_MACRO XLSXR_IN_EXCEL_COL_NAMES_XLSXR_1 YES
+XLSXR_1_EXCEL_COL_NAMES "$(XLSXR_IN_EXCEL_COL_NAMES_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_FORCE_DATETIME_XLSXR_1 NO
+XLSXR_1_FORCE_DATETIME "$(XLSXR_IN_FORCE_DATETIME_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_MANYFILE_XLSXR_1 
+GUI OPTIONAL DISCLOSUREGROUP XLSXR_IN_MANYFILE_XLSXR_1 XLSXR_IN_USE_SCHEMA_OTHER_FILES Multiple File Parameters
+DEFAULT_MACRO XLSXR_IN_USE_SCHEMA_OTHER_FILES_XLSXR_1 No
+XLSXR_1_USE_SCHEMA_OTHER_FILES "$(XLSXR_IN_USE_SCHEMA_OTHER_FILES_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_ADVANCED_XLSXR_1 
+GUI OPTIONAL DISCLOSUREGROUP XLSXR_IN_ADVANCED_XLSXR_1 XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC_XLSXR_1%XLSXR_IN_READ_BLANK_AS_XLSXR_1%XLSXR_IN_EXPAND_MERGED_CELLS_XLSXR_1 Advanced
+DEFAULT_MACRO XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC_XLSXR_1 No
+XLSXR_1_SCAN_SCHEMA_IF_DYNAMIC "$(XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC_XLSXR_1)"
+GUI OPTIONAL CHECKBOX XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC_XLSXR_1 Yes%No Scan Schema in Dynamic Workflow:
+DEFAULT_MACRO XLSXR_IN_READ_BLANK_AS_XLSXR_1 Missing
+XLSXR_1_READ_BLANK_AS "$(XLSXR_IN_READ_BLANK_AS_XLSXR_1)"
+GUI CHOICE XLSXR_IN_READ_BLANK_AS_XLSXR_1 Missing%Null Read blank cells as:
+DEFAULT_MACRO XLSXR_IN_EXPAND_MERGED_CELLS_XLSXR_1 Yes
+XLSXR_1_EXPAND_MERGED_CELLS "$(XLSXR_IN_EXPAND_MERGED_CELLS_XLSXR_1)"
+GUI OPTIONAL CHECKBOX XLSXR_IN_EXPAND_MERGED_CELLS_XLSXR_1 Yes%No Expand Merged Cells:
+DEFAULT_MACRO XLSXR_IN_EXPOSE_ATTRS_GROUP_XLSXR_1 
+XLSXR_1_EXPOSE_ATTRS_GROUP "$(XLSXR_IN_EXPOSE_ATTRS_GROUP_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_XLSXR_1 Yes
+XLSXR_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(XLSXR_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_CASE_SENSITIVE_FEATURE_TYPES_XLSXR_1 YES
+XLSXR_1_CASE_SENSITIVE_FEATURE_TYPES "$(XLSXR_IN_CASE_SENSITIVE_FEATURE_TYPES_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_ALLOW_DOLLAR_SIGNS_XLSXR_1 YES
+XLSXR_1_ALLOW_DOLLAR_SIGNS "$(XLSXR_IN_ALLOW_DOLLAR_SIGNS_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_CREATE_FEATURE_TABLES_FROM_DATA_XLSXR_1 Yes
+XLSXR_1_CREATE_FEATURE_TABLES_FROM_DATA "$(XLSXR_IN_CREATE_FEATURE_TABLES_FROM_DATA_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_STRIP_SHEETNAME_SPACES_XLSXR_1 YES
+XLSXR_1_STRIP_SHEETNAME_SPACES "$(XLSXR_IN_STRIP_SHEETNAME_SPACES_XLSXR_1)"
+# ===========================================================================
+DEFAULT_MACRO XLSXR_IN_NETWORK_AUTHENTICATION_XLSXR_1 
+XLSXR_1_NETWORK_AUTHENTICATION "$(XLSXR_IN_NETWORK_AUTHENTICATION_XLSXR_1)"
+GUI OPTIONAL AUTHENTICATOR XLSXR_IN_NETWORK_AUTHENTICATION_XLSXR_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ============================================================================ 
+DEFAULT_MACRO XLSXR_IN_ATTRIBUTE_READING_XLSXR_1 DEFLINE
+XLSXR_1_ATTRIBUTE_READING "$(XLSXR_IN_ATTRIBUTE_READING_XLSXR_1)"
+# ============================================================================ 
+XLSXR_1_GENERATE_FME_BUILD_NUM 19617
+XLSXR_1_DATASET "$(SourceDataset_XLSXR_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "TEXTLINE_1"
@@ -1804,7 +2347,7 @@ TEXTLINE_3_FANOUT_EXPRESSION @EvaluateExpression(FDIV,STRING_ENCODED,Queryable<a
 #! END_WB_HEADER
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)shapefile2textline2.log"
+LOG_FILENAME "$(FME_MF_DIR)00_ImportAttributes.log"
 LOG_APPEND NO
 LOG_TIMINGS YES
 LOG_FILTER_MASK -1
@@ -1815,6 +2358,7 @@ FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 DEFAULT_MACRO DATASET_KEYWORD_SHAPEFILE_1 SHAPEFILE_1
+DEFAULT_MACRO DATASET_KEYWORD_XLSXR_1 XLSXR_1
 DEFAULT_MACRO DATASET_KEYWORD_TEXTLINE_1 TEXTLINE_1
 DEFAULT_MACRO DATASET_KEYWORD_TEXTLINE_2 TEXTLINE_2
 DEFAULT_MACRO DATASET_KEYWORD_TEXTLINE_3 TEXTLINE_3
@@ -1824,24 +2368,32 @@ SHAPEFILE_1_READER_META_ATTRIBUTES fme_feature_type
 
 # -------------------------------------------------------------------------
 
+XLSXR_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME shapefile2textline2
+MACRO WORKSPACE_NAME 00_ImportAttributes
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 SHAPEFILE_1_DEF Ground   shapefile_type               shapefile_polygon   BuildingId                   char(254)   Area                         double   secteur_ID                   long   fme_featur                   char(50)
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD $(DATASET_KEYWORD_SHAPEFILE_1)   INPUT FEATURE_TYPE *    ROUTE SHAPEFILE SHAPEFILE_1::Ground multi_reader_keyword,$(DATASET_KEYWORD_SHAPEFILE_1) TO FME_GENERIC ::Ground ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE SHAPEFILE SHAPEFILE_1::Ground multi_reader_keyword,$(DATASET_KEYWORD_SHAPEFILE_1) TO FME_GENERIC ::Ground ALIAS_GEOMETRY    ROUTE XLSXR XLSXR_1::Feuil1 multi_reader_keyword,$(DATASET_KEYWORD_XLSXR_1) TO FME_GENERIC ::Feuil1 ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 SHAPEFILE_1_MERGE_DEF SHAPEFILE_1::Ground EXACT Ground
+XLSXR_1_MERGE_DEF XLSXR_1::Feuil1 EXACT Feuil1 DEFLINE xlsx_start_row,,xlsx_end_row,,xlsx_header_row,0,xlsx_schema_end_row,0,xlsx_schema_end_col,0,xlsx_schema_start_col,0,xlsx_schema_start_row,1,fme_attribute_reading,defined,id,number<openparen>7<comma>0<closeparen>,owner,char<openparen>39<closeparen>,easements,char<openparen>136<closeparen>
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "Ground (SHAPEFILE_1) Splitter"    INPUT FEATURE_TYPE Ground    OUTPUT FEATURE_TYPE Ground_SHAPEFILE_1
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Feuil1 (XLSXR_1) Splitter"    INPUT FEATURE_TYPE Feuil1    OUTPUT FEATURE_TYPE Feuil1_XLSXR_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE Ground_SHAPEFILE_1    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>BuildingId<closeparen>,Tester) IN 102328<comma>102327<comma>102325<comma>10236<comma>102322<comma>102312<comma>102351<comma>102307<comma>102305<comma>102302<comma>107870<comma>107873<comma>102301<comma>102295 ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    FEATURE_TABLE_SHIM_SUPPORT Yes    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE Ground_SHAPEFILE_1    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>BuildingId<closeparen>,Tester) IN 102328<comma>102327<comma>102325<comma>102326<comma>102322<comma>102312<comma>102351<comma>102307<comma>102305<comma>102302<comma>107870<comma>107873<comma>102301<comma>102324<comma>102295 ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    FEATURE_TABLE_SHIM_SUPPORT Yes    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
 # -------------------------------------------------------------------------
 INCLUDE [    set supplyZFunc {};    if { {} != {} }    {       set supplyZFunc "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING, \"_z\", ,FLOAT)";    };    puts "MACRO CoordinateExtractor_SUPPLY_Z ${supplyZFunc}"; ]
 FACTORY_DEF * TestFactory    FACTORY_NAME CoordinateExtractor_TESTZDEFAULT    INPUT  FEATURE_TYPE Tester_PASSED    TEST "" NOT_ATTRIBUTE_HAS_A_VALUE "" ENCODED    TEST "" TYPE NUM ENCODED    BOOLEAN_OPERATOR OR    FEATURE_TABLE_SHIM_SUPPORT Yes    OUTPUT PASSED FEATURE_TYPE CoordinateExtractor_TESTMODE_INPUT    OUTPUT FAILED FEATURE_TYPE CoordinateExtractor_<REJECTED>       @SupplyAttributes(fme_rejection_code, INVALID_PARAMETER_DEFAULT_Z)
@@ -1854,16 +2406,21 @@ FACTORY_DEF * ExecuteFunctionFactory    FACTORY_NAME CoordinateExtractor_SPECIFI
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME CoordinateExtractor_<Rejected> INPUT FEATURE_TYPE CoordinateExtractor_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, CoordinateExtractor<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_3    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE CoordinateExtractor_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "feature" "SET_TO" "<space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote><at>Value<openparen>BuildingId<closeparen><quote><comma><space>new<space>Dictionary<lt>string<comma><space>string<gt><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Aire<quote><comma><space><quote><at>round<openparen><at>Value<openparen>Area<closeparen><comma>0<closeparen><space>m<u00b2><quote><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Altitude<quote><comma><space><quote><at>Format<openparen>%.2f<comma><at>Value<openparen>_z<closeparen><closeparen><space>m<quote><space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly>" }      ATTR_ACTION { "" "object_name" "SET_TO" "Building" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT
+INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger    FLUSH_WHEN_GROUPS_CHANGE No    INPUT REFERENCER FEATURE_TYPE CoordinateExtractor_OUTPUT    INPUT REFERENCEE FEATURE_TYPE Feuil1_XLSXR_1    REFERENCE_INFO $(FeatureMerger_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>BuildingId<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>id<closeparen>,FeatureMerger) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES NO    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    CLEANING_TOLERANCE <Unused>    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_MERGED    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_<Rejected> INPUT FEATURE_TYPE FeatureMerger_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_3    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureMerger_MERGED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "feature" "SET_TO" "<space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote><at>Value<openparen>BuildingId<closeparen><quote><comma><space>new<space>Dictionary<lt>string<comma><space>string<gt><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Aire<quote><comma><space><quote><at>round<openparen><at>Value<openparen>Area<closeparen><comma>0<closeparen><space>m<u00b2><quote><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Altitude<quote><comma><space><quote><at>Format<openparen>%.2f<comma><at>Value<openparen>_z<closeparen><closeparen><space>m<quote><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Propri<u00e9>taire<quote><comma><space><quote><at>Value<openparen>owner<closeparen><quote><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Servitudes<quote><comma><space><quote><at>Value<openparen>easements<closeparen><quote><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly>" }      ATTR_ACTION { "" "object_name" "SET_TO" "Building" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    MODE ONE_LEVEL    FLUSH_WHEN_GROUPS_CHANGE No    REMOVE_GEOMETRY NO    ACCUMULATE_ATTRIBUTES One    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CONCATENATE_FIELDS { feature }    SEPARATOR <comma><lf>    PRODUCE_MULTIS YES    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Aggregator AGGREGATE Splitter"   INPUT FEATURE_TYPE Aggregator_AGGREGATE   OUTPUT FEATURE_TYPE Aggregator_AGGREGATE_0_Gs1ZrERRaes=   OUTPUT FEATURE_TYPE Aggregator_AGGREGATE_1_Lur5dBPiR/o=
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_4    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Aggregator_AGGREGATE_1_Lur5dBPiR/o=    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "text_line_data" "SET_TO" "<solidus><solidus>=======================================<space>2019<comma><space>St<u00e9>phane<space>Malta<space>e<space>Sousa<comma><space>sitn-vr<space>=======================================<lf><solidus><solidus><lf><solidus><solidus><space>This<space>script<space>was<space>generated<space>by<space>FME:<space>$(WORKSPACE_NAME$encode)<lf><solidus><solidus><lf><solidus><solidus>=====================================================================================================================<lf><lf>using<space>UnityEditor<semicolon><lf>using<space>UnityEngine<semicolon><lf>using<space>System.Collections.Generic<semicolon><lf>using<space>System<semicolon><lf><lf>namespace<space>SITN<lf><opencurly><lf><space><space><space><space>public<space>class<space>Queryable<at>Value<openparen>object_name<closeparen>:<space>MonoBehaviour<lf><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space>public<space>string<space>aire<semicolon><lf><space><space><space><space><space><space><space><space>public<space>string<space>altitude<semicolon><lf><lf><space><space><space><space><space><space><space><space>public<space>Dictionary<lt>string<comma><space>string<gt><space>GetData<openparen><closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>return<space>new<space>Dictionary<lt>string<comma><space>string<gt><openparen><closeparen><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Aire:<space><quote><comma><space>aire<closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Altitude:<space><quote><comma><space>altitude<space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><semicolon><lf><space><space><space><space><space><space><space><space><closecurly><lf><lf><space><space><space><space><space><space><space><space>public<space>override<space>string<space>ToString<openparen><closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>List<lt>string<gt><space>dataString<space>=<space>new<space>List<lt>string<gt><openparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space>dataString.Add<openparen><quote>Aire:<space><quote><space>+<space>aire<closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space>dataString.Add<openparen><quote>Altitude:<space><quote><space>+<space>altitude<closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space>return<space>String.Join<openparen>Environment.NewLine<comma><space>dataString.ToArray<openparen><closeparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><closecurly><lf><closecurly>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_4    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Aggregator_AGGREGATE_1_Lur5dBPiR/o=    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "text_line_data" "SET_TO" "<solidus><solidus>=======================================<space>2019<comma><space>St<u00e9>phane<space>Malta<space>e<space>Sousa<comma><space>sitn-vr<space>=======================================<lf><solidus><solidus><lf><solidus><solidus><space>This<space>script<space>was<space>generated<space>by<space>FME:<space>$(WORKSPACE_NAME$encode)<lf><solidus><solidus><lf><solidus><solidus>=====================================================================================================================<lf><lf>using<space>UnityEditor<semicolon><lf>using<space>UnityEngine<semicolon><lf>using<space>System.Collections.Generic<semicolon><lf>using<space>System<semicolon><lf>using<space>System.Text.RegularExpressions<semicolon><lf><lf>namespace<space>SITN<lf><opencurly><lf><space><space><space><space>public<space>class<space>Queryable<at>Value<openparen>object_name<closeparen>:<space>MonoBehaviour<lf><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space>public<space>string<space>aire<semicolon><lf><space><space><space><space><space><space><space><space>public<space>string<space>altitude<semicolon><lf><space><space><space><space><space><space><space><space>public<space>string<space>owner<semicolon><lf><space><space><space><space><space><space><space><space>public<space>string<space>easements<semicolon><lf><lf><space><space><space><space><space><space><space><space>public<space>Dictionary<lt>string<comma><space>string<gt><space>GetData<openparen><closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>return<space>new<space>Dictionary<lt>string<comma><space>string<gt><openparen><closeparen><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Aire:<space><quote><comma><space>aire<closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Altitude:<space><quote><comma><space>altitude<space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Propri<u00e9>taire:<space><quote><comma><space>owner<space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><space><quote>Servitudes:<space><quote><comma><space>easements<space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><semicolon><lf><space><space><space><space><space><space><space><space><closecurly><lf><lf><space><space><space><space><space><space><space><space>public<space>override<space>string<space>ToString<openparen><closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>List<lt>string<gt><space>dataString<space>=<space>new<space>List<lt>string<gt><openparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space>dataString.Add<openparen><quote><lt>line-height=150%<gt>Aire:<space><quote><space>+<space>aire<space>+<space><quote><comma><space>altitude:<space><quote><space>+<space>altitude<closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space>dataString.Add<openparen><quote><lt>b<gt><lt>uppercase<gt>Propri<u00e9>t<u00e9><space>de:<lt><solidus>uppercase<gt><lt><solidus>b<gt><lt><solidus>line-height<gt><quote><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space>dataString.Add<openparen>Regex.Replace<openparen>owner<comma><space><at><quote><space>et<space><quote><comma><space><quote><lt>br<gt><quote><closeparen><space>+<space><quote><lt>line-height=150%<gt><quote><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space>dataString.Add<openparen><quote><lt>b<gt><lt>uppercase<gt>Servitudes:<lt><solidus>uppercase<gt><lt><solidus>b<gt><lt><solidus>line-height<gt><quote><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space>dataString.Add<openparen><quote><lt>align=justified<gt><quote><space>+<space>easements<closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space>return<space>String.Join<openparen>Environment.NewLine<comma><space>dataString.ToArray<openparen><closeparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><closecurly><lf><closecurly>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} StringReplacerFactory    FACTORY_NAME StringReplacer_4    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT    USE_REGEX YES    CASE_SENSITIVE NO    SOURCE_ATTRIBUTES { text_line_data }    FIND_TEXT { <openbracket><backslash>n|<backslash>r<backslash>n<closebracket> }    REPLACE_TEXT { <cr><lf> }    REPLACE_NO_MATCH { _FME_NO_OP_ }    OUTPUT OUTPUT FEATURE_TYPE StringReplacer_4_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Aggregator_AGGREGATE_0_Gs1ZrERRaes=    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "text_line_data" "SET_TO" "<solidus><solidus>=======================================<space>2019<comma><space>St<u00e9>phane<space>Malta<space>e<space>Sousa<comma><space>sitn-vr<space>=======================================<lf><solidus><solidus><lf><solidus><solidus><space>This<space>script<space>was<space>generated<space>by<space>FME:<space>$(WORKSPACE_NAME$encode)<lf><solidus><solidus><lf><solidus><solidus>=====================================================================================================================<lf><lf>using<space>UnityEditor<semicolon><lf>using<space>UnityEngine<semicolon><lf>using<space>System.Collections.Generic<semicolon><lf>using<space>System<semicolon><lf><lf>namespace<space>SITN<lf><opencurly><lf><space><space><space><space>public<space>class<space><at>Value<openparen>object_name<closeparen>DataImporter<space>:<space>ScriptableWizard<lf><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space>private<space>List<lt>string<gt><space>notFounds<space>=<space>new<space>List<lt>string<gt><openparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space>private<space>Dictionary<lt>string<comma><space>Dictionary<lt>string<comma><space>string<gt><gt><space><at>LowerCase<openparen><at>Value<openparen>object_name<closeparen><closeparen>s<space>=<space>new<space>Dictionary<lt>string<comma><space>Dictionary<lt>string<comma><space>string<gt><gt><lf><space><space><space><space><space><space><space><space><opencurly><lf><at>Value<openparen>feature<closeparen><lf><space><space><space><space><space><space><space><space><closecurly><semicolon><lf><lf><lf><space><space><space><space><space><space><space><space><openbracket>MenuItem<openparen><quote>SITN<solidus>Import<space><at>LowerCase<openparen><at>Value<openparen>object_name<closeparen><closeparen><space>data<quote><closeparen><closebracket><lf><space><space><space><space><space><space><space><space>static<space>void<space>CreateWizard<openparen><closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>ScriptableWizard.DisplayWizard<lt><at>Value<openparen>object_name<closeparen>DataImporter<gt><openparen><quote>Import<space><at>LowerCase<openparen><at>Value<openparen>object_name<closeparen><closeparen><space>data<quote><comma><space><quote>OK!<quote><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space>void<space>OnWizardCreate<openparen><closeparen><space><opencurly><space><closecurly><lf><space><space><space><space><space><space><space><space>void<space>OnWizardUpdate<openparen><closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>if<space><openparen>notFounds.ToArray<openparen><closeparen>.Length<space><gt><space>0<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>helpString<space>=<space>String.Join<openparen><quote><comma><space><quote><comma><space>notFounds.ToArray<openparen><closeparen><closeparen><space>+<space><quote><space>not<space>found!<quote><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>helpString<space>+=<space>Environment.NewLine<semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>helpString<space>+=<space><quote>Please<space>be<space>sure<space>the<space>names<space>used<space>in<space>this<space>script<space>match<space>the<space>names<space>of<space>your<space>GameObjects.<quote><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><closecurly><lf><lf><space><space><space><space><space><space><space><space><solidus><solidus><space>Find<space>objects<space>and<space>add<space>attributes<space>to<space>them<lf><space><space><space><space><space><space><space><space>private<space>void<space>Awake<openparen><closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>try<lf><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>foreach<space><openparen>KeyValuePair<lt>string<comma><space>Dictionary<lt>string<comma><space>string<gt><gt><space>entry<space>in<space><at>LowerCase<openparen><at>Value<openparen>object_name<closeparen><closeparen>s<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>GameObject<space>go<space>=<space>GameObject.Find<openparen>entry.Key<closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>if<space><openparen>go<space>!=<space>null<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>Process<openparen><quote>Import<quote><comma><space>entry<comma><space>go<closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><space>else<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>notFounds.Add<openparen>entry.Key<closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>catch<space><openparen>UnityException<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>EditorUtility.DisplayDialog<openparen><quote>Error<quote><comma><space><quote>Something<space>went<space>terribly<space>wrong!<quote><comma><space><quote>Cancel<quote><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>return<semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><closecurly><lf><space><lf><space><space><space><space><space><space><space><space>private<space>void<space>Process<openparen>string<space>mode<comma><space>KeyValuePair<lt>string<comma><space>Dictionary<lt>string<comma><space>string<gt><gt><space>entry<comma><space>GameObject<space>go<closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>if<space><openparen>mode.ToLower<openparen><closeparen><space>==<space><quote>import<quote><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>QueryableBuilding<space>qo<space>=<space>go.AddComponent<lt>QueryableBuilding<gt><openparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>qo.aire<space>=<space>entry.Value<openbracket><quote>Aire<quote><closebracket><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>qo.altitude<space>=<space>entry.Value<openbracket><quote>Altitude<quote><closebracket><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>go.AddComponent<lt>BoxCollider<gt><openparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>else<lf><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>DestroyImmediate<openparen>go.GetComponent<lt>Queryable<at>Value<openparen>object_name<closeparen><gt><openparen><closeparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>DestroyImmediate<openparen>go.GetComponent<lt>BoxCollider<gt><openparen><closeparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><closecurly><lf><closecurly><lf>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Aggregator_AGGREGATE_0_Gs1ZrERRaes=    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "text_line_data" "SET_TO" "<solidus><solidus>=======================================<space>2019<comma><space>St<u00e9>phane<space>Malta<space>e<space>Sousa<comma><space>sitn-vr<space>=======================================<lf><solidus><solidus><lf><solidus><solidus><space>This<space>script<space>was<space>generated<space>by<space>FME:<space>$(WORKSPACE_NAME$encode)<lf><solidus><solidus><lf><solidus><solidus>=====================================================================================================================<lf><lf>using<space>UnityEditor<semicolon><lf>using<space>UnityEngine<semicolon><lf>using<space>System.Collections.Generic<semicolon><lf>using<space>System<semicolon><lf><lf>namespace<space>SITN<lf><opencurly><lf><space><space><space><space>public<space>class<space><at>Value<openparen>object_name<closeparen>DataImporter<space>:<space>ScriptableWizard<lf><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space>private<space>List<lt>string<gt><space>notFounds<space>=<space>new<space>List<lt>string<gt><openparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space>private<space>Dictionary<lt>string<comma><space>Dictionary<lt>string<comma><space>string<gt><gt><space><at>LowerCase<openparen><at>Value<openparen>object_name<closeparen><closeparen>s<space>=<space>new<space>Dictionary<lt>string<comma><space>Dictionary<lt>string<comma><space>string<gt><gt><lf><space><space><space><space><space><space><space><space><opencurly><lf><at>Value<openparen>feature<closeparen><lf><space><space><space><space><space><space><space><space><closecurly><semicolon><lf><lf><lf><space><space><space><space><space><space><space><space><openbracket>MenuItem<openparen><quote>SITN<solidus>Import<space><at>LowerCase<openparen><at>Value<openparen>object_name<closeparen><closeparen><space>data<quote><closeparen><closebracket><lf><space><space><space><space><space><space><space><space>static<space>void<space>CreateWizard<openparen><closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>ScriptableWizard.DisplayWizard<lt><at>Value<openparen>object_name<closeparen>DataImporter<gt><openparen><quote>Import<space><at>LowerCase<openparen><at>Value<openparen>object_name<closeparen><closeparen><space>data<quote><comma><space><quote>OK!<quote><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space>void<space>OnWizardCreate<openparen><closeparen><space><opencurly><space><closecurly><lf><space><space><space><space><space><space><space><space>void<space>OnWizardUpdate<openparen><closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>if<space><openparen>notFounds.ToArray<openparen><closeparen>.Length<space><gt><space>0<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>helpString<space>=<space>String.Join<openparen><quote><comma><space><quote><comma><space>notFounds.ToArray<openparen><closeparen><closeparen><space>+<space><quote><space>not<space>found!<quote><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>helpString<space>+=<space>Environment.NewLine<semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>helpString<space>+=<space><quote>Please<space>be<space>sure<space>the<space>names<space>used<space>in<space>this<space>script<space>match<space>the<space>names<space>of<space>your<space>GameObjects.<quote><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><closecurly><lf><lf><space><space><space><space><space><space><space><space><solidus><solidus><space>Find<space>objects<space>and<space>add<space>attributes<space>to<space>them<lf><space><space><space><space><space><space><space><space>private<space>void<space>Awake<openparen><closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>try<lf><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>foreach<space><openparen>KeyValuePair<lt>string<comma><space>Dictionary<lt>string<comma><space>string<gt><gt><space>entry<space>in<space><at>LowerCase<openparen><at>Value<openparen>object_name<closeparen><closeparen>s<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>GameObject<space>go<space>=<space>GameObject.Find<openparen>entry.Key<closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>if<space><openparen>go<space>!=<space>null<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>Process<openparen><quote>Import<quote><comma><space>entry<comma><space>go<closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><space>else<lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>notFounds.Add<openparen>entry.Key<closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>catch<space><openparen>UnityException<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>EditorUtility.DisplayDialog<openparen><quote>Error<quote><comma><space><quote>Something<space>went<space>terribly<space>wrong!<quote><comma><space><quote>Cancel<quote><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>return<semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><closecurly><lf><space><lf><space><space><space><space><space><space><space><space>private<space>void<space>Process<openparen>string<space>mode<comma><space>KeyValuePair<lt>string<comma><space>Dictionary<lt>string<comma><space>string<gt><gt><space>entry<comma><space>GameObject<space>go<closeparen><lf><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>if<space><openparen>mode.ToLower<openparen><closeparen><space>==<space><quote>import<quote><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>QueryableBuilding<space>qo<space>=<space>go.AddComponent<lt>QueryableBuilding<gt><openparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>qo.aire<space>=<space>entry.Value<openbracket><quote>Aire<quote><closebracket><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>qo.altitude<space>=<space>entry.Value<openbracket><quote>Altitude<quote><closebracket><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>qo.owner<space>=<space>entry.Value<openbracket><quote>Propri<u00e9>taire<quote><closebracket><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>qo.easements<space>=<space>entry.Value<openbracket><quote>Servitudes<quote><closebracket><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>go.AddComponent<lt>BoxCollider<gt><openparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><space><space><space><space>else<lf><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>DestroyImmediate<openparen>go.GetComponent<lt>Queryable<at>Value<openparen>object_name<closeparen><gt><openparen><closeparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>DestroyImmediate<openparen>go.GetComponent<lt>BoxCollider<gt><openparen><closeparen><closeparen><semicolon><lf><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><space><space><space><space><closecurly><lf><space><space><space><space><closecurly><lf><closecurly><lf>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} StringReplacerFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    USE_REGEX YES    CASE_SENSITIVE NO    SOURCE_ATTRIBUTES { text_line_data }    FIND_TEXT { <openbracket><backslash>n|<backslash>r<backslash>n<closebracket> }    REPLACE_TEXT { <cr><lf> }    REPLACE_NO_MATCH { _FME_NO_OP_ }    OUTPUT OUTPUT FEATURE_TYPE StringReplacer_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "StringReplacer OUTPUT Splitter"   INPUT FEATURE_TYPE StringReplacer_OUTPUT   OUTPUT FEATURE_TYPE StringReplacer_OUTPUT_0_YABdbDPF8pE=   OUTPUT FEATURE_TYPE StringReplacer_OUTPUT_1_KAu4m3XiKNw=
@@ -1871,7 +2428,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "StringReplacer OUTPUT Splitter"   INPUT
 FACTORY_DEF {*} StringReplacerFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE StringReplacer_OUTPUT_1_KAu4m3XiKNw=    USE_REGEX NO    CASE_SENSITIVE YES    SOURCE_ATTRIBUTES { text_line_data }    FIND_TEXT { Import }    REPLACE_TEXT { Destroy }    REPLACE_NO_MATCH { _FME_NO_OP_ }    OUTPUT OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC StringReplacer_OUTPUT_0_YABdbDPF8pE= TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_4_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_2_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC StringReplacer_2_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_OUTPUT_0_YABdbDPF8pE= TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC StringReplacer_4_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__

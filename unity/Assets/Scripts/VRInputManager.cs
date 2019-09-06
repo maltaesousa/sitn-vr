@@ -5,10 +5,12 @@
 //
 //=====================================================================================================================
 
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Valve.VR;
+using Valve.VR.InteractionSystem;
 
 
 /// <summary>
@@ -60,6 +62,8 @@ public class VRInputManager : BaseInputModule
     private Camera menuPointerCamera = null;
     private bool trackpadIsPristine = true;
     private Dictionary<string, SteamVR_ActionSet> modes;
+    private Player player;
+    private bool isFirstTimeBuildingMode = true;
 
     //-------------------------------------------------
     // Active GameObject attached to this Hand
@@ -99,7 +103,13 @@ public class VRInputManager : BaseInputModule
         touchTrackpad.onStateUp -= TrackpadTouchOut;
         fingerPosition.onAxis -= BuildingRotate;
         touchDeleteTrackpad.onStateDown -= DeleteBuilding;
+    }
 
+    protected override void Start()
+    {
+        base.Start();
+        player = Player.instance;
+        Invoke("ShowMenuHint", 2.0f);
     }
 
     public override void Process()
@@ -138,14 +148,13 @@ public class VRInputManager : BaseInputModule
         menuPointerWithCamera.Show(pointerIsActive);
         if (menuIsActive)
         {
-            Debug.Log("ACTIVATE MENU");
             ActivateActionSetByMode("menu");
         }
         else
         {
-            Debug.Log("DEACTIVATE MENU");
             ActivateActionSetByMode("default");
         }
+        CancelMenuHint();
     }
 
     //-------------------------------------------------
@@ -157,15 +166,6 @@ public class VRInputManager : BaseInputModule
         ToggleMenu(pointerIsActive);
         menuPointerWithCamera.SetMode(mode);
         ActivateActionSetByMode(mode);
-        
-    }
-
-    //-------------------------------------------------
-    // Helper to activate an Action Set
-    //-------------------------------------------------
-    public void ActivateActionSet(SteamVR_ActionSet newActionSet, int priority)
-    {
-        newActionSet.Activate(SteamVR_Input_Sources.Any, 1);
     }
 
     //-------------------------------------------------
@@ -319,7 +319,7 @@ public class VRInputManager : BaseInputModule
     //-------------------------------------------------
     // Handles trigger release action to drop the building
     //-------------------------------------------------
-    private void ActivateActionSetByMode(string mode)
+    public void ActivateActionSetByMode(string mode)
     {
         Dictionary<string, SteamVR_ActionSet> deactivateModes = new Dictionary<string, SteamVR_ActionSet>(modes);
         deactivateModes.Remove(mode);
@@ -339,5 +339,41 @@ public class VRInputManager : BaseInputModule
             }
         }
 
+        if (isFirstTimeBuildingMode && mode == "moving")
+        {
+            Invoke("ShowMovingHint", 0.5f);
+            isFirstTimeBuildingMode = false;
+        } else
+        {
+            CancelMovingHint();
+        }
+    }
+
+    public void ShowMenuHint()
+    {
+        CancelMenuHint();
+        ControllerButtonHints.ShowTextHint(player.rightHand, openMenu, "Menu");
+    }
+
+    public void CancelMenuHint()
+    {
+        ControllerButtonHints.HideTextHint(player.rightHand, openMenu);
+        CancelInvoke("ShowMenuHint");
+    }
+
+    public void ShowMovingHint()
+    {
+        CancelMovingHint();
+        ControllerButtonHints.ShowTextHint(
+            player.rightHand, grabBuilding,"Maintenir la gachette pour déplacer un bâtiment");
+        // NOT WORKING
+        ControllerButtonHints.ShowTextHint(
+            player.rightHand, moveBuilding, "Éloigner, Approcher et pivoter un bâtiment");
+    }
+
+    public void CancelMovingHint()
+    {
+        ControllerButtonHints.HideTextHint(player.rightHand, grabBuilding);
+        CancelInvoke("ShowMovingHint");
     }
 }

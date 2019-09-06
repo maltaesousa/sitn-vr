@@ -83,4 +83,18 @@ public class PlayableBuilding : MonoBehaviour
         // if no material is found by name, return the first one.
         return materials[0];
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.GetType() == typeof(TerrainCollider))
+        {
+            ParticleSystem dust = GetComponentInChildren<ParticleSystem>();
+            AudioSource boom = GetComponentInChildren<AudioSource>();
+            if (dust != null && boom != null)
+            {
+                dust.Play();
+                boom.Play();
+            }
+        }
+    }
 }

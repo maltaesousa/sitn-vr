@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using Valve.VR.InteractionSystem;
 using SITN;
+using TMPro;
 
 public class SitnPointer : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class SitnPointer : MonoBehaviour
     public Material deleteMaterial;
     public Material infoMaterial;
     public Canvas attributeTextCanvas;
-    public Text attributeTextArea;
+    public TextMeshProUGUI attributeTextArea;
 
     private LineRenderer lineRenderer = null;
     private bool autoLength = true;
@@ -134,7 +135,7 @@ public class SitnPointer : MonoBehaviour
         }
 
         if (autoLength && hit.collider != null && !hit.collider.isTrigger)
-        {   
+        {
             endPosition = hit.point;
             lastLength = hit.distance;
             InteractWithCollider(hit.collider);
