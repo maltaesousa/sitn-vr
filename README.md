@@ -40,7 +40,12 @@ Process the data:
 - FME >= 2019.1
 - QGIS >= 3.6
 
-## Playing the prototype
+
+## Playing the prototype on Windows
+
+Download the latest build for Windows from releases section.
+
+## Playing the prototype from Unity
 
 1. Clone this repository
 1. Connect your VR device and make sure SteamVR is running
