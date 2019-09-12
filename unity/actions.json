@@ -96,12 +96,17 @@
       "name": "/actions/MovingBuildings/in/TouchTrackpad",
       "type": "boolean",
       "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/deleteBuildings/in/PressTrackpad",
+      "type": "boolean",
+      "requirement": "mandatory"
     }
   ],
   "action_sets": [
     {
       "name": "/actions/default",
-      "usage": "single"
+      "usage": "leftright"
     },
     {
       "name": "/actions/platformer",
@@ -121,6 +126,10 @@
     },
     {
       "name": "/actions/MovingBuildings",
+      "usage": "leftright"
+    },
+    {
+      "name": "/actions/deleteBuildings",
       "usage": "leftright"
     }
   ],
@@ -174,7 +183,8 @@
       "/actions/default/in/SkeletonRightHand": "Skeleton (Right)",
       "/actions/default/in/Teleport": "Teleport",
       "/actions/default/out/Haptic": "Haptic",
-      "/actions/platformer/in/Jump": "Jump"
+      "/actions/platformer/in/Jump": "Jump",
+      "/actions/MovingBuildings/in/Move": "Move"
     }
   ]
 }

@@ -171,15 +171,6 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/default/in/teleport"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/hand/right/input/trackpad"
-            },
-            {
-               "inputs" : {
-                  "click" : {
                      "output" : "/actions/default/in/grabgrip"
                   }
                },
@@ -226,6 +217,19 @@
                },
                "mode" : "button",
                "path" : "/user/hand/right/input/application_menu"
+            }
+         ]
+      },
+      "/actions/deletebuildings" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/deletebuildings/in/presstrackpad"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/right/input/trackpad"
             }
          ]
       },
@@ -314,7 +318,7 @@
    "category" : "steamvr_input",
    "controller_type" : "vive_controller",
    "description" : "",
-   "name" : "Proto4",
+   "name" : "Proto5",
    "options" : {},
    "simulated_actions" : []
 }

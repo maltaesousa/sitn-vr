@@ -1,21 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿//======================================= 2019, Stéphane Malta e Sousa, sitn-vr =======================================
+//
+// Main menu state control
+//
+//=====================================================================================================================
+
 using UnityEngine;
 
-public class MainMenu : MonoBehaviour
+namespace SITN
 {
-    [Header("Scene Objects")]
-    public Camera thecamera = null;
-
-    // Start is called before the first frame update
-    void Start()
+    public class MainMenu : MonoBehaviour
     {
-        Show(false);
+        [Header("Scene Objects")]
+        public Camera thecamera = null; // expose camera
+
+        //-------------------------------------------------
+        // Activates menu
+        //-------------------------------------------------
+        public void Show(bool value)
+        {
+            Debug.Log("MENU: " + value);
+            gameObject.SetActive(value);
+        }
     }
 
-    public void Show(bool value)
-    {
-        gameObject.SetActive(value);
-    }
 }
-

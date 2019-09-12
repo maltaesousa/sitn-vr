@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1441423731}
   - component: {fileID: 1441423732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3198e0227628761448d3e2915cc5cabc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultLength: 10
+  defaultLength: 100
   endDot: {fileID: 4002957960209136771}
   hand: {fileID: 1441423732}
   inputModule: {fileID: 0}
+  deleteMaterial: {fileID: 2100000, guid: 7f2925b58ba29744895d137004d8a5b2, type: 2}
+  infoMaterial: {fileID: 2100000, guid: e2714e9fcc2826b4baed58f6c6baee4a, type: 2}

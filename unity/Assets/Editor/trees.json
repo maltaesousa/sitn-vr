@@ -1,0 +1,1310 @@
+﻿{ "trees": [
+  {
+    "coordinates": [0.308, 0.088],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.2691999999992549, 0.054799999999813734],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.30759999999962745, 0.025200000000186264],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.116, 0.08520000000018627],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.20880000000074506, 0.017200000000186264],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.4604000000003725, 0.04959999999962747],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.08280000000074506, 0.23279999999981374],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.05440000000037253, 0.11120000000018626],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.19, 0.116],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.11240000000037254, 0.18240000000037254],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.14159999999962747, 0.17440000000037253],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.216, 0.16479999999981373],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.33480000000074506, 0.13079999999981373],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.2664000000003725, 0.19040000000037252],
+    "prototypeIndex": 1,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.17159999999962747, 0.27920000000018624],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.162, 0.28720000000018625],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.21640000000037252, 0.26679999999981374],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.19880000000074505, 0.29920000000018626],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.32559999999962747, 0.2995999999996275],
+    "prototypeIndex": 0,
+    "heightScale": 0.8,
+    "widthScale": 0.8
+  },
+  {
+    "coordinates": [0.4, 0.3404000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.41919999999925495, 0.134],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.43319999999925496, 0.22040000000037252],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.49959999999962745, 0.18359999999962748],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.254, 0.5347999999998138],
+    "prototypeIndex": 1,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.2724000000003725, 0.5155999999996275],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.28919999999925494, 0.5007999999998137],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.25640000000037255, 0.516],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.10919999999925495, 0.5575999999996275],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.21480000000074506, 0.43320000000018627],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.21759999999962748, 0.36440000000037254],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.2795999999996275, 0.37240000000037254],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.416, 0.4207999999998137],
+    "prototypeIndex": 0,
+    "heightScale": 0.8,
+    "widthScale": 0.8
+  },
+  {
+    "coordinates": [0.6504000000003726, 0.22040000000037252],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.48640000000037253, 0.21720000000018627],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.476, 0.19],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.44359999999962746, 0.12879999999981373],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.45480000000074505, 0.09359999999962747],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.969199999999255, 0.07359999999962748],
+    "prototypeIndex": 1,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.8244000000003725, 0.08920000000018627],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.824800000000745, 0.21959999999962748],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.8808000000007451, 0.22159999999962748],
+    "prototypeIndex": 0,
+    "heightScale": 0.7,
+    "widthScale": 0.7
+  },
+  {
+    "coordinates": [0.9755999999996274, 0.12520000000018627],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.9344000000003725, 0.222],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.9495999999996275, 0.25],
+    "prototypeIndex": 0,
+    "heightScale": 0.8,
+    "widthScale": 0.8
+  },
+  {
+    "coordinates": [0.9675999999996274, 0.312],
+    "prototypeIndex": 1,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.6584000000003726, 0.5187999999998137],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.7235999999996274, 0.4787999999998137],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.766, 0.5127999999998137],
+    "prototypeIndex": 0,
+    "heightScale": 0.8,
+    "widthScale": 0.8
+  },
+  {
+    "coordinates": [0.8415999999996274, 0.40920000000018625],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.836, 0.4907999999998137],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.8924000000003726, 0.38679999999981374],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.9624000000003725, 0.564],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.9708000000007451, 0.5472000000001863],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.9324000000003725, 0.5335999999996275],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.9911999999992549, 0.4215999999996275],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.935199999999255, 0.5035999999996275],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.9144000000003726, 0.4784000000003725],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.9151999999992549, 0.4604000000003725],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.936, 0.38],
+    "prototypeIndex": 1,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.8828000000007451, 0.43440000000037254],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.9935999999996274, 0.28520000000018625],
+    "prototypeIndex": 1,
+    "heightScale": 0.9,
+    "widthScale": 0.9
+  },
+  {
+    "coordinates": [0.8435999999996274, 0.6224000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.24919999999925493, 0.048799999999813735],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.5695999999996275, 0.24320000000018627],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.558, 0.19079999999981373],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.404, 0.116],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.9948000000007451, 0.01040000000037253],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.8424000000003725, 0.11920000000018627],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.192, 0.9572000000001862],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.20759999999962747, 0.96],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.29119999999925494, 0.8667999999998137],
+    "prototypeIndex": 1,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.32359999999962746, 0.006799999999813735],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.2731999999992549, 0.038799999999813733],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.23159999999962746, 0.07240000000037253],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.05640000000037253, 0.17559999999962747],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.041199999999254944, 0.22040000000037252],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.05159999999962747, 0.5744000000003725],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.336, 0.34720000000018625],
+    "prototypeIndex": 0,
+    "heightScale": 0.7,
+    "widthScale": 0.7
+  },
+  {
+    "coordinates": [0.32680000000074505, 0.19679999999981374],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.304, 0.228],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.10280000000074506, 0.11120000000018626],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.09080000000074506, 0.24759999999962748],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.10440000000037253, 0.18959999999962748],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.13840000000037253, 0.11],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.21719999999925493, 0.214],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.23480000000074505, 0.2],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.216, 0.31959999999962746],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.23640000000037253, 0.3292000000001863],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.2691999999992549, 0.322],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.2928000000007451, 0.192],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.5744000000003725, 0.17040000000037253],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.5684000000003725, 0.16079999999981373],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.4788000000007451, 0.24440000000037254],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.4511999999992549, 0.20840000000037254],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.4188000000007451, 0.31040000000037254],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.4228000000007451, 0.11320000000018626],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.3475999999996275, 0.4987999999998137],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.31040000000037254, 0.5115999999996275],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.30840000000037254, 0.3627999999998137],
+    "prototypeIndex": 0,
+    "heightScale": 0.7,
+    "widthScale": 0.7
+  },
+  {
+    "coordinates": [0.09919999999925494, 0.5692000000001862],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.15319999999925493, 0.5635999999996275],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.20880000000074506, 0.37359999999962745],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.18280000000074506, 0.5775999999996275],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.21959999999962748, 0.46479999999981375],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.593199999999255, 0.5112000000001863],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.5475999999996275, 0.518],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.5255999999996275, 0.5152000000001863],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.4855999999996275, 0.6035999999996274],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.474, 0.512],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.466, 0.544],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.4288000000007451, 0.548],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.4175999999996275, 0.44359999999962746],
+    "prototypeIndex": 0,
+    "heightScale": 0.8,
+    "widthScale": 0.8
+  },
+  {
+    "coordinates": [0.3648000000007451, 0.5152000000001863],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.847199999999255, 0.23279999999981374],
+    "prototypeIndex": 1,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.9944000000003725, 0.15959999999962748],
+    "prototypeIndex": 1,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.9728000000007451, 0.166],
+    "prototypeIndex": 1,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.9, 0.22359999999962746],
+    "prototypeIndex": 1,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.86, 0.48959999999962744],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.8684000000003725, 0.3912000000001863],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.638, 0.5475999999996275],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.6311999999992549, 0.5387999999998138],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.6715999999996275, 0.6044000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.6964000000003725, 0.4855999999996275],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.7088000000007451, 0.5084000000003726],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.7428000000007451, 0.522],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.7575999999996275, 0.5912000000001862],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.7611999999992549, 0.5772000000001862],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.78, 0.5584000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.929199999999255, 0.5964000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.9124000000003726, 0.392],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.9055999999996275, 0.4055999999996275],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.8955999999996275, 0.452],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.07519999999925495, 0.6664000000003726],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.16319999999925494, 0.6904000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.234, 0.6455999999996275],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.2664000000003725, 0.8624000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.3028000000007451, 0.6584000000003726],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.31559999999962746, 0.6287999999998137],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.338, 0.8664000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.4835999999996275, 0.6187999999998137],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.845199999999255, 0.806],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.8335999999996274, 0.8615999999996274],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.845199999999255, 0.766],
+    "prototypeIndex": 0,
+    "heightScale": 0.7,
+    "widthScale": 0.7
+  },
+  {
+    "coordinates": [0.799199999999255, 0.662],
+    "prototypeIndex": 1,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.7591999999992549, 0.6444000000003726],
+    "prototypeIndex": 1,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.834, 0.6652000000001863],
+    "prototypeIndex": 1,
+    "heightScale": 0.7,
+    "widthScale": 0.7
+  },
+  {
+    "coordinates": [0.8468000000007451, 0.7435999999996274],
+    "prototypeIndex": 0,
+    "heightScale": 0.8,
+    "widthScale": 0.8
+  },
+  {
+    "coordinates": [0.318, 0.07279999999981374],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.29919999999925495, 0.053200000000186265],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.2975999999996275, 0.042],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.23080000000074505, 0.02359999999962747],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.148, 0.03320000000018626],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.13480000000074505, 0.025200000000186264],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.042, 0.2664000000003725],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.07159999999962748, 0.22440000000037252],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.05680000000074506, 0.23840000000037254],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.03919999999925494, 0.5744000000003725],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.015599999999627471, 0.43120000000018627],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.116, 0.11040000000037253],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.21319999999925493, 0.10679999999981374],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.21240000000037254, 0.23320000000018626],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.288, 0.13720000000018626],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.20080000000074505, 0.26879999999981374],
+    "prototypeIndex": 1,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.29440000000037253, 0.15520000000018627],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.32359999999962746, 0.162],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.23640000000037253, 0.3504000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.5264000000003726, 0.22240000000037252],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.5155999999996275, 0.17759999999962747],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.4531999999992549, 0.2624000000003725],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.4644000000003725, 0.218],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.37159999999962745, 0.3404000000003725],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.44559999999962746, 0.23559999999962747],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.36240000000037254, 0.13479999999981374],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.382, 0.11120000000018626],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.32480000000074505, 0.5032000000001863],
+    "prototypeIndex": 0,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.21640000000037252, 0.5987999999998137],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.23640000000037253, 0.5472000000001863],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.33919999999925493, 0.40279999999981375],
+    "prototypeIndex": 0,
+    "heightScale": 0.7,
+    "widthScale": 0.7
+  },
+  {
+    "coordinates": [0.18880000000074507, 0.5904000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.15959999999962748, 0.5984000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.252, 0.38959999999962747],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.22480000000074507, 0.4084000000003725],
+    "prototypeIndex": 0,
+    "heightScale": 0.7,
+    "widthScale": 0.7
+  },
+  {
+    "coordinates": [0.48640000000037253, 0.536],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.504, 0.5072000000001863],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.488, 0.51],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.40719999999925494, 0.5252000000001863],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.4044000000003725, 0.49120000000018627],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.37159999999962745, 0.49120000000018627],
+    "prototypeIndex": 0,
+    "heightScale": 0.5,
+    "widthScale": 0.5
+  },
+  {
+    "coordinates": [0.4075999999996275, 0.41],
+    "prototypeIndex": 0,
+    "heightScale": 0.8,
+    "widthScale": 0.8
+  },
+  {
+    "coordinates": [0.7875999999996275, 0.04840000000037253],
+    "prototypeIndex": 1,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.9831999999992549, 0.04320000000018626],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.6435999999996275, 0.14759999999962747],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.6368000000007451, 0.184],
+    "prototypeIndex": 1,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.949199999999255, 0.3415999999996275],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.9804000000003725, 0.19040000000037252],
+    "prototypeIndex": 1,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.8495999999996274, 0.5784000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.7,
+    "widthScale": 0.7
+  },
+  {
+    "coordinates": [0.831199999999255, 0.5027999999998137],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.7451999999992549, 0.5492000000001863],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.8315999999996275, 0.4144000000003725],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.7628000000007451, 0.4744000000003725],
+    "prototypeIndex": 0,
+    "heightScale": 0.7,
+    "widthScale": 0.7
+  },
+  {
+    "coordinates": [0.690800000000745, 0.5075999999996275],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.766, 0.43320000000018627],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.9424000000003725, 0.556],
+    "prototypeIndex": 0,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.9455999999996275, 0.5392000000001863],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.961199999999255, 0.4367999999998137],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.9828000000007451, 0.3924000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.4,
+    "widthScale": 0.4
+  },
+  {
+    "coordinates": [0.963199999999255, 0.39],
+    "prototypeIndex": 1,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.07759999999962747, 0.6275999999996275],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.17280000000074505, 0.6775999999996275],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.258, 0.614],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.30559999999962745, 0.6227999999998137],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.27919999999925493, 0.8647999999998137],
+    "prototypeIndex": 1,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.59, 0.6452000000001863],
+    "prototypeIndex": 0,
+    "heightScale": 0.6,
+    "widthScale": 0.6
+  },
+  {
+    "coordinates": [0.484, 0.9704000000003725],
+    "prototypeIndex": 1,
+    "heightScale": 0.1,
+    "widthScale": 0.1
+  },
+  {
+    "coordinates": [0.831199999999255, 0.7992000000001863],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.8668000000007451, 0.6087999999998137],
+    "prototypeIndex": 0,
+    "heightScale": 0.3,
+    "widthScale": 0.3
+  },
+  {
+    "coordinates": [0.888, 0.672],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  },
+  {
+    "coordinates": [0.7408000000007451, 0.9995999999996275],
+    "prototypeIndex": 1,
+    "heightScale": 0.2,
+    "widthScale": 0.2
+  }
+]}
