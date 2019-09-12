@@ -15,14 +15,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="2507.76 544.068"
-#!   DOC_TOP_LEFT="13.7499 -1491.82"
+#!   DOC_EXTENTS="3734.51 1669.71"
+#!   DOC_TOP_LEFT="-28.2501 -1910.58"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="19602"
-#!   FME_DOCUMENT_GUID="e3dfde3a-44ab-489b-8af0-a0033f72d978"
-#!   FME_DOCUMENT_PRIORGUID="7f98a752-f490-437a-92d3-f60d0e911941,b6fcc75b-0998-4830-8277-a53a1c1a66b5,85b37511-55d2-4b90-8f2d-142f2420a2b7,38a5a1a8-fb48-49d7-b0fa-140c6e91cef8,82c6a220-cf52-40b2-890e-ba87c1be9238"
+#!   FME_BUILD_NUM="19617"
+#!   FME_DOCUMENT_GUID="f40386a7-a352-49f9-ba07-348fcf8880b9"
+#!   FME_DOCUMENT_PRIORGUID="7f98a752-f490-437a-92d3-f60d0e911941,b6fcc75b-0998-4830-8277-a53a1c1a66b5,85b37511-55d2-4b90-8f2d-142f2420a2b7,38a5a1a8-fb48-49d7-b0fa-140c6e91cef8,82c6a220-cf52-40b2-890e-ba87c1be9238,e3dfde3a-44ab-489b-8af0-a0033f72d978"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -30,8 +30,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2019.1.0.0 (20190629 - Build 19602 - WIN64)"
-#!   LAST_SAVE_DATE="2019-08-25T16:50:55"
+#!   LAST_SAVE_BUILD="FME(R) 2019.1.1.0 (20190801 - Build 19617 - WIN64)"
+#!   LAST_SAVE_DATE="2019-09-12T19:54:49"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -50,10 +50,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-662.507 -196.877"
+#!   VIEW_POSITION="-96.3551 98.9593"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="100"
+#!   ZOOM_SCALE="120"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -69,7 +69,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string char(50) fme_geometry char(50) fme_rotation double shape_geometry_error{} char(254) multi_reader_keyword char(50) fme_sweep_angle double multi_reader_full_id long fme_secondary_axis double fme_fill_color char(50) fme_feature_type char(50) fme_text_size double fme_type char(50) shape_measures char(254) fme_basename char(50) multi_reader_type char(50) SHAPE_GEOMETRY char(50) fme_primary_axis double fme_dataset char(50) fme_color char(50) fme_start_angle double multi_reader_id long"
+#!   EXPOSABLE_ATTRS="fme_fill_color char(50) fme_basename char(50) fme_start_angle double fme_text_size double multi_reader_type char(50) multi_reader_keyword char(50) SHAPE_GEOMETRY char(50) fme_sweep_angle double multi_reader_full_id long fme_type char(50) fme_dataset char(50) fme_primary_axis double fme_secondary_axis double shape_measures char(254) fme_color char(50) multi_reader_id long fme_geometry char(50) fme_feature_type char(50) fme_rotation double shape_geometry_error{} char(254) fme_text_string char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -127,7 +127,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string char(50) fme_geometry char(50) fme_rotation double shape_geometry_error{} char(254) multi_reader_keyword char(50) fme_sweep_angle double multi_reader_full_id long fme_secondary_axis double fme_fill_color char(50) fme_feature_type char(50) fme_text_size double fme_type char(50) shape_measures char(254) fme_basename char(50) multi_reader_type char(50) SHAPE_GEOMETRY char(50) fme_primary_axis double fme_dataset char(50) fme_color char(50) fme_start_angle double multi_reader_id long"
+#!   EXPOSABLE_ATTRS="fme_fill_color char(50) fme_basename char(50) fme_start_angle double fme_text_size double multi_reader_type char(50) multi_reader_keyword char(50) SHAPE_GEOMETRY char(50) fme_sweep_angle double multi_reader_full_id long fme_type char(50) fme_dataset char(50) fme_primary_axis double fme_secondary_axis double shape_measures char(254) fme_color char(50) multi_reader_id long fme_geometry char(50) fme_feature_type char(50) fme_rotation double shape_geometry_error{} char(254) fme_text_string char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -185,7 +185,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis number(31,15) fme_secondary_axis number(31,15) fme_type char(50) fme_geometry char(50) fme_text_size number(31,15) fme_rotation number(31,15) fme_basename char(50) fme_dataset char(50) fme_fill_color char(50) fme_start_angle number(31,15) fme_color char(50) text_line_eol char(10) fme_text_string char(50) fme_feature_type char(50) fme_sweep_angle number(31,15)"
+#!   EXPOSABLE_ATTRS="fme_fill_color char(50) text_line_eol char(10) fme_rotation number(31,15) fme_sweep_angle number(31,15) fme_secondary_axis number(31,15) fme_dataset char(50) fme_color char(50) fme_text_size number(31,15) fme_start_angle number(31,15) fme_type char(50) fme_geometry char(50) fme_basename char(50) fme_feature_type char(50) fme_primary_axis number(31,15) fme_text_string char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -757,10 +757,10 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="12"
 #!   FEAT_GEOMTYPE="shape_point"
-#!   POSITION="13.749937499375051 -947.75681256812572"
-#!   BOUNDING_RECT="13.749937499375051 -947.75681256812572 454 71"
-#!   ORDER="500000000000000"
-#!   COLLAPSED="true"
+#!   POSITION="13.749937499375051 -575.87809378093777"
+#!   BOUNDING_RECT="13.749937499375051 -575.87809378093777 454 71"
+#!   ORDER="500000000000015"
+#!   COLLAPSED="false"
 #!   KEYWORD="ESRISHAPE_1"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -809,13 +809,13 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="20"
 #!   FEAT_GEOMTYPE="text_line_none"
-#!   POSITION="1984.3638436384344 -1420.8244532445328"
-#!   BOUNDING_RECT="1984.3638436384344 -1420.8244532445328 454 71"
+#!   POSITION="1865.6126561265592 -1839.5786407864082"
+#!   BOUNDING_RECT="1865.6126561265592 -1839.5786407864082 454 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="TEXTLINE_1"
 #!   PARMS_EDITED="true"
-#!   ENABLED="false"
+#!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="text_line_data" ATTR_TYPE="buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -870,6 +870,92 @@
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="29"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Trees points&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-28.250062500624949 -423.62740627406276"
+#!   TOP_LEFT="-28.250062500624949 -423.62740627406276"
+#!   BOTTOM_RIGHT="284.37784377843775 -522.37809378093789"
+#!   BOUNDING_RECT="-28.250062500624949 -423.62740627406276 312.6279062790627 98.750687506875067"
+#!   ORDER="500000000000014"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="12"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="30"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Adds bounds information to trees&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="693.75693756937608 -410.25568755687567"
+#!   TOP_LEFT="693.75693756937608 -410.25568755687567"
+#!   BOTTOM_RIGHT="1176.7569375693761 -411.25568755687567"
+#!   BOUNDING_RECT="693.75693756937608 -410.25568755687567 483 1"
+#!   ORDER="500000000000016"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="15"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="27"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Concatenates all features separating them by a comma&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1931.2383123831219 -1116.6351563515632"
+#!   TOP_LEFT="1931.2383123831219 -1116.6351563515632"
+#!   BOTTOM_RIGHT="2385.2383123831219 -1117.6351563515632"
+#!   BOUNDING_RECT="1931.2383123831219 -1116.6351563515632 454 1"
+#!   ORDER="500000000000018"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="23"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="32"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Writes JSON&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2536.9947499474979 -1811.8279532795332"
+#!   TOP_LEFT="2536.9947499474979 -1811.8279532795332"
+#!   BOTTOM_RIGHT="3098.9947499474979 -1812.8279532795332"
+#!   BOUNDING_RECT="2536.9947499474979 -1811.8279532795332 562 1"
+#!   ORDER="500000000000020"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="20"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="19"
+#!   COMMENT_VALUE="&lt;b&gt;AttributeCreator_2&amp;nbsp;[AttributeCreator]&lt;/b&gt;&lt;br&gt;Attributes&amp;nbsp;To&amp;nbsp;Create:&lt;table border=0 cellspacing=0&gt;&lt;tr&gt;&lt;td valign=middle&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;table border=1 cellspacing=0 cellpadding=2&gt;&lt;tr&gt;&lt;td&gt;New&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Attribute&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unity_x&lt;/td&gt;&lt;td&gt;@Evaluate((@Value(easting)-@Value(_xmin))/(@Value(_xmax)-@Value(_xmin)))&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unity_z&lt;/td&gt;&lt;td&gt;@Evaluate((@Value(northing)-@Value(_ymin))/(@Value(_ymax)-@Value(_ymin)))&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;prototypeIndex&lt;/td&gt;&lt;td&gt;&amp;lt;2&amp;nbsp;Possible&amp;nbsp;Values&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;heightscale&lt;/td&gt;&lt;td&gt;&amp;lt;2&amp;nbsp;Possible&amp;nbsp;Values&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;widthScale&lt;/td&gt;&lt;td&gt;@Value(heightscale)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;feature&lt;/td&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;{&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;coordinates&amp;quot;:&amp;nbsp;[@Value(unity_x),&amp;nbsp;@Value(unity_z)],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;prototypeIndex&amp;quot;:&amp;nbsp;@Value(prototypeIndex),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;heightScale&amp;quot;:&amp;nbsp;@Format(%.1f,@Value(heightscale)),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;quot;widthScale&amp;quot;:&amp;nbsp;@Format(%.1f,@Value(widthScale))&lt;br&gt;...&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
+#!   POSITION="1865.6126561265592 -240.87034370343713"
+#!   TOP_LEFT="1865.6126561265592 -240.87034370343713"
+#!   BOTTOM_RIGHT="3706.2555625556233 -239.87034370343713"
+#!   BOUNDING_RECT="1865.6126561265592 -240.87034370343713 1840.6429064290642 -1"
+#!   ORDER="500000000000017"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="true"
+#!   CUSTOM_USER_COLOR="false"
+#!   ANCHORED_NODE="17"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="31"
+#!   COMMENT_VALUE="&lt;b&gt;AttributeCreator&amp;nbsp;[AttributeCreator]&lt;/b&gt;&lt;br&gt;Attributes&amp;nbsp;To&amp;nbsp;Create:&lt;table border=0 cellspacing=0&gt;&lt;tr&gt;&lt;td valign=middle&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;table border=1 cellspacing=0 cellpadding=2&gt;&lt;tr&gt;&lt;td&gt;New&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Attribute&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;text_line_data&lt;/td&gt;&lt;td&gt;{&amp;nbsp;&amp;quot;trees&amp;quot;:&amp;nbsp;[&lt;br&gt;@Value(feature)&lt;br&gt;]}&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
+#!   POSITION="1865.6126561265592 -1346.449359493595"
+#!   TOP_LEFT="1865.6126561265592 -1346.449359493595"
+#!   BOTTOM_RIGHT="2634.369843698435 -1345.449359493595"
+#!   BOUNDING_RECT="1865.6126561265592 -1346.449359493595 768.75718757187565 -1"
+#!   ORDER="500000000000019"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="true"
+#!   CUSTOM_USER_COLOR="false"
+#!   ANCHORED_NODE="25"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -880,8 +966,8 @@
 #!   IDENTIFIER="15"
 #!   TYPE="FeatureMerger"
 #!   VERSION="18"
-#!   POSITION="740.63240632406382 -947.75681256812572"
-#!   BOUNDING_RECT="740.63240632406382 -947.75681256812572 483 71"
+#!   POSITION="693.75693756937608 -587.75681256812572"
+#!   BOUNDING_RECT="693.75693756937608 -587.75681256812572 483 71"
 #!   ORDER="500000000000007"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -969,8 +1055,8 @@
 #!   IDENTIFIER="17"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
-#!   POSITION="1403.1390313903144 -947.75681256812572"
-#!   BOUNDING_RECT="1403.1390313903144 -947.75681256812572 454 71"
+#!   POSITION="1306.2630626306266 -587.75681256812572"
+#!   BOUNDING_RECT="1306.2630626306266 -587.75681256812572 454 71"
 #!   ORDER="500000000000008"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1039,8 +1125,8 @@
 #!   IDENTIFIER="23"
 #!   TYPE="Aggregator"
 #!   VERSION="15"
-#!   POSITION="1403.1390313903144 -1209.3870938709385"
-#!   BOUNDING_RECT="1403.1390313903144 -1209.3870938709385 454 71"
+#!   POSITION="1306.2630626306266 -1171.8867188671884"
+#!   BOUNDING_RECT="1306.2630626306266 -1171.8867188671884 454 71"
 #!   ORDER="500000000000011"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1100,8 +1186,8 @@
 #!   IDENTIFIER="25"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
-#!   POSITION="1403.1390313903144 -1420.8244532445328"
-#!   BOUNDING_RECT="1403.1390313903144 -1420.8244532445328 454 71"
+#!   POSITION="1306.2630626306266 -1420.8244532445328"
+#!   BOUNDING_RECT="1306.2630626306266 -1420.8244532445328 454 71"
 #!   ORDER="500000000000012"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1138,34 +1224,6 @@
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="19"
-#!   TYPE="Inspector"
-#!   VERSION="5"
-#!   POSITION="1954.5136251362514 -947.75681256812572"
-#!   BOUNDING_RECT="1954.5136251362514 -947.75681256812572 567.00106825772946 71"
-#!   ORDER="500000000000013"
-#!   PARMS_EDITED="false"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="19602"
-#! >
-#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_Output"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1221,17 +1279,6 @@
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="27"
-#!   SOURCE_NODE="17"
-#!   TARGET_NODE="19"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -1656,12 +1703,6 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME 00_Trees2JSON
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
-
-INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
-MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
-MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
-MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
-# -------------------------------------------------------------------------
 ESRISHAPE_1_DEF arbres2016   SHAPE_GEOMETRY               shape_point   id                           long   easting                      number(31,15)   northing                     number(31,15)   elevation                    number(31,15)   fam_arbre                    char(20)   hauteur                      number(31,15)   haut_int                     long
 # -------------------------------------------------------------------------
 ESRISHAPE_2_DEF perimeter   SHAPE_GEOMETRY               shape_polygon   secteur_ID                   long
@@ -1686,33 +1727,14 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_<Rejected> INPUT FEATURE_TYPE FeatureMerger_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureMerger_MERGED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "unity_x" "SET_TO" "<at>Evaluate<openparen><openparen><at>Value<openparen>easting<closeparen>-<at>Value<openparen>_xmin<closeparen><closeparen><solidus><openparen><at>Value<openparen>_xmax<closeparen>-<at>Value<openparen>_xmin<closeparen><closeparen><closeparen>" }      ATTR_ACTION { "" "unity_z" "SET_TO" "<at>Evaluate<openparen><openparen><at>Value<openparen>northing<closeparen>-<at>Value<openparen>_ymin<closeparen><closeparen><solidus><openparen><at>Value<openparen>_ymax<closeparen>-<at>Value<openparen>_ymin<closeparen><closeparen><closeparen>" }      ATTR_ACTION { "" "prototypeIndex" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'1'BOOL_OP;OR;COMPOSITE_TEST;1;TEST <at>Value<openparen>fam_arbre<closeparen> = feuillu'0'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "heightscale" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Evaluate<openparen><at>Evaluate<openparen><at>min<openparen><at>Value<openparen>hauteur<closeparen><solidus>$(prot1_height$encode)<comma>2<closeparen><closeparen><closeparen>'BOOL_OP;OR;COMPOSITE_TEST;1;TEST <at>Value<openparen>prototypeIndex<closeparen> = 0'<at>Evaluate<openparen><at>min<openparen><at>Value<openparen>hauteur<closeparen><solidus>$(prot0_height$encode)<comma>2<closeparen><closeparen>'FME_NUM_CONDITIONS2___" }      ATTR_ACTION { "" "widthScale" "SET_TO" "<at>Value<openparen>heightscale<closeparen>" }      ATTR_ACTION { "" "feature" "SET_TO" "<space><space><opencurly><lf><space><space><space><space><quote>coordinates<quote>:<space><openbracket><at>Value<openparen>unity_x<closeparen><comma><space><at>Value<openparen>unity_z<closeparen><closebracket><comma><lf><space><space><space><space><quote>prototypeIndex<quote>:<space><at>Value<openparen>prototypeIndex<closeparen><comma><lf><space><space><space><space><quote>heightScale<quote>:<space><at>Format<openparen>%.1f<comma><at>Value<openparen>heightscale<closeparen><closeparen><comma><lf><space><space><space><space><quote>widthScale<quote>:<space><at>Format<openparen>%.1f<comma><at>Value<openparen>widthScale<closeparen><closeparen><lf><space><space><closecurly>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_2 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeCreator_2_OUTPUT   OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT_0_j0uI5yR3ojs=   OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT_1_RySErNGX5NA=
 # -------------------------------------------------------------------------
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {AttributeCreator_Output} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME AttributeCreator_Output_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT_1_RySErNGX5NA=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { AttributeCreator_Output }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeCreator_Output_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA unity_x,varchar<openparen>255<closeparen>,unity_z,varchar<openparen>255<closeparen>,prototypeIndex,varchar<openparen>255<closeparen>,heightscale,varchar<openparen>255<closeparen>,widthScale,varchar<openparen>255<closeparen>,feature,varchar<openparen>255<closeparen>,id,varchar<openparen>255<closeparen>,easting,varchar<openparen>255<closeparen>,northing,varchar<openparen>255<closeparen>,elevation,varchar<openparen>255<closeparen>,fam_arbre,varchar<openparen>255<closeparen>,hauteur,varchar<openparen>255<closeparen>,haut_int,varchar<openparen>255<closeparen>,secteur_ID,varchar<openparen>255<closeparen>,_xmax,varchar<openparen>255<closeparen>,_xmin,varchar<openparen>255<closeparen>,_ymax,varchar<openparen>255<closeparen>,_ymin,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-# -------------------------------------------------------------------------
-FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT_0_j0uI5yR3ojs=    MODE ONE_LEVEL    FLUSH_WHEN_GROUPS_CHANGE No    REMOVE_GEOMETRY NO    ACCUMULATE_ATTRIBUTES One    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CONCATENATE_FIELDS { feature }    SEPARATOR <comma><lf>    PRODUCE_MULTIS YES    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
+FACTORY_DEF {*} AggregateFactory    FACTORY_NAME Aggregator    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    MODE ONE_LEVEL    FLUSH_WHEN_GROUPS_CHANGE No    REMOVE_GEOMETRY NO    ACCUMULATE_ATTRIBUTES One    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    CONCATENATE_FIELDS { feature }    SEPARATOR <comma><lf>    PRODUCE_MULTIS YES    OUTPUT AGGREGATE FEATURE_TYPE Aggregator_AGGREGATE
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Aggregator_AGGREGATE    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "text_line_data" "SET_TO" "<opencurly><space><quote>trees<quote>:<space><openbracket><lf><at>Value<openparen>feature<closeparen><lf><closebracket><closecurly>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,__wb_out_feat_type__,__nuke_me__ GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
-# -------------------------------------------------------------------------
-
-DEFAULT_MACRO FME_LAUNCH_VIEWER_APP NO
-FACTORY_DEF * CreationFactory    FACTORY_NAME VisualizerProcessor   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if {{$(FME_LAUNCH_VIEWER_APP)} == {YES}} {  if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; }; ")
-FACTORY_DEF * TeeFactory    FACTORY_NAME VisualizerCleaner   INPUT FEATURE_TYPE __NUKEME__

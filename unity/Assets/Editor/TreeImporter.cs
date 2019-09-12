@@ -1,6 +1,14 @@
 ﻿//======================================= 2019, Stéphane Malta e Sousa, sitn-vr =======================================
 //
-// This script is intended to wrap playable buildings with a box collider and PlayableBuilding Script
+// This script imports JSON files as TreeInstances. The JSON must look like this:
+// { "trees": [
+//  {
+//    "coordinates": [0.0206300, 0.5813496],
+//    "prototypeIndex": 2, /** make sure to have tree prototypes set up*/
+//    "heightScale": 1.00, 
+//    "widthScale": 1.00,
+//    "rotation" : 6.26 /** optional */
+//  }, ...
 //
 //=====================================================================================================================
 
@@ -19,13 +27,16 @@ namespace SITN
         public bool replaceExisting;
         private List<TreeInstance> trees;
 
-        TreeImporter()
+        public TreeImporter()
         {
             terrain = null;
             treeData = null;
             trees = new List<TreeInstance>();
         }
 
+        //-------------------------------------------------
+        // Make it visible as a menu in Editor
+        //-------------------------------------------------
         [MenuItem("SITN/Import trees")]
         static void CreateWizard()
         {
@@ -33,9 +44,12 @@ namespace SITN
         
         }
 
+        //-------------------------------------------------
+        // Called when button Import is clicked
+        // Serializes Trees and put them on terrain
+        //-------------------------------------------------
         void OnWizardCreate()
         {
-
             try
             {
                 TreeStruct loadedTrees = JsonUtility.FromJson<TreeStruct>(treeData.ToString());
@@ -63,13 +77,19 @@ namespace SITN
 
         }
 
+        //-------------------------------------------------
+        // Called when dialog is rendered
+        //-------------------------------------------------
         void OnWizardUpdate()
         {
             helpString = "Before importing trees, please make sure your terrain has at least one Tree prototype";
             isValid = (terrain != null && treeData != null);
         }
 
-        // Autoselect Terrain if one is found
+        //-------------------------------------------------
+        // Called when user clicks on the menu entry
+        // Gets first Terrain and populate dialog
+        //-------------------------------------------------
         private void Awake()
         {
             try
@@ -81,6 +101,7 @@ namespace SITN
                     if (currentTerrain != null)
                     {
                         terrain = currentTerrain;
+                        // Number of trees on terrain before importing
                         Debug.Log("START Number of trees: " + terrain.terrainData.treeInstanceCount);
                         break;
                     }
@@ -93,6 +114,9 @@ namespace SITN
             }
         }
 
+        //-----------------------------------------------------
+        // Creates TreeInstance objects based on a tree struct
+        //-----------------------------------------------------
         private TreeInstance TreeFactory(TreeStruct.SITNTree tree)
         {
             return new TreeInstance

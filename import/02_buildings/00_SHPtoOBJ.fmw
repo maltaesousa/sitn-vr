@@ -14,14 +14,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="7682.02 1842.1"
-#!   DOC_TOP_LEFT="-2350.14 -611.378"
+#!   DOC_EXTENTS="7682.02 2055.18"
+#!   DOC_TOP_LEFT="-2350.14 -784.582"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="19602"
-#!   FME_DOCUMENT_GUID="48eb396a-faba-4cb6-95a6-c989c0c2adb0"
-#!   FME_DOCUMENT_PRIORGUID="cf6bfd81-225d-48ce-ac3e-c4956e74fa91,08afb724-1598-4b1b-a65c-f4aaa9f5b141,5bfb34f0-282e-46a0-a1f4-8892cc99b419,9deb1ebd-bbb7-4b8b-9e3a-4b66f32d83ba,d97b2dd8-e8df-4394-b4c0-520b23188f0d,d761ecbf-6709-42bb-a4e7-81fa5a882b3d,29613e5d-4169-429e-a7e1-747530817b84,a84668cc-6bd0-4630-ae36-133367e0c967,b563e748-be6e-4666-af4d-ed13a1c0bd27,5b27ca56-9762-4e1d-8579-e03d58f008e8,e14901cf-53d9-4f62-9d27-2114f7ed073a,13dc5c4e-52ce-496f-9739-53b430bf768a,7a1e8797-fdae-4c9e-8639-d954122169b7,49d7004a-b124-406a-9d8c-34d17215a87e,efd75982-ba18-4b3c-b313-0aebb123dc6f,e3d398de-b193-403d-bb39-336e51e8dcec,db8af2fd-15e4-49f5-9635-4ab0ef8df46e,101b0150-4dc0-4d14-a664-ddc4bba8b722,a8daac32-607d-4158-85f9-2e5d3563807d,e1f95b46-5b65-42bf-a6f2-76675a95e6c4,f999804b-359c-437f-b7f2-d87580f20a93,491eee7c-bc46-4044-b099-6653fcb77aa4,0d7ba5bf-7cfb-4ad9-8a69-4c36b9777578"
+#!   FME_BUILD_NUM="19617"
+#!   FME_DOCUMENT_GUID="afc8c4c5-eea8-4f14-afbb-95c91a1305d1"
+#!   FME_DOCUMENT_PRIORGUID="cf6bfd81-225d-48ce-ac3e-c4956e74fa91,08afb724-1598-4b1b-a65c-f4aaa9f5b141,5bfb34f0-282e-46a0-a1f4-8892cc99b419,9deb1ebd-bbb7-4b8b-9e3a-4b66f32d83ba,d97b2dd8-e8df-4394-b4c0-520b23188f0d,d761ecbf-6709-42bb-a4e7-81fa5a882b3d,29613e5d-4169-429e-a7e1-747530817b84,a84668cc-6bd0-4630-ae36-133367e0c967,b563e748-be6e-4666-af4d-ed13a1c0bd27,5b27ca56-9762-4e1d-8579-e03d58f008e8,e14901cf-53d9-4f62-9d27-2114f7ed073a,13dc5c4e-52ce-496f-9739-53b430bf768a,7a1e8797-fdae-4c9e-8639-d954122169b7,49d7004a-b124-406a-9d8c-34d17215a87e,efd75982-ba18-4b3c-b313-0aebb123dc6f,e3d398de-b193-403d-bb39-336e51e8dcec,db8af2fd-15e4-49f5-9635-4ab0ef8df46e,101b0150-4dc0-4d14-a664-ddc4bba8b722,a8daac32-607d-4158-85f9-2e5d3563807d,e1f95b46-5b65-42bf-a6f2-76675a95e6c4,f999804b-359c-437f-b7f2-d87580f20a93,491eee7c-bc46-4044-b099-6653fcb77aa4,0d7ba5bf-7cfb-4ad9-8a69-4c36b9777578,48eb396a-faba-4cb6-95a6-c989c0c2adb0"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -29,8 +29,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2019.1.0.0 (20190629 - Build 19602 - WIN64)"
-#!   LAST_SAVE_DATE="2019-08-25T15:25:27"
+#!   LAST_SAVE_BUILD="FME(R) 2019.1.1.0 (20190801 - Build 19617 - WIN64)"
+#!   LAST_SAVE_DATE="2019-09-12T19:12:51"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -49,10 +49,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-3331.15 1525.95"
+#!   VIEW_POSITION="1538.84 1280.79"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="94"
+#!   ZOOM_SCALE="132"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -68,7 +68,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="autocad_color 10 autocad_linetype CONTINUOUS autocad_layer_frozen no autocad_layer_hidden no autocad_layer_locked no autocad_layer_on yes autocad_layer_plottable yes autocad_layer_desc &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="autocad_viewport_snap logical autocad_alignment_y number(31,15) autocad_start_tangent_x number(31,15) autocad_viewport_default_lighting_type number(6,0) autocad_vertical char(1) autocad_xrecord_data{}.world_direction{0}.z number(31,15) autocad_layout_limit_max_x number(31,15) autocad_viewport_contrast number(31,15) autocad_extmax_x number(31,15) autocad_shape_name char(32) autocad_extended_data{}.three_reals{0}.real2 number(31,15) autocad_hatch_loop{}.autocad_hatch_loop_type number(11,0) autocad_longitude number(31,15) autocad_attr_def_prompt string fme_feature_type char(50) fme_attrib_info{}.color.green number(31,15) autocad_knot_tolerance number(31,15) autocad_viewport_center_point_x number(31,15) autocad_extended_data{}.distance{0} number(31,15) autocad_anno_force_visible logical autocad_viewport_view_height number(31,15) autocad_xrecord_data{0}.real{0} number(31,15) autocad_extended_data{0}.world_position{0}.y number(31,15) autocad_viewport_view_direction_y number(31,15) autocad_extended_data{}.three_reals{0}.real3 number(31,15) autocad_mpolygon_gradient_one_color_mode number(5,0) autocad_extended_data{0}.world_displacement{0}.y number(31,15) autocad_dim_arc_end_param number(31,15) autocad_anno_height number(31,15) autocad_raster_transparency number(4,0) autocad_mpolygon_pattern_angle number(31,15) autocad_upside_down char(1) autocad_angdir logical autocad_linetype_scale number(31,15) autocad_extended_data{0}.three_reals{0}.real1 number(31,15) autocad_layer char(50) autocad_raster_filename string autocad_extended_data_list{} char(50) autocad_knots string autocad_attribute_display char(50) autocad_tracking_percent number(31,15) autocad_extended_data{}.handle{0} char(50) autocad_xrecord_data{0}.three_reals{0}.real1 number(31,15) autocad_knot_param char(10) autocad_hatch_gradient_type number(6,0) autocad_extended_data{0}.world_position{0}.x number(31,15) autocad_viewport_front_clip logical autocad_anno_scale{}.drawing_units number(31,15) autocad_xrecord_data{0}.autocad_scale{0} number(31,15) autocad_polyflag char(50) autocad_viewport_brightness number(31,15) autocad_group_accessible char(50) autocad_projectname char(32) autocad_original_layer char(50) autocad_mpolygon_pattern_color char(50) autocad_defpt4.x number(31,15) autocad_viewport_snap_iso_pair number(6,0) fme_text_size number(31,15) autocad_extended_data{0}.handle{1} char(50) autocad_generation char(30) autocad_thickness number(31,15) autocad_xrecord_data{0}.three_reals{0}.real2 number(31,15) autocad_lineweight char(10) autocad_anno_type char(30) autocad_viewport_snap_base_point_y number(31,15) autocad_viewport_width number(31,15) autocad_extended_data{0}.binary{0} char(50) autocad_text_midpoint.y number(31,15) autocad_viewport_locked logical autocad_dictionary_name char(50) autocad_viewport_ambient_light_color number(6,0) autocad_layer_lineweight number(5,0) autocad_original_color char(10) autocad_layout_linetype_scale logical autocad_color number(6,0) autocad_hatch_pattern_double number(5,0) autocad_xrecord_data{}.autocad_scale{0} number(31,15) autocad_dimension_style_name char(50) autocad_base_x number(31,15) autocad_dim_leader_pt1.z number(31,15) autocad_viewport_anno_scale string autocad_defpt4.z number(31,15) autocad_layer_color number(6,0) autocad_xref_status char(50) autocad_extended_data{}.binary{0} char(50) autocad_xrecord_data{0}.autocad_layer{0} char(50) autocad_xrecord_data{}.handle{2} char(50) autocad_extended_data{0}.application_name char(50) autocad_raster_original_transparency char(50) autocad_viewport_grid_increment_y number(31,15) autocad_elevation number(31,15) autocad_xrecord_data{0}.16Bit_integer{0} number(5,0) autocad_viewport_grid_major number(6,0) autocad_viewport_clipped_handle char(50) autocad_resolved_linetype char(50) autocad_viewport_ucs_elevation number(31,15) autocad_txt_offset_y number(31,15) autocad_mtext_string char(50) fme_attrib_info{} char(50) autocad_font_typeface char(50) autocad_extended_data{0}.three_reals{0}.real3 number(31,15) autocad_layer_on char(10) autocad_layer_type char(50) fme_primary_axis number(31,15) autocad_xrecord_data{0}.binary{0} char(50) autocad_defpt3.x number(31,15) fme_attrib_info{}.style char(512) fme_attrib_info{}.align_x number(31,15) autocad_dim_arrowhead_pt_2.x number(31,15) autocad_base_z number(31,15) autocad_layout_insert_base_z number(31,15) autocad_start_angle number(31,15) autocad_text_z_pos number(31,15) autocad_luprec number(6,0) autocad_raster_brightness number(4,0) autocad_block_name char(50) autocad_xrecord_data{0}.string{0} char(50) autocad_text_midpoint.x number(31,15) autocad_viewport_view_direction_z number(31,15) autocad_extended_data{0}.real{0} number(31,15) fme_attrib_info{}.height number(31,15) autocad_mpolygon_object_type number(6,0) autocad_num_knots number(11,0) autocad_hatch_origin_point_x number(31,15) autocad_source_filename string autocad_dim_arc_is_partial logical autocad_dim_arc_symbol_type number(6,0) autocad_raster_clip_points{}.y number(31,15) autocad_raster_contrast number(4,0) autocad_hatch_pattern_angle number(31,15) autocad_viewport_back_clip_distance number(31,15) autocad_font_charset number(11,0) autocad_xrecord_data{}.world_direction{0}.x number(31,15) autocad_hatch_pattern_name char(32) autocad_hatch_pattern_scale number(31,15) autocad_end_tangent_y number(31,15) fme_attrib_info{}.layer char(512) autocad_dim_clone_inspection_point.x number(31,15) autocad_anno_scale{}.paper_units number(31,15) autocad_xrecord_data_list{} char(50) autocad_num_cntl_pts number(11,0) autocad_raster_fade number(4,0) autocad_group_selectable char(50) autocad_dim_leader_pt2.y number(31,15) autocad_mpolygon_pattern_name char(32) autocad_column_distance number(31,15) autocad_extended_data{}.handle{2} char(50) autocad_viewport_non_rect_clip logical autocad_extended_data{}.real{0} number(31,15) autocad_txt_offset_z number(31,15) fme_dataset char(50) autocad_fit_tolerance number(31,15) autocad_extmax_y number(31,15) autocad_scale number(31,15) autocad_clayer char(32) autocad_dim_clone_inspection_point.z number(31,15) autocad_original_rotation number(31,15) autocad_hook_line_on_xdir logical fme_attrib_info{}.oblique number(31,15) autocad_original_entity_type char(50) fme_attrib_info{}.justification char(25) autocad_viewport_view_target_x number(31,15) autocad_shape_filename char(65) autocad_secondary_axis number(31,15) autocad_extended_data{}.world_direction{0}.y number(31,15) autocad_layer_plottable char(10) autocad_extended_data{0}.handle{0} char(50) autocad_extended_data{}.world_position{0}.z number(31,15) autocad_xrecord_data{}.world_displacement{0}.x number(31,15) autocad_dim_flag number(5,0) autocad_mpolygon_offset_x number(31,15) fme_attrib_info{}.isVisible char(6) autocad_hatch_gradient_shift number(31,15) fme_attrib_info{}.color.blue number(31,15) autocad_extended_data{}.world_position{0}.x number(31,15) autocad_mline_style char(50) autocad_viewport_anno_scale_drawing_units number(31,15) autocad_auprec number(6,0) autocad_hatch_origin_point_y number(31,15) autocad_xrecord_data{0}.world_displacement{0}.z number(31,15) fme_secondary_axis number(31,15) autocad_mpolygon_pixel_size number(31,15) autocad_xrecord_data{0}.distance{0} number(31,15) autocad_fillmode logical autocad_xrecord_data{0}.world_direction{0}.y number(31,15) autocad_viewport_twist_angle number(31,15) autocad_defpt2.x number(31,15) autocad_xrecord_data{}.three_reals{0}.real2 number(31,15) autocad_mpolygon_gradient_name char(32) autocad_ucs_applied logical autocad_mpolygon_pattern_scale number(31,15) autocad_extended_data{}.16Bit_integer{0} number(5,0) autocad_viewport_view_target_y number(31,15) autocad_viewport_ucs_follow_mode logical autocad_alignment_z number(31,15) fme_text_string char(50) autocad_xrecord_data{}.real{0} number(31,15) autocad_entity char(50) autocad_shape_width number(31,15) autocad_original_position_y number(31,15) autocad_ucs_xdir_y number(31,15) autocad_linetype char(50) autocad_viewport_on logical autocad_viewport_ucs_xdir_x number(31,15) fme_attrib_info{}.location_z number(31,15) autocad_true_type_font char(50) autocad_start_width number(31,15) autocad_mpolygon_associative number(5,0) autocad_width_factor number(31,15) autocad_viewport_grid_subdivision_restricted logical autocad_end_tangent_x number(31,15) autocad_line_defpoint.y number(31,15) autocad_viewport_ucs_origin_x number(31,15) autocad_viewport_ucs_ydir_y number(31,15) autocad_true_color char(50) autocad_start_tangent_y number(31,15) autocad_mpolygon_pattern_double number(5,0) autocad_hatch_style number(6,0) autocad_shape_rotation number(31,15) autocad_spline_type char(15) autocad_layout_limit_min_y number(31,15) autocad_invisible_attributes{} char(50) autocad_dim_arc_start_param number(31,15) autocad_xrecord_data{0}.handle{2} char(50) autocad_raster_display_opt_show_unaligned logical autocad_mpolygon_shade_tint_value number(31,15) autocad_extended_data{}.world_position{0}.y number(31,15) autocad_viewport_ucs_ydir_x number(31,15) autocad_xrecord_data{0}.world_direction{0}.x number(31,15) autocad_estimated_num_lines number(5,0) autocad_attr_def_default string autocad_hatch_gradient_angle number(31,15) autocad_font_italic logical autocad_defpt4.y number(31,15) autocad_viewport_custom_scale number(31,15) autocad_viewport_view_target_z number(31,15) autocad_original_text_size number(31,15) autocad_text_y_pos number(31,15) autocad_extended_data{0}.three_reals{0}.real2 number(31,15) autocad_number_rows number(5,0) autocad_extended_data{0}.distance{0} number(31,15) autocad_layout_insert_base_x number(31,15) autocad_start_tangent_z number(31,15) autocad_shape_height number(31,15) autocad_mline_type char(50) autocad_attach_point char(50) autocad_control_y string autocad_viewport_default_lighting logical autocad_backwards char(1) autocad_angbase number(31,15) autocad_edge_3 char(10) autocad_xrecord_data{0}.world_position{0}.z number(31,15) autocad_mpolygon_style number(6,0) autocad_extended_data{}.world_displacement{0}.x number(31,15) autocad_group_name char(50) autocad_hatch_pattern_space number(31,15) autocad_extended_data{}.autocad_scale{0} number(31,15) autocad_extended_data{}.application_name char(50) autocad_layer_desc string autocad_version char(32) autocad_viewport_front_clip_eye logical autocad_extended_data{}.world_displacement{0}.z number(31,15) autocad_proxygraphics number(6,0) autocad_dim_clone_inspection_point.y number(31,15) autocad_anno_width number(31,15) fme_attrib_info{}.generation char(25) autocad_viewport_shade_plot char(32) fme_sweep_angle number(31,15) autocad_extrusion_z number(31,15) autocad_extmin_x number(31,15) autocad_hatch_pattern_type number(6,0) autocad_normal_y number(31,15) autocad_layer_locked char(10) autocad_closed_spline number(6,0) autocad_extended_data{0}.world_direction{0}.z number(31,15) autocad_oblique number(31,15) autocad_extmin_y number(31,15) autocad_hatch_gradient_one_color_mode number(5,0) autocad_viewport_anno_scale_paper_units number(31,15) autocad_viewport_snap_isometric logical autocad_dim_arrowhead_pt_1.y number(31,15) autocad_xrecord_data{0}.xrecord_name char(50) autocad_viewport_snap_increment_y number(31,15) autocad_original_position_z number(31,15) autocad_viewport_grid_increment_x number(31,15) autocad_group_num_entities char(50) multi_reader_type char(50) autocad_hatch_gradient_color2 char(50) autocad_xref_type char(10) autocad_viewport_center_point_z number(31,15) autocad_extended_data{}.world_direction{0}.x number(31,15) autocad_viewport_grid_adaptive logical autocad_viewport_handle char(50) autocad_hatch_complex_mode number(5,0) autocad_viewport_ucs_origin_y number(31,15) autocad_xrecord_data{}.handle{0} char(50) autocad_hatch_gradient_name char(32) autocad_fill_color number(6,0) autocad_text_midpoint.z number(31,15) autocad_has_hook_line logical autocad_attmode number(6,0) autocad_end_width number(31,15) autocad_mpolygon_origin_point_x number(31,15) autocad_xscale number(31,15) fme_attrib_info{}.attribute_flag char(2) autocad_bulge char(50) autocad_extended_data{0}.string{0} char(50) autocad_edge_4 char(10) autocad_text_x_pos number(31,15) autocad_xrecord_data{}.binary{0} char(50) autocad_normal_z number(31,15) autocad_row_distance number(31,15) autocad_xrecord_data{0}.handle{1} char(50) autocad_extended_data{0}.world_position{0}.z number(31,15) autocad_latitude number(31,15) autocad_num_lines number(5,0) autocad_xrecord_data{0}.handle{0} char(50) autocad_hatch_object_type number(6,0) autocad_hatch_loop{}.autocad_hatch_bulges_present number(5,0) fme_attrib_info{}.field_value char(2049) autocad_mpolygon_pattern_space number(31,15) autocad_block_insert_x number(31,15) autocad_ucs_origin_y number(31,15) autocad_fit_z string autocad_extended_data{}.autocad_layer{0} char(50) autocad_viewport_ucs_saved_with_viewport logical autocad_text_size number(31,15) autocad_ucs_origin_x number(31,15) autocad_extended_data{}.string{} char(50) autocad_mpolygon_gradient_angle number(31,15) autocad_extended_data{0}.autocad_layer{0} char(50) autocad_attributes_follow logical autocad_viewport_height number(31,15) autocad_txt_offset_x number(31,15) autocad_viewport_front_clip_distance number(31,15) autocad_alignment_x number(31,15) autocad_visible_attributes{} char(50) autocad_extmin_z number(31,15) fme_type char(50) autocad_x_dir_z number(31,15) autocad_viewport_ucs_xdir_z number(31,15) autocad_extended_data{}.handle{1} char(50) autocad_linespace_factor number(31,15) fme_fill_color char(50) fme_attrib_info{}.location_x number(31,15) fme_attrib_info{}.align_y number(31,15) autocad_zscale number(31,15) autocad_big_fontname char(65) autocad_ucs_xdir_x number(31,15) autocad_block_insert_z number(31,15) autocad_lunits number(6,0) autocad_hatch_associative number(5,0) autocad_xrecord_data{0}.world_displacement{0}.x number(31,15) autocad_hatch_gradient_color1 char(50) autocad_group_anonymous char(50) autocad_defpt2.y number(31,15) autocad_rational_spline number(6,0) autocad_fit_x string autocad_xrecord_data{0}.world_direction{0}.z number(31,15) autocad_text_rotation number(31,15) autocad_xrecord_data{}.handle{1} char(50) autocad_sweep_angle number(31,15) autocad_arc_defpt.z number(31,15) autocad_num_fit_pts number(11,0) autocad_ucs_origin_z number(31,15) fme_attrib_info{}.color.red number(31,15) autocad_ucs_xangle number(31,15) autocad_extended_data{0}.world_displacement{0}.z number(31,15) autocad_box_width number(31,15) autocad_defpt3.z number(31,15) autocad_xrecord_data{0}.world_position{0}.y number(31,15) autocad_raster_display_opt_transparent logical autocad_viewport_ucs_origin_z number(31,15) autocad_hatch_loop{}.autocad_hatch_bulge{} number(31,15) autocad_viewport_resolved_target_y number(31,15) autocad_box_height number(31,15) autocad_mpolygon_gradient_shift number(31,15) autocad_xrecord_data{}.world_position{0}.y number(31,15) autocad_linetype_generation number(1,0) autocad_extended_data{}.three_reals{0}.real1 number(31,15) fme_basename char(50) autocad_shape_vertical char(6) autocad_font_bold logical autocad_viewport_ucs_xdir_y number(31,15) autocad_viewport_standard_scale char(32) autocad_font_pitch_family number(11,0) multi_reader_keyword char(50) autocad_xrecord_data{}.world_position{0}.z number(31,15) autocad_viewport_snap_angle number(31,15) autocad_store_bulges_mode logical autocad_xrecord_data{}.autocad_layer{0} char(50) autocad_viewport_ucs_ydir_z number(31,15) autocad_ucs_ydir_z number(31,15) autocad_raster_display_opt_show logical multi_reader_full_id number(11,0) autocad_arc_defpt.y number(31,15) autocad_dim_leader_pt2.z number(31,15) fme_attrib_info{}.location_y number(31,15) autocad_hatch_shade_tint_value number(31,15) autocad_xrecord_data{}.world_direction{0}.y number(31,15) autocad_periodic_spline number(6,0) autocad_number_columns number(5,0) autocad_mpolygon_offset_y number(31,15) autocad_original_entity char(50) autocad_space string autocad_x_dir_y number(31,15) autocad_layout_limit_check logical autocad_extrusion_y number(31,15) autocad_line_defpoint.x number(31,15) autocad_mpolygon_gradient_color2 char(50) autocad_text_string char(50) autocad_edge_1 char(10) autocad_hatch_pixel_size number(31,15) autocad_xrecord_data{}.three_reals{0}.real1 number(31,15) autocad_mpolygon_origin_point_y number(31,15) fme_start_angle number(31,15) autocad_end_tangent_z number(31,15) autocad_original_text_string string autocad_xrecord_data{}.world_position{0}.x number(31,15) autocad_viewport_snap_base_point_x number(31,15) autocad_layout_limit_max_y number(31,15) autocad_layout_limit_min_x number(31,15) autocad_viewport_view_center_y number(31,15) autocad_dimension_type char(50) multi_reader_id number(11,0) autocad_xrecord_data{}.16Bit_integer{0} number(5,0) autocad_xrecord_data{}.distance{0} number(31,15) autocad_xrecord_data{}.string{} char(50) autocad_extended_data{}.world_direction{0}.z number(31,15) fme_attrib_info{}.field_name char(513) autocad_insunits number(6,0) autocad_anno_scale{}.name string fme_rotation number(31,15) autocad_extended_data{0}.handle{2} char(50) autocad_mpolygon_gradient_color1 char(50) autocad_mtext_text_height number(31,15) fme_color char(50) autocad_num_verts number(5,0) autocad_dim_arrowhead_pt_2.y number(31,15) autocad_xref_name char(50) autocad_edge_2 char(10) autocad_extended_data{0}.world_direction{0}.y number(31,15) autocad_ucs_xdir_z number(31,15) autocad_raster_clip_points{}.z number(31,15) autocad_control_x string autocad_viewport_lens_length number(31,15) autocad_arc_defpt.x number(31,15) autocad_dim_arrowhead_pt_1.x number(31,15) autocad_viewport_perspective logical autocad_extended_data{0}.world_displacement{0}.x number(31,15) fme_attrib_info{}.width_factor number(31,15) autocad_defpt2.z number(31,15) autocad_layout_name char(254) autocad_raster_clip_inverted logical autocad_viewport_grid_bound_limits logical autocad_extmax_z number(31,15) autocad_layout_insert_base_y number(31,15) autocad_primary_axis number(31,15) autocad_layer_frozen char(10) autocad_extended_data{0}.autocad_scale{0} number(31,15) autocad_overlined char(1) autocad_xrecord_data{}.xrecord_name char(50) autocad_xrecord_data{}.world_displacement{0}.z number(31,15) fme_attrib_info{}.field_size number(5,0) autocad_viewport_grid_follow logical autocad_viewport_grid logical autocad_viewport_center_point_y number(31,15) autocad_path_type char(10) autocad_ucs_ydir_y number(31,15) autocad_textpict char(50) autocad_control_z string fme_geometry char(50) autocad_defpt3.y number(31,15) autocad_raster_display_opt_clip logical autocad_raster_clip_points{}.x number(31,15) autocad_block_number number(5,0) autocad_xrecord_data{0}.three_reals{0}.real3 number(31,15) autocad_layer_hidden char(10) autocad_viewport_non_rect_clip_handle char(50) autocad_xrecord_data{0}.world_position{0}.x number(31,15) autocad_viewport_plot_style_sheet string autocad_base_y number(31,15) autocad_block_insert_y number(31,15) autocad_x_dir_x number(31,15) autocad_fit_y string autocad_xrecord_data{}.world_displacement{0}.y number(31,15) autocad_dimension_attach_point number(5,0) autocad_extended_data{0}.16Bit_integer{0} number(5,0) autocad_underlined char(1) autocad_width number(31,15) autocad_viewport_ucs_icon_origin logical autocad_control_weights string autocad_arrow_head_on logical autocad_viewport_view_direction_x number(31,15) autocad_viewport_back_clip logical autocad_line_defpoint.z number(31,15) autocad_viewport_resolved_target_z number(31,15) autocad_entity_visibility char(10) autocad_layer_linetype char(32) autocad_mpolygon_pattern_type number(6,0) autocad_mpolygon_gradient_type number(6,0) autocad_aunits number(6,0) autocad_layout_tab_order number(11,0) autocad_normal_x number(31,15) autocad_yscale number(31,15) autocad_dim_leader_pt2.x number(31,15) autocad_extended_data{}.world_displacement{0}.y number(31,15) autocad_rotation number(31,15) autocad_ucs_ydir_x number(31,15) autocad_degree number(31,15) autocad_viewport_hidden_lines_removed logical autocad_extended_data{0}.world_direction{0}.x number(31,15) autocad_dim_leader_pt1.x number(31,15) autocad_anno_handle char(50) autocad_viewport_resolved_target_x number(31,15) autocad_flag number(6,0) autocad_group_description char(50) autocad_xref_path string fme_attrib_info{}.color.source char(10) autocad_dim_leader_pt1.y number(31,15) autocad_viewport_view_center_x number(31,15) autocad_xrecord_data{}.three_reals{0}.real3 number(31,15) autocad_xrecord_data{0}.world_displacement{0}.y number(31,15) autocad_viewport_circle_sides number(6,0) autocad_extrusion_x number(31,15) autocad_shape_index number(31,15) autocad_attr_def_tag string autocad_justification char(50) autocad_entity_handle char(50) autocad_viewport_ucs_icon_visible logical autocad_original_position_x number(31,15) autocad_mtext_ref_rect_width number(31,15) fme_attrib_info{}.rotation number(31,15) autocad_viewport_snap_increment_x number(31,15)"
+#!   EXPOSABLE_ATTRS="autocad_path_type char(10) autocad_viewport_view_target_y number(31,15) autocad_xrecord_data{0}.handle{0} char(50) fme_type char(50) autocad_xrecord_data{0}.autocad_scale{0} number(31,15) autocad_extended_data{}.world_position{0}.x number(31,15) autocad_knot_tolerance number(31,15) autocad_viewport_snap_isometric logical autocad_mpolygon_gradient_color1 char(50) autocad_hatch_gradient_angle number(31,15) autocad_dim_arc_symbol_type number(6,0) autocad_original_text_size number(31,15) autocad_control_y string autocad_raster_clip_points{}.x number(31,15) autocad_extended_data{}.handle{1} char(50) fme_start_angle number(31,15) autocad_oblique number(31,15) autocad_raster_display_opt_clip logical autocad_viewport_center_point_y number(31,15) autocad_edge_3 char(10) autocad_extended_data{}.string{} char(50) autocad_defpt4.x number(31,15) fme_dataset char(50) autocad_hatch_pattern_name char(32) autocad_start_tangent_z number(31,15) autocad_group_accessible char(50) autocad_xrecord_data{0}.three_reals{0}.real2 number(31,15) autocad_viewport_ambient_light_color number(6,0) autocad_end_tangent_z number(31,15) autocad_zscale number(31,15) autocad_hatch_gradient_one_color_mode number(5,0) autocad_extended_data{}.autocad_scale{0} number(31,15) autocad_viewport_snap_iso_pair number(6,0) autocad_dim_leader_pt2.z number(31,15) autocad_text_string char(50) autocad_viewport_view_center_y number(31,15) autocad_extmax_x number(31,15) autocad_extended_data{}.handle{2} char(50) autocad_text_midpoint.x number(31,15) autocad_viewport_front_clip_eye logical autocad_mpolygon_style number(6,0) fme_attrib_info{}.generation char(25) autocad_xrecord_data{0}.16Bit_integer{0} number(5,0) autocad_extended_data{0}.handle{1} char(50) autocad_justification char(50) autocad_mpolygon_gradient_shift number(31,15) autocad_viewport_front_clip_distance number(31,15) autocad_extended_data{0}.application_name char(50) autocad_extended_data{0}.world_direction{0}.x number(31,15) autocad_color number(6,0) autocad_xrecord_data{}.world_position{0}.x number(31,15) autocad_layout_limit_check logical fme_attrib_info{}.field_value char(2049) autocad_periodic_spline number(6,0) autocad_raster_clip_inverted logical autocad_closed_spline number(6,0) autocad_insunits number(6,0) autocad_viewport_grid_subdivision_restricted logical autocad_hatch_gradient_color1 char(50) autocad_block_insert_x number(31,15) autocad_mpolygon_pixel_size number(31,15) autocad_raster_display_opt_transparent logical autocad_knot_param char(10) autocad_xscale number(31,15) autocad_mtext_ref_rect_width number(31,15) autocad_anno_scale{}.drawing_units number(31,15) autocad_viewport_ucs_origin_z number(31,15) autocad_longitude number(31,15) fme_rotation number(31,15) autocad_xrecord_data{0}.world_displacement{0}.y number(31,15) autocad_viewport_view_center_x number(31,15) autocad_attmode number(6,0) autocad_hatch_object_type number(6,0) autocad_attribute_display char(50) autocad_num_verts number(5,0) fme_attrib_info{}.color.red number(31,15) autocad_has_hook_line logical autocad_viewport_view_target_z number(31,15) autocad_defpt3.y number(31,15) autocad_hatch_loop{}.autocad_hatch_bulge{} number(31,15) autocad_viewport_view_direction_z number(31,15) autocad_viewport_clipped_handle char(50) autocad_xrecord_data{0}.handle{2} char(50) autocad_xrecord_data{}.binary{0} char(50) autocad_xrecord_data{0}.three_reals{0}.real3 number(31,15) autocad_block_name char(50) autocad_anno_force_visible logical autocad_hatch_loop{}.autocad_hatch_bulges_present number(5,0) autocad_raster_brightness number(4,0) autocad_viewport_ucs_ydir_z number(31,15) autocad_xrecord_data{0}.world_position{0}.y number(31,15) autocad_sweep_angle number(31,15) autocad_extended_data{}.real{0} number(31,15) autocad_source_filename string autocad_xrecord_data{0}.xrecord_name char(50) autocad_text_z_pos number(31,15) autocad_viewport_ucs_ydir_x number(31,15) autocad_extrusion_y number(31,15) autocad_base_x number(31,15) autocad_layer_on char(10) autocad_dim_arc_start_param number(31,15) autocad_original_text_string string autocad_xrecord_data{}.string{} char(50) autocad_primary_axis number(31,15) autocad_xrecord_data{0}.world_direction{0}.y number(31,15) autocad_extended_data{0}.real{0} number(31,15) autocad_control_x string autocad_dimension_style_name char(50) autocad_shape_height number(31,15) autocad_viewport_center_point_x number(31,15) autocad_layout_limit_max_y number(31,15) autocad_raster_clip_points{}.z number(31,15) autocad_viewport_ucs_xdir_y number(31,15) fme_attrib_info{}.width_factor number(31,15) autocad_control_weights string autocad_raster_filename string autocad_viewport_grid_major number(6,0) autocad_layer_plottable char(10) autocad_text_midpoint.y number(31,15) autocad_xrecord_data{}.three_reals{0}.real2 number(31,15) autocad_hatch_pattern_scale number(31,15) autocad_linetype char(50) fme_attrib_info{}.style char(512) autocad_mtext_text_height number(31,15) autocad_polyflag char(50) fme_attrib_info{}.attribute_flag char(2) autocad_entity_visibility char(10) fme_basename char(50) autocad_attributes_follow logical fme_attrib_info{}.height number(31,15) autocad_viewport_width number(31,15) autocad_dictionary_name char(50) autocad_defpt2.z number(31,15) autocad_viewport_perspective logical autocad_xrecord_data{0}.string{0} char(50) autocad_block_insert_z number(31,15) autocad_xrecord_data{}.real{0} number(31,15) autocad_extended_data{}.binary{0} char(50) autocad_text_size number(31,15) autocad_xref_status char(50) autocad_attach_point char(50) autocad_layer_color number(6,0) autocad_viewport_ucs_xdir_x number(31,15) autocad_viewport_anno_scale string autocad_viewport_ucs_saved_with_viewport logical autocad_defpt4.z number(31,15) autocad_x_dir_y number(31,15) autocad_dim_leader_pt1.x number(31,15) autocad_viewport_snap_increment_x number(31,15) autocad_viewport_snap_base_point_y number(31,15) autocad_line_defpoint.y number(31,15) autocad_dimension_attach_point number(5,0) autocad_anno_scale{}.name string autocad_ucs_ydir_x number(31,15) autocad_raster_contrast number(4,0) autocad_font_charset number(11,0) autocad_arc_defpt.x number(31,15) autocad_viewport_ucs_icon_visible logical autocad_viewport_hidden_lines_removed logical autocad_anno_type char(30) autocad_box_width number(31,15) autocad_raster_display_opt_show_unaligned logical autocad_extended_data{0}.world_direction{0}.z number(31,15) autocad_extended_data{}.world_direction{0}.x number(31,15) autocad_hatch_gradient_color2 char(50) autocad_attr_def_default string autocad_xrecord_data{}.world_displacement{0}.x number(31,15) fme_attrib_info{}.oblique number(31,15) autocad_defpt4.y number(31,15) fme_attrib_info{}.justification char(25) autocad_layer_type char(50) autocad_anno_scale{}.paper_units number(31,15) autocad_defpt3.x number(31,15) autocad_viewport_ucs_elevation number(31,15) autocad_hatch_pattern_space number(31,15) autocad_alignment_x number(31,15) autocad_text_rotation number(31,15) autocad_mpolygon_pattern_color char(50) autocad_font_italic logical autocad_viewport_standard_scale char(32) fme_fill_color char(50) autocad_extended_data{0}.binary{0} char(50) autocad_defpt2.y number(31,15) autocad_dim_leader_pt2.x number(31,15) autocad_start_tangent_y number(31,15) fme_attrib_info{}.location_x number(31,15) autocad_projectname char(32) autocad_viewport_resolved_target_y number(31,15) autocad_backwards char(1) autocad_xrecord_data{}.world_direction{0}.z number(31,15) autocad_hatch_origin_point_y number(31,15) autocad_raster_transparency number(4,0) fme_attrib_info{}.field_name char(513) autocad_latitude number(31,15) autocad_layer_desc string autocad_line_defpoint.x number(31,15) autocad_raster_fade number(4,0) autocad_viewport_view_direction_x number(31,15) autocad_auprec number(6,0) autocad_xrecord_data{}.world_displacement{0}.z number(31,15) autocad_mpolygon_pattern_double number(5,0) autocad_viewport_anno_scale_paper_units number(31,15) autocad_mtext_string char(50) autocad_column_distance number(31,15) autocad_fit_x string autocad_layout_insert_base_x number(31,15) autocad_shape_filename char(65) autocad_attr_def_prompt string autocad_scale number(31,15) autocad_xrecord_data{0}.world_displacement{0}.x number(31,15) autocad_ucs_ydir_y number(31,15) autocad_layer_frozen char(10) autocad_viewport_anno_scale_drawing_units number(31,15) autocad_extended_data{}.three_reals{0}.real2 number(31,15) autocad_extended_data{0}.string{0} char(50) autocad_edge_1 char(10) autocad_ucs_origin_z number(31,15) autocad_num_lines number(5,0) autocad_xrecord_data{}.three_reals{0}.real3 number(31,15) autocad_viewport_brightness number(31,15) autocad_viewport_resolved_target_x number(31,15) autocad_hatch_pattern_type number(6,0) autocad_extended_data{}.handle{0} char(50) autocad_mline_type char(50) autocad_block_number number(5,0) autocad_xrecord_data{0}.world_position{0}.x number(31,15) fme_color char(50) autocad_mpolygon_gradient_color2 char(50) autocad_text_midpoint.z number(31,15) autocad_true_color char(50) autocad_angbase number(31,15) autocad_raster_original_transparency char(50) autocad_extended_data{}.16Bit_integer{0} number(5,0) autocad_extmax_z number(31,15) autocad_viewport_non_rect_clip_handle char(50) autocad_knots string autocad_normal_y number(31,15) autocad_txt_offset_x number(31,15) autocad_viewport_ucs_xdir_z number(31,15) autocad_xref_type char(10) autocad_normal_z number(31,15) autocad_block_insert_y number(31,15) autocad_extended_data{}.world_direction{0}.z number(31,15) autocad_anno_height number(31,15) autocad_group_name char(50) multi_reader_keyword char(50) autocad_layer char(50) autocad_viewport_view_target_x number(31,15) autocad_extended_data{}.world_position{0}.y number(31,15) autocad_luprec number(6,0) autocad_layout_insert_base_z number(31,15) autocad_textpict char(50) autocad_box_height number(31,15) autocad_space string autocad_clayer char(32) autocad_x_dir_x number(31,15) autocad_visible_attributes{} char(50) autocad_num_cntl_pts number(11,0) autocad_hatch_complex_mode number(5,0) autocad_hatch_origin_point_x number(31,15) autocad_layout_limit_max_x number(31,15) autocad_xrecord_data{}.world_displacement{0}.y number(31,15) autocad_extended_data{0}.autocad_scale{0} number(31,15) autocad_viewport_default_lighting_type number(6,0) autocad_viewport_ucs_follow_mode logical autocad_viewport_snap_increment_y number(31,15) autocad_original_entity char(50) autocad_bulge char(50) autocad_edge_4 char(10) autocad_xrecord_data{0}.real{0} number(31,15) autocad_mpolygon_pattern_angle number(31,15) autocad_layout_limit_min_x number(31,15) autocad_xrecord_data{}.world_position{0}.y number(31,15) autocad_tracking_percent number(31,15) autocad_original_color char(10) autocad_defpt3.z number(31,15) autocad_group_description char(50) autocad_hatch_pixel_size number(31,15) autocad_hatch_gradient_shift number(31,15) autocad_mpolygon_gradient_angle number(31,15) autocad_raster_clip_points{}.y number(31,15) autocad_viewport_height number(31,15) autocad_hatch_pattern_angle number(31,15) autocad_shape_vertical char(6) autocad_extrusion_x number(31,15) fme_attrib_info{}.isVisible char(6) autocad_dim_arrowhead_pt_1.x number(31,15) autocad_extended_data{0}.world_direction{0}.y number(31,15) autocad_number_rows number(5,0) autocad_viewport_on logical autocad_row_distance number(31,15) autocad_original_position_x number(31,15) fme_feature_type char(50) autocad_mpolygon_associative number(5,0) autocad_extended_data{0}.three_reals{0}.real1 number(31,15) autocad_fit_tolerance number(31,15) autocad_big_fontname char(65) autocad_width_factor number(31,15) autocad_extended_data{}.world_direction{0}.y number(31,15) autocad_xrecord_data{}.world_direction{0}.x number(31,15) autocad_viewport_twist_angle number(31,15) autocad_angdir logical autocad_extended_data{0}.world_displacement{0}.y number(31,15) autocad_ucs_xdir_z number(31,15) autocad_extended_data{0}.three_reals{0}.real3 number(31,15) autocad_xrecord_data{0}.autocad_layer{0} char(50) autocad_extended_data{0}.16Bit_integer{0} number(5,0) autocad_viewport_snap_angle number(31,15) autocad_ucs_applied logical fme_attrib_info{}.color.blue number(31,15) fme_attrib_info{}.color.source char(10) autocad_viewport_circle_sides number(6,0) autocad_viewport_ucs_origin_y number(31,15) autocad_layout_limit_min_y number(31,15) autocad_extmin_x number(31,15) autocad_attr_def_tag string autocad_lunits number(6,0) autocad_viewport_grid_increment_x number(31,15) autocad_xrecord_data{}.autocad_scale{0} number(31,15) autocad_hatch_shade_tint_value number(31,15) autocad_extended_data{0}.world_position{0}.x number(31,15) autocad_fillmode logical autocad_extended_data{0}.handle{2} char(50) autocad_mpolygon_pattern_type number(6,0) autocad_mpolygon_gradient_type number(6,0) autocad_entity_handle char(50) autocad_ucs_xdir_x number(31,15) autocad_mpolygon_pattern_name char(32) autocad_base_z number(31,15) fme_attrib_info{}.location_y number(31,15) autocad_dim_leader_pt1.y number(31,15) autocad_upside_down char(1) autocad_mpolygon_origin_point_x number(31,15) autocad_viewport_back_clip_distance number(31,15) autocad_x_dir_z number(31,15) autocad_text_x_pos number(31,15) autocad_xrecord_data_list{} char(50) autocad_viewport_shade_plot char(32) fme_geometry char(50) autocad_hatch_associative number(5,0) autocad_number_columns number(5,0) autocad_shape_name char(32) autocad_viewport_grid_adaptive logical autocad_layer_hidden char(10) autocad_viewport_plot_style_sheet string autocad_vertical char(1) autocad_original_rotation number(31,15) autocad_raster_display_opt_show logical fme_sweep_angle number(31,15) autocad_viewport_center_point_z number(31,15) autocad_xref_path string autocad_xrecord_data{}.xrecord_name char(50) autocad_num_knots number(11,0) autocad_elevation number(31,15) autocad_extrusion_z number(31,15) autocad_end_width number(31,15) autocad_group_num_entities char(50) autocad_extended_data{0}.distance{0} number(31,15) autocad_xrecord_data{0}.world_direction{0}.z number(31,15) autocad_arc_defpt.z number(31,15) autocad_xref_name char(50) autocad_viewport_grid logical multi_reader_full_id number(11,0) autocad_original_entity_type char(50) autocad_line_defpoint.z number(31,15) autocad_mpolygon_pattern_scale number(31,15) autocad_ucs_origin_x number(31,15) autocad_entity char(50) autocad_hatch_loop{}.autocad_hatch_loop_type number(11,0) autocad_layer_lineweight number(5,0) autocad_original_position_y number(31,15) multi_reader_id number(11,0) autocad_xrecord_data{}.handle{0} char(50) autocad_viewport_handle char(50) autocad_spline_type char(15) autocad_font_typeface char(50) autocad_original_position_z number(31,15) autocad_viewport_non_rect_clip logical autocad_layout_insert_base_y number(31,15) autocad_rotation number(31,15) autocad_start_width number(31,15) autocad_fit_y string autocad_txt_offset_z number(31,15) autocad_original_layer char(50) autocad_group_selectable char(50) autocad_invisible_attributes{} char(50) autocad_underlined char(1) autocad_viewport_default_lighting logical autocad_extended_data{}.three_reals{0}.real1 number(31,15) autocad_extended_data{}.autocad_layer{0} char(50) autocad_xrecord_data{0}.handle{1} char(50) autocad_extended_data{}.world_displacement{0}.x number(31,15) autocad_viewport_resolved_target_z number(31,15) autocad_font_bold logical autocad_layout_tab_order number(11,0) autocad_yscale number(31,15) autocad_linetype_scale number(31,15) autocad_dim_arc_end_param number(31,15) autocad_dimension_type char(50) autocad_end_tangent_x number(31,15) autocad_dim_clone_inspection_point.z number(31,15) autocad_dim_clone_inspection_point.y number(31,15) autocad_viewport_back_clip logical autocad_degree number(31,15) autocad_xrecord_data{0}.world_displacement{0}.z number(31,15) autocad_dim_clone_inspection_point.x number(31,15) autocad_dim_flag number(5,0) autocad_xrecord_data{}.handle{2} char(50) autocad_alignment_z number(31,15) autocad_aunits number(6,0) autocad_ucs_origin_y number(31,15) autocad_dim_leader_pt1.z number(31,15) autocad_font_pitch_family number(11,0) autocad_start_tangent_x number(31,15) autocad_layout_linetype_scale logical autocad_hatch_style number(6,0) autocad_extmax_y number(31,15) autocad_arc_defpt.y number(31,15) autocad_group_anonymous char(50) autocad_version char(32) fme_secondary_axis number(31,15) autocad_hatch_gradient_name char(32) autocad_mpolygon_object_type number(6,0) autocad_generation char(30) autocad_extended_data{}.three_reals{0}.real3 number(31,15) autocad_extended_data{}.distance{0} number(31,15) autocad_xrecord_data{}.world_position{0}.z number(31,15) autocad_start_angle number(31,15) autocad_dim_arrowhead_pt_2.y number(31,15) autocad_viewport_snap_base_point_x number(31,15) fme_attrib_info{}.align_y number(31,15) autocad_dim_leader_pt2.y number(31,15) autocad_viewport_front_clip logical autocad_fill_color number(6,0) fme_attrib_info{}.align_x number(31,15) autocad_viewport_lens_length number(31,15) autocad_extended_data{0}.autocad_layer{0} char(50) autocad_mpolygon_offset_y number(31,15) autocad_text_y_pos number(31,15) autocad_extended_data{0}.world_position{0}.z number(31,15) autocad_overlined char(1) autocad_lineweight char(10) autocad_xrecord_data{}.three_reals{0}.real1 number(31,15) autocad_xrecord_data{0}.world_direction{0}.x number(31,15) autocad_extended_data{}.world_displacement{0}.y number(31,15) autocad_layout_name char(254) fme_attrib_info{}.color.green number(31,15) autocad_xrecord_data{0}.distance{0} number(31,15) autocad_xrecord_data{}.distance{0} number(31,15) autocad_mpolygon_gradient_one_color_mode number(5,0) fme_attrib_info{}.location_z number(31,15) autocad_mpolygon_gradient_name char(32) autocad_xrecord_data{}.handle{1} char(50) autocad_hook_line_on_xdir logical autocad_viewport_ucs_ydir_y number(31,15) autocad_extended_data{}.world_position{0}.z number(31,15) autocad_viewport_ucs_icon_origin logical autocad_extended_data_list{} char(50) fme_attrib_info{}.layer char(512) autocad_extended_data{0}.world_displacement{0}.x number(31,15) autocad_mpolygon_origin_point_y number(31,15) autocad_dim_arrowhead_pt_1.y number(31,15) autocad_viewport_grid_bound_limits logical autocad_viewport_ucs_origin_x number(31,15) autocad_resolved_linetype char(50) autocad_mpolygon_offset_x number(31,15) autocad_txt_offset_y number(31,15) autocad_hatch_gradient_type number(6,0) autocad_extended_data{0}.world_displacement{0}.z number(31,15) autocad_ucs_xdir_y number(31,15) multi_reader_type char(50) autocad_extended_data{0}.three_reals{0}.real2 number(31,15) autocad_dim_arc_is_partial logical fme_text_size number(31,15) autocad_secondary_axis number(31,15) autocad_base_y number(31,15) autocad_anno_handle char(50) fme_attrib_info{}.field_size number(5,0) autocad_viewport_contrast number(31,15) autocad_xrecord_data{0}.binary{0} char(50) autocad_shape_width number(31,15) autocad_xrecord_data{}.autocad_layer{0} char(50) autocad_control_z string autocad_proxygraphics number(6,0) autocad_xrecord_data{}.world_direction{0}.y number(31,15) autocad_thickness number(31,15) autocad_estimated_num_lines number(5,0) autocad_viewport_locked logical autocad_dim_arrowhead_pt_2.x number(31,15) autocad_end_tangent_y number(31,15) autocad_mpolygon_shade_tint_value number(31,15) autocad_extended_data{0}.handle{0} char(50) autocad_mpolygon_pattern_space number(31,15) autocad_true_type_font char(50) autocad_normal_x number(31,15) autocad_flag number(6,0) autocad_xrecord_data{0}.three_reals{0}.real1 number(31,15) autocad_num_fit_pts number(11,0) autocad_hatch_pattern_double number(5,0) autocad_layer_locked char(10) autocad_ucs_xangle number(31,15) autocad_edge_2 char(10) autocad_viewport_custom_scale number(31,15) fme_attrib_info{}.rotation number(31,15) autocad_viewport_grid_increment_y number(31,15) autocad_defpt2.x number(31,15) autocad_extended_data{}.application_name char(50) autocad_extended_data{0}.world_position{0}.y number(31,15) autocad_linespace_factor number(31,15) autocad_width number(31,15) autocad_mline_style char(50) autocad_anno_width number(31,15) autocad_extmin_z number(31,15) autocad_ucs_ydir_z number(31,15) autocad_xrecord_data{0}.world_position{0}.z number(31,15) autocad_viewport_view_height number(31,15) autocad_store_bulges_mode logical autocad_linetype_generation number(1,0) autocad_viewport_grid_follow logical fme_attrib_info{} char(50) autocad_extmin_y number(31,15) autocad_extended_data{}.world_displacement{0}.z number(31,15) fme_text_string char(50) fme_primary_axis number(31,15) autocad_viewport_view_direction_y number(31,15) autocad_rational_spline number(6,0) autocad_xrecord_data{}.16Bit_integer{0} number(5,0) autocad_shape_rotation number(31,15) autocad_arrow_head_on logical autocad_alignment_y number(31,15) autocad_shape_index number(31,15) autocad_fit_z string autocad_layer_linetype char(32) autocad_viewport_snap logical"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -126,7 +126,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="shapefile_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_secondary_axis double fme_color char(50) fme_feature_type char(50) shape_geometry_error char(254) fme_sweep_angle double multi_reader_type char(50) multi_reader_keyword char(50) multi_reader_id long fme_text_size double shapefile_type char(30) fme_text_string char(50) fme_basename char(50) fme_rotation double fme_primary_axis double fme_geometry char(50) fme_fill_color char(50) fme_type char(50) fme_start_angle double fme_dataset char(50) multi_reader_full_id long"
+#!   EXPOSABLE_ATTRS="fme_color char(50) shapefile_type char(30) shape_geometry_error char(254) fme_fill_color char(50) fme_geometry char(50) fme_type char(50) fme_sweep_angle double multi_reader_full_id long fme_basename char(50) fme_text_string char(50) fme_start_angle double multi_reader_id long fme_secondary_axis double fme_rotation double multi_reader_type char(50) fme_dataset char(50) fme_text_size double fme_primary_axis double multi_reader_keyword char(50) fme_feature_type char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -184,7 +184,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="false"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle string fme_text_size string fme_dataset string fme_geometry string fme_type string fme_text_string string fme_basename string obj_type string fme_feature_type string fme_secondary_axis string fme_rotation string fme_start_angle string fme_color string fme_primary_axis string fme_fill_color string"
+#!   EXPOSABLE_ATTRS="fme_geometry string obj_type string fme_dataset string fme_rotation string fme_text_size string fme_type string fme_basename string fme_fill_color string fme_sweep_angle string fme_color string fme_primary_axis string fme_text_string string fme_feature_type string fme_secondary_axis string fme_start_angle string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -235,7 +235,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="false"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle double fme_text_size double fme_dataset string fme_geometry string fme_type string 3ds_mesh_name string fme_text_string string fme_basename string fme_feature_type string fme_secondary_axis double fme_rotation double 3ds_type string fme_start_angle double fme_color string fme_primary_axis double fme_fill_color string"
+#!   EXPOSABLE_ATTRS="fme_geometry string 3ds_type string fme_dataset string fme_rotation double fme_text_size double fme_type string fme_basename string fme_fill_color string fme_sweep_angle double fme_color string fme_primary_axis double fme_text_string string 3ds_mesh_name string fme_feature_type string fme_secondary_axis double fme_start_angle double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -603,277 +603,277 @@
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_buffer"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_xml"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_json"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_char(width)"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_datetime"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_date"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_time"
-#!   FORMAT="3DS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="3DS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="3DS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="3DS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="3DS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="3DS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="3DS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="3DS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="double"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="3DS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="double"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="3DS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_int8"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_uint8"
-#!   FORMAT="3DS"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="OBJ"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="OBJ"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_buffer"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_xml"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_json"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_char(width)"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_datetime"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_date"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_time"
-#!   FORMAT="OBJ"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="OBJ"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="OBJ"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="OBJ"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="OBJ"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="OBJ"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="OBJ"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="OBJ"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="OBJ"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="OBJ"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="3DS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="3DS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="3DS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="3DS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="3DS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="3DS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="3DS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="3DS"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_boolean"
-#!   FORMAT="OBJ"
+#!   FORMAT="3DS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="3DS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="3DS"
 #! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
@@ -1353,96 +1353,6 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="3ds_mesh"
-#!   FME_TYPE="fme_feature_table"
-#!   FORMAT="3DS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="obj_face"
 #!   FME_TYPE="fme_surface"
 #!   FORMAT="OBJ"
@@ -1531,6 +1441,96 @@
 #!   FME_TYPE="fme_feature_table"
 #!   FORMAT="OBJ"
 #! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="3DS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="3ds_mesh"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="3DS"
+#! />
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
@@ -1599,8 +1599,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="142"
 #!   FEAT_GEOMTYPE="shapefile_polygon"
-#!   POSITION="-2308.1364557188695 1141.3435506695491"
-#!   BOUNDING_RECT="-2308.1364557188695 1141.3435506695491 454 71"
+#!   POSITION="-2308.1364557188695 1078.1780253972752"
+#!   BOUNDING_RECT="-2308.1364557188695 1078.1780253972752 454 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="SHAPEFILE_1"
@@ -1684,6 +1684,231 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="151"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="167"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Perimeter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-2350.1364557188695 1230.4287129041502"
+#!   TOP_LEFT="-2350.1364557188695 1230.4287129041502"
+#!   BOTTOM_RIGHT="-1888.3167555079806 1131.6780253972752"
+#!   BOUNDING_RECT="-2350.1364557188695 1230.4287129041502 461.81970021088887 98.750687506875067"
+#!   ORDER="500000000000247"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="142"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="168"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Load buildings depending on bounds of perimeter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-1666.6546544188845 1230.9155261172866"
+#!   TOP_LEFT="-1666.6546544188845 1230.9155261172866"
+#!   BOTTOM_RIGHT="-1194.6546544188845 1229.9155261172866"
+#!   BOUNDING_RECT="-1666.6546544188845 1230.9155261172866 472 1"
+#!   ORDER="500000000000248"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="110"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="169"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Ground, Wall and Roof are mandatories. This allows to Load CityGML and connect elements here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-1082.0210744545716 -20.569076281928886"
+#!   TOP_LEFT="-1082.0210744545716 -20.569076281928886"
+#!   BOTTOM_RIGHT="-493.78955515487678 -250.57107630192908"
+#!   BOUNDING_RECT="-1082.0210744545716 -20.569076281928886 588.23151929969481 230.0020000200002"
+#!   ORDER="500000000000249"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.62352941176470589,0.5725490196078431,0.8784313725490196,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="121"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="170"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Simplify composites&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-342.7774923318849 1239.9146511085364"
+#!   TOP_LEFT="-342.7774923318849 1239.9146511085364"
+#!   BOTTOM_RIGHT="111.2225076681151 1238.9146511085364"
+#!   BOUNDING_RECT="-342.7774923318849 1239.9146511085364 454 1"
+#!   ORDER="500000000000250"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="17"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="172"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Replace 3D polygones with Faces&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-342.7774923318849 644.91465110853653"
+#!   TOP_LEFT="-342.7774923318849 644.91465110853653"
+#!   BOTTOM_RIGHT="111.2225076681151 643.91465110853653"
+#!   BOUNDING_RECT="-342.7774923318849 644.91465110853653 454 1"
+#!   ORDER="500000000000251"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="16"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="173"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Separate walls from roof in order to texture it&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="279.0434315758198 1240.978491534175"
+#!   TOP_LEFT="279.0434315758198 1240.978491534175"
+#!   BOTTOM_RIGHT="733.0434315758198 1239.978491534175"
+#!   BOUNDING_RECT="279.0434315758198 1240.978491534175 454 1"
+#!   ORDER="500000000000252"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="107"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="175"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Separate core building and roofs&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1572.7054296954752 1057.5989981647731"
+#!   TOP_LEFT="1572.7054296954752 1057.5989981647731"
+#!   BOTTOM_RIGHT="2026.7054296954752 1056.5989981647731"
+#!   BOUNDING_RECT="1572.7054296954752 1057.5989981647731 454 1"
+#!   ORDER="500000000000254"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="122"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="179"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Simplify coplanar surfaces&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3039.0306962574741 430.63030231667574"
+#!   TOP_LEFT="3039.0306962574741 430.63030231667574"
+#!   BOTTOM_RIGHT="3493.0306962574741 429.63030231667574"
+#!   BOUNDING_RECT="3039.0306962574741 430.63030231667574 454 1"
+#!   ORDER="500000000000257"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="30"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="180"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Avoid collision with core building&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3039.0306962574741 -64.000520140519484"
+#!   TOP_LEFT="3039.0306962574741 -64.000520140519484"
+#!   BOTTOM_RIGHT="3493.0306962574741 -65.000520140519484"
+#!   BOUNDING_RECT="3039.0306962574741 -64.000520140519484 454 1"
+#!   ORDER="500000000000258"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="145"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="181"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Group roof parts&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3039.0306962574741 -317.77301569381711"
+#!   TOP_LEFT="3039.0306962574741 -317.77301569381711"
+#!   BOTTOM_RIGHT="3493.0306962574741 -318.77301569381711"
+#!   BOUNDING_RECT="3039.0306962574741 -317.77301569381711 454 1"
+#!   ORDER="500000000000259"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="149"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="182"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Avoid vertical collisions with core building&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3039.0306962574741 -509.68683519633737"
+#!   TOP_LEFT="3039.0306962574741 -509.68683519633737"
+#!   BOTTOM_RIGHT="3483.810277057225 -510.68683519633737"
+#!   BOUNDING_RECT="3039.0306962574741 -509.68683519633737 444.77958079975087 1"
+#!   ORDER="500000000000260"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="146"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="183"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Boolean union of solids&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3198.1947169255245 1270.6004498749708"
+#!   TOP_LEFT="3198.1947169255245 1270.6004498749708"
+#!   BOTTOM_RIGHT="3628.1947169255245 1269.6004498749708"
+#!   BOUNDING_RECT="3198.1947169255245 1270.6004498749708 430 1"
+#!   ORDER="500000000000261"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="22"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="185"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;In case core building cannot be created, extrude walls so they become solids&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3174.2355992093471 726.96831815646431"
+#!   TOP_LEFT="3174.2355992093471 726.96831815646431"
+#!   BOTTOM_RIGHT="3628.2355992093471 725.96831815646431"
+#!   BOUNDING_RECT="3174.2355992093471 726.96831815646431 454 1"
+#!   ORDER="500000000000263"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="139"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="186"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set to Unity coordinates&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="3729.8819684822547 563.30528578004737"
+#!   TOP_LEFT="3729.8819684822547 563.30528578004737"
+#!   BOTTOM_RIGHT="4773.5104260434264 562.30528578004737"
+#!   BOUNDING_RECT="3729.8819684822547 563.30528578004737 1043.6284575611717 1"
+#!   ORDER="500000000000264"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="0.62352941176470589,0.5725490196078431,0.8784313725490196,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="184"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="187"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Writer 3DS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="4877.8850166425191 563.30528578004737"
+#!   TOP_LEFT="4877.8850166425191 563.30528578004737"
+#!   BOTTOM_RIGHT="5257.4670882879045 464.5545982731723"
+#!   BOUNDING_RECT="4877.8850166425191 563.30528578004737 379.58207164538544 98.750687506875067"
+#!   ORDER="500000000000265"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="5"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -1697,6 +1922,62 @@
 #!   PALETTE_COLOR="Color8"
 #!   BOTTOM_RIGHT="-493.83209881481525 173.61284723958352"
 #!   BOUNDING_RECT="-1080.2577161574081 1230.7221837650475 586.42561734259289 1057.109336525464"
+#!   STICKY="true"
+#!   COLOUR="0.62352941176470589,0.5725490196078431,0.8784313725490196,1"
+#!   CONTENTS="92 89 91 93 90 104 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="174"
+#!   NAME="SET COLORS"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="874.34384982147708 1240.978491534175"
+#!   ORDER="500000000000253"
+#!   PALETTE_COLOR="Color5"
+#!   BOTTOM_RIGHT="1489.3765958936185 -105.32020213819146"
+#!   BOUNDING_RECT="874.34384982147708 1240.978491534175 615.03274607214144 1346.2986936723664"
+#!   STICKY="true"
+#!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,1"
+#!   CONTENTS="27 24 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="176"
+#!   NAME="Create core building"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="2320.50192842354 1240.978491534175"
+#!   ORDER="500000000000255"
+#!   PALETTE_COLOR="Color6"
+#!   BOTTOM_RIGHT="2938.8591758258008 595.08573809142342"
+#!   BOUNDING_RECT="2320.50192842354 1240.978491534175 618.35724740226078 645.89275344275154"
+#!   STICKY="false"
+#!   COLOUR="0.59215686274509804,0.8901960784313725,0.90980392156862744,1"
+#!   CONTENTS=""
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="177"
+#!   NAME="Extrude roof"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="2320.50192842354 539.55459827317236"
+#!   ORDER="500000000000256"
+#!   PALETTE_COLOR="Color7"
+#!   BOTTOM_RIGHT="2932.2101731655616 -784.5823139082454"
+#!   BOUNDING_RECT="2320.50192842354 539.55459827317236 611.70824474202163 1324.1369121814178"
+#!   STICKY="false"
+#!   COLOUR="0.59215686274509804,0.75294117647058822,0.90980392156862744,1"
+#!   CONTENTS=""
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="184"
+#!   NAME="New Bookmark"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="3673.573969782251 1240.978491534175"
+#!   ORDER="500000000000262"
+#!   PALETTE_COLOR="Color8"
+#!   BOTTOM_RIGHT="4817.2024273434226 661.57576469381718"
+#!   BOUNDING_RECT="3673.573969782251 1240.978491534175 1143.6284575611717 579.40272684035779"
 #!   STICKY="false"
 #!   COLOUR="0.62352941176470589,0.5725490196078431,0.8784313725490196,1"
 #!   CONTENTS=""
@@ -1708,8 +1989,8 @@
 #!   IDENTIFIER="16"
 #!   TYPE="FaceReplacer"
 #!   VERSION="1"
-#!   POSITION="-304.7774923318849 585.81981800830692"
-#!   BOUNDING_RECT="-304.7774923318849 585.81981800830692 454 71"
+#!   POSITION="-311.42649499212428 918.26995102027558"
+#!   BOUNDING_RECT="-311.42649499212428 918.26995102027558 454 71"
 #!   ORDER="500000000000128"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1718,14 +1999,14 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1735,14 +2016,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1772,14 +2053,14 @@
 #!     <OUTPUT_FEAT NAME="DEAGGREGATED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1823,13 +2104,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1842,13 +2123,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1890,13 +2171,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1936,13 +2217,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1954,14 +2235,14 @@
 #!     <OUTPUT_FEAT NAME="UNUSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1972,14 +2253,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2010,19 +2291,19 @@
 #!   ORDER="500000000000175"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19602"
+#!   LAST_PARM_EDIT="19617"
 #! >
 #!     <OUTPUT_FEAT NAME="Dissolved"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2035,13 +2316,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2069,66 +2350,11 @@
 #!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="23"
-#!   TYPE="Tester"
-#!   VERSION="3"
-#!   POSITION="-304.7774923318849 876.73128952808543"
-#!   BOUNDING_RECT="-304.7774923318849 876.73128952808543 454 71"
-#!   ORDER="500000000000133"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="19602"
-#! >
-#!     <OUTPUT_FEAT NAME="PASSED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="FAILED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="1 OR 2"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;BuildingId&lt;closeparen&gt; = 102295&#10;TEST &lt;at&gt;Value&lt;openparen&gt;BuildingId&lt;closeparen&gt; = 102307"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
-#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_3"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="24"
 #!   TYPE="AppearanceSetter"
 #!   VERSION="5"
-#!   POSITION="1007.0613327652259 538.49075784753381"
-#!   BOUNDING_RECT="1007.0613327652259 538.49075784753381 430 71"
+#!   POSITION="967.16731680378962 539.55459827317236"
+#!   BOUNDING_RECT="967.16731680378962 539.55459827317236 430 71"
 #!   ORDER="500000000000183"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2137,14 +2363,14 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2159,14 +2385,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -2227,13 +2453,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2262,8 +2488,8 @@
 #!   IDENTIFIER="27"
 #!   TYPE="AppearanceSetter"
 #!   VERSION="5"
-#!   POSITION="1007.0613327652259 1106.1639636016614"
-#!   BOUNDING_RECT="1007.0613327652259 1106.1639636016614 430 71"
+#!   POSITION="967.16731680378962 1107.2278040273"
+#!   BOUNDING_RECT="967.16731680378962 1107.2278040273 430 71"
 #!   ORDER="500000000000183"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2272,14 +2498,14 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2294,14 +2520,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -2361,14 +2587,14 @@
 #!     <OUTPUT_FEAT NAME="EXTRUDED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2379,14 +2605,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2417,14 +2643,14 @@
 #!     <OUTPUT_FEAT NAME="SURFACE"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2435,14 +2661,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2473,11 +2699,11 @@
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
 #!   POSITION="-1033.9609568935193 1106.1639636016614"
-#!   BOUNDING_RECT="-1033.9609568935193 1106.1639636016614 454 71"
+#!   BOUNDING_RECT="-1033.9609568935193 1106.1639636016614 430 71"
 #!   ORDER="500000000000203"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19602"
+#!   LAST_PARM_EDIT="19617"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2497,18 +2723,18 @@
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Ground"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="90"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
 #!   POSITION="-1033.9609568935193 963.16396360166141"
-#!   BOUNDING_RECT="-1033.9609568935193 963.16396360166141 454 71"
+#!   BOUNDING_RECT="-1033.9609568935193 963.16396360166141 430 71"
 #!   ORDER="500000000000203"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19602"
+#!   LAST_PARM_EDIT="19617"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2530,18 +2756,18 @@
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Overhang"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="91"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
 #!   POSITION="-1033.9609568935193 820.16396360166141"
-#!   BOUNDING_RECT="-1033.9609568935193 820.16396360166141 454 71"
+#!   BOUNDING_RECT="-1033.9609568935193 820.16396360166141 430 71"
 #!   ORDER="500000000000203"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19602"
+#!   LAST_PARM_EDIT="19617"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2563,18 +2789,18 @@
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Roof"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="92"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
 #!   POSITION="-1025.6187004366338 677.16396360166141"
-#!   BOUNDING_RECT="-1025.6187004366338 677.16396360166141 454 71"
+#!   BOUNDING_RECT="-1025.6187004366338 677.16396360166141 430 71"
 #!   ORDER="500000000000203"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19602"
+#!   LAST_PARM_EDIT="19617"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2595,30 +2821,30 @@
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RoofSuperstructure"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="93"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
 #!   POSITION="-1025.6187004366338 534.16396360166141"
-#!   BOUNDING_RECT="-1025.6187004366338 534.16396360166141 454 71"
+#!   BOUNDING_RECT="-1025.6187004366338 534.16396360166141 430 71"
 #!   ORDER="500000000000203"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19602"
+#!   LAST_PARM_EDIT="19617"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; BuildingPart SET_TO Wall"/>
@@ -2628,18 +2854,18 @@
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Wall"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="104"
 #!   TYPE="AttributeCreator"
 #!   VERSION="9"
 #!   POSITION="-1025.6187004366338 391.16396360166141"
-#!   BOUNDING_RECT="-1025.6187004366338 391.16396360166141 454 71"
+#!   BOUNDING_RECT="-1025.6187004366338 391.16396360166141 430 71"
 #!   ORDER="500000000000203"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="19602"
+#!   LAST_PARM_EDIT="19617"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2660,7 +2886,7 @@
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="WallSuperstructure"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="108"
@@ -2692,8 +2918,8 @@
 #!   IDENTIFIER="107"
 #!   TYPE="AttributeFilter"
 #!   VERSION="5"
-#!   POSITION="356.93744753725599 1106.1639636016614"
-#!   BOUNDING_RECT="356.93744753725599 1106.1639636016614 454 71"
+#!   POSITION="317.0434315758198 1019.7269290185498"
+#!   BOUNDING_RECT="317.0434315758198 1019.7269290185498 454 71"
 #!   ORDER="500000000000209"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2702,14 +2928,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;EMPTY&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2720,14 +2946,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2738,14 +2964,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2756,14 +2982,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -2774,14 +3000,14 @@
 #!     <OUTPUT_FEAT NAME="Ground"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -2792,14 +3018,14 @@
 #!     <OUTPUT_FEAT NAME="Wall"/>
 #!     <FEAT_COLLAPSED COLLAPSED="5"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="5" />
@@ -2810,14 +3036,14 @@
 #!     <OUTPUT_FEAT NAME="WallSuperstructure"/>
 #!     <FEAT_COLLAPSED COLLAPSED="6"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="6" />
@@ -2828,14 +3054,14 @@
 #!     <OUTPUT_FEAT NAME="Roof"/>
 #!     <FEAT_COLLAPSED COLLAPSED="7"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="7" />
@@ -2846,14 +3072,14 @@
 #!     <OUTPUT_FEAT NAME="RoofSuperstructure"/>
 #!     <FEAT_COLLAPSED COLLAPSED="8"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="8" />
@@ -2864,14 +3090,14 @@
 #!     <OUTPUT_FEAT NAME="Overhang"/>
 #!     <FEAT_COLLAPSED COLLAPSED="9"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="9" />
@@ -2890,8 +3116,8 @@
 #!   IDENTIFIER="122"
 #!   TYPE="AttributeFilter"
 #!   VERSION="5"
-#!   POSITION="1610.7054296954752 1106.1639636016614"
-#!   BOUNDING_RECT="1610.7054296954752 1106.1639636016614 454 71"
+#!   POSITION="1610.7054296954752 880.09787315352287"
+#!   BOUNDING_RECT="1610.7054296954752 880.09787315352287 454 71"
 #!   ORDER="500000000000209"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2900,14 +3126,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;EMPTY&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2918,14 +3144,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;MISSING&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2936,14 +3162,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;NULL&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2954,14 +3180,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -2972,14 +3198,14 @@
 #!     <OUTPUT_FEAT NAME="Ground"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -2990,14 +3216,14 @@
 #!     <OUTPUT_FEAT NAME="Wall"/>
 #!     <FEAT_COLLAPSED COLLAPSED="5"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="5" />
@@ -3008,14 +3234,14 @@
 #!     <OUTPUT_FEAT NAME="WallSuperstructure"/>
 #!     <FEAT_COLLAPSED COLLAPSED="6"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="6" />
@@ -3026,14 +3252,14 @@
 #!     <OUTPUT_FEAT NAME="Roof"/>
 #!     <FEAT_COLLAPSED COLLAPSED="7"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="7" />
@@ -3044,14 +3270,14 @@
 #!     <OUTPUT_FEAT NAME="RoofSuperstructure"/>
 #!     <FEAT_COLLAPSED COLLAPSED="8"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="8" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="8" />
@@ -3062,14 +3288,14 @@
 #!     <OUTPUT_FEAT NAME="Overhang"/>
 #!     <FEAT_COLLAPSED COLLAPSED="9"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="9" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="9" />
@@ -3124,14 +3350,14 @@
 #!     <OUTPUT_FEAT NAME="EXTRUDED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3142,14 +3368,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3180,14 +3406,14 @@
 #!     <OUTPUT_FEAT NAME="OFFSET"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3198,14 +3424,14 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3246,13 +3472,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3264,13 +3490,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -3306,13 +3532,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BuildingId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BuildingPart" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__xmin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="sec__ymin" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="secteur_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_featur" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Azimuth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_basename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3372,8 +3598,8 @@
 #!   IDENTIFIER="110"
 #!   TYPE="FeatureReader"
 #!   VERSION="11"
-#!   POSITION="-1635.6546544188845 1106.1639636016614"
-#!   BOUNDING_RECT="-1635.6546544188845 1106.1639636016614 430 71"
+#!   POSITION="-1624.6546544188845 991.16396360166141"
+#!   BOUNDING_RECT="-1624.6546544188845 991.16396360166141 430 71"
 #!   ORDER="500000000000245"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3510,8 +3736,8 @@
 #!   IDENTIFIER="140"
 #!   TYPE="BoundsExtractor"
 #!   VERSION="2"
-#!   POSITION="-2308.1364557188695 966.77694097441213"
-#!   BOUNDING_RECT="-2308.1364557188695 966.77694097441213 454 71"
+#!   POSITION="-2308.1364557188695 903.61141570213817"
+#!   BOUNDING_RECT="-2308.1364557188695 903.61141570213817 454 71"
 #!   ORDER="500000000000017"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3538,10 +3764,10 @@
 #!   IDENTIFIER="141"
 #!   TYPE="AttributeKeeper"
 #!   VERSION="3"
-#!   POSITION="-2308.1364557188695 777.62325499235908"
-#!   BOUNDING_RECT="-2308.1364557188695 777.62325499235908 454 71"
+#!   POSITION="-2308.1364557188695 714.45772972008513"
+#!   BOUNDING_RECT="-2308.1364557188695 714.45772972008513 454 71"
 #!   ORDER="500000000000018"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="19253"
 #! >
@@ -3559,8 +3785,8 @@
 #!   IDENTIFIER="102"
 #!   TYPE="FeatureMerger"
 #!   VERSION="18"
-#!   POSITION="-1635.6546544188845 240.42892369807092"
-#!   BOUNDING_RECT="-1635.6546544188845 240.42892369807092 483 71"
+#!   POSITION="-1677.6546544188845 -14.483432266236406"
+#!   BOUNDING_RECT="-1677.6546544188845 -14.483432266236406 483 71"
 #!   ORDER="500000000000246"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3653,9 +3879,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="53"
+#!   IDENTIFIER="171"
 #!   SOURCE_NODE="17"
-#!   TARGET_NODE="23"
+#!   TARGET_NODE="16"
 #!   SOURCE_PORT_DESC="fo 0 DEAGGREGATED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -3712,17 +3938,6 @@
 #!   SOURCE_NODE="22"
 #!   TARGET_NODE="19"
 #!   SOURCE_PORT_DESC="fo 0 Dissolved"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="98"
-#!   SOURCE_NODE="23"
-#!   TARGET_NODE="16"
-#!   SOURCE_PORT_DESC="fo 0 PASSED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -4016,10 +4231,10 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="54"
-#!   SOURCE_NODE="23"
-#!   TARGET_NODE="16"
-#!   SOURCE_PORT_DESC="fo 1 FAILED"
+#!   IDENTIFIER="178"
+#!   SOURCE_NODE="30"
+#!   TARGET_NODE="29"
+#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;REJECTED&lt;gt&gt;"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -4032,6 +4247,17 @@
 #!   TARGET_NODE="27"
 #!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;lt&lt;gt&gt;MISSING&lt;lt&gt;gt&lt;gt&gt;"
 #!   TARGET_PORT_DESC="fi 1 GEOMETRY"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="152"
+#!   SOURCE_NODE="110"
+#!   TARGET_NODE="89"
+#!   SOURCE_PORT_DESC="fo 1 Ground"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -4060,6 +4286,17 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="159"
+#!   SOURCE_NODE="110"
+#!   TARGET_NODE="90"
+#!   SOURCE_PORT_DESC="fo 2 Overhang"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="125"
 #!   SOURCE_NODE="122"
 #!   TARGET_NODE="21"
@@ -4076,6 +4313,17 @@
 #!   TARGET_NODE="27"
 #!   SOURCE_PORT_DESC="fo 3 &lt;lt&gt;lt&lt;gt&gt;UNFILTERED&lt;lt&gt;gt&lt;gt&gt;"
 #!   TARGET_PORT_DESC="fi 1 GEOMETRY"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="160"
+#!   SOURCE_NODE="110"
+#!   TARGET_NODE="91"
+#!   SOURCE_PORT_DESC="fo 3 Roof"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -4104,10 +4352,10 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="152"
+#!   IDENTIFIER="162"
 #!   SOURCE_NODE="110"
-#!   TARGET_NODE="89"
-#!   SOURCE_PORT_DESC="fo 1 Ground"
+#!   TARGET_NODE="92"
+#!   SOURCE_PORT_DESC="fo 4 RoofSuperstructure"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -4137,10 +4385,10 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="159"
+#!   IDENTIFIER="163"
 #!   SOURCE_NODE="110"
-#!   TARGET_NODE="90"
-#!   SOURCE_PORT_DESC="fo 2 Overhang"
+#!   TARGET_NODE="93"
+#!   SOURCE_PORT_DESC="fo 5 Wall"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -4170,10 +4418,10 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="160"
+#!   IDENTIFIER="164"
 #!   SOURCE_NODE="110"
-#!   TARGET_NODE="91"
-#!   SOURCE_PORT_DESC="fo 3 Roof"
+#!   TARGET_NODE="104"
+#!   SOURCE_PORT_DESC="fo 6 WallSuperstructure"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -4197,17 +4445,6 @@
 #!   TARGET_NODE="24"
 #!   SOURCE_PORT_DESC="fo 7 Roof"
 #!   TARGET_PORT_DESC="fi 1 GEOMETRY"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="162"
-#!   SOURCE_NODE="110"
-#!   TARGET_NODE="92"
-#!   SOURCE_PORT_DESC="fo 4 RoofSuperstructure"
-#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -4247,17 +4484,6 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="163"
-#!   SOURCE_NODE="110"
-#!   TARGET_NODE="93"
-#!   SOURCE_PORT_DESC="fo 5 Wall"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="131"
 #!   SOURCE_NODE="122"
 #!   TARGET_NODE="21"
@@ -4285,17 +4511,6 @@
 #!   TARGET_NODE="24"
 #!   SOURCE_PORT_DESC="fo 9 Overhang"
 #!   TARGET_PORT_DESC="fi 1 GEOMETRY"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="164"
-#!   SOURCE_NODE="110"
-#!   TARGET_NODE="104"
-#!   SOURCE_PORT_DESC="fo 6 WallSuperstructure"
-#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -4332,6 +4547,7 @@
 #!   FME_PROCESS_GROUP_BY=""
 #!   FME_PROCESS_PRESERVE_GROUP_ATTR="No"
 #!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
+#!   GUID="b2657141-439a-42d3-82a3-cd02916ce6ac"
 #!   HISTORY="2013-06-26,Dave&lt;space&gt;Campanas,Initial&lt;space&gt;Creation,2016-02-04,Annabelle&lt;space&gt;Glass,Compatibility&lt;space&gt;Update&lt;space&gt;for&lt;space&gt;2016"
 #!   IS_VISIBLE="true"
 #!   LAST_SAVE_BUILD="FME(R) 2016.0.1.0 (20160130 - Build 16174 - WIN64)"
@@ -5495,8 +5711,8 @@ DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor_2    INPUT  FEATURE_TYPE perimeter_SHAPEFILE_1    OUTPUT FEATURE_TYPE BoundsExtractor_2_OUTPUT         @Bounds(fme_encoded,_xmin,_xmax,_ymin,_ymax,,,GEOMETRIC)
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_2_e3f79e0e_1440_48aa_b955_3c13c97efbfa16_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE BoundsExtractor_2_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_2_OUTPUT        @KeepAttributes(fme_encoded,_ymin,_xmin,fme_pcre_match,"^fme_$(AttributeKeeper_2_e3f79e0e_1440_48aa_b955_3c13c97efbfa16_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_2_bf8d5f36_fe94_4d9a_ad8c_e626d6114d982_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE BoundsExtractor_2_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_2_OUTPUT        @KeepAttributes(fme_encoded,_ymin,_xmin,fme_pcre_match,"^fme_$(AttributeKeeper_2_bf8d5f36_fe94_4d9a_ad8c_e626d6114d982_LIST_EXP)")         }
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeKeeper_2 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT   OUTPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT_0_muAz4GqwTdk=   OUTPUT FEATURE_TYPE AttributeKeeper_2_OUTPUT_1_eKOY+pR0mH0=
 # -------------------------------------------------------------------------
 MACRO FeatureReader_OUTPUT_PORTS_ENCODED Ground Overhang Roof RoofSuperstructure Wall WallSuperstructure
@@ -5511,15 +5727,15 @@ FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYPE FeatureReader_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_6    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_WallSuperstructure    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "WallSuperstructure" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME WallSuperstructure    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_WallSuperstructure    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "WallSuperstructure" }    OUTPUT OUTPUT FEATURE_TYPE WallSuperstructure_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_4    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_RoofSuperstructure    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "RoofSuperstructure" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME RoofSuperstructure    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_RoofSuperstructure    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "RoofSuperstructure" }    OUTPUT OUTPUT FEATURE_TYPE RoofSuperstructure_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_3    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_Roof    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "Roof" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME Roof    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_Roof    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "Roof" }    OUTPUT OUTPUT FEATURE_TYPE Roof_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_Overhang    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "Overhang" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME Overhang    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_Overhang    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "Overhang" }    OUTPUT OUTPUT FEATURE_TYPE Overhang_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_Ground    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "Ground" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME Ground    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_Ground    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "Ground" }    OUTPUT OUTPUT FEATURE_TYPE Ground_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeExposer    INPUT  FEATURE_TYPE Problems_ACAD_1    OUTPUT FEATURE_TYPE AttributeExposer_OUTPUT
 # -------------------------------------------------------------------------
@@ -5532,14 +5748,12 @@ FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger    FLUSH_WHEN_GRO
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME FeatureMerger_<Rejected> INPUT FEATURE_TYPE FeatureMerger_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureMerger<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_5    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_Wall    INPUT  FEATURE_TYPE FeatureMerger_MERGED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "Wall" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_5_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME Wall    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureMerger_MERGED    INPUT  FEATURE_TYPE FeatureReader_Wall    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "BuildingPart" "SET_TO" "Wall" }    OUTPUT OUTPUT FEATURE_TYPE Wall_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * DeaggregateFactory    FACTORY_NAME Deaggregator    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_5_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_6_OUTPUT    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT LINE FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT POLYGON FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT DONUT FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT AGGREGATE FEATURE_TYPE Deaggregator_DEAGGREGATED
-# -------------------------------------------------------------------------
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE Deaggregator_DEAGGREGATED    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>BuildingId<closeparen>,Tester_3) = 102295 ENCODED TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>BuildingId<closeparen>,Tester_3) = 102307 ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1 OR 2"    FEATURE_TABLE_SHIM_SUPPORT Yes    OUTPUT PASSED FEATURE_TYPE Tester_3_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_3_FAILED
+FACTORY_DEF * DeaggregateFactory    FACTORY_NAME Deaggregator    INPUT  FEATURE_TYPE Ground_OUTPUT    INPUT  FEATURE_TYPE Overhang_OUTPUT    INPUT  FEATURE_TYPE Roof_OUTPUT    INPUT  FEATURE_TYPE RoofSuperstructure_OUTPUT    INPUT  FEATURE_TYPE Wall_OUTPUT    INPUT  FEATURE_TYPE WallSuperstructure_OUTPUT    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT LINE FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT POLYGON FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT DONUT FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT AGGREGATE FEATURE_TYPE Deaggregator_DEAGGREGATED
 # -------------------------------------------------------------------------
 INCLUDE [          if { {IGNORE} == {CUSTOM} } {             puts {MACRO THICKNESS_TOLERANCE " <Unused>"};          }          elseif { {IGNORE} == {IGNORE} } {             puts {MACRO THICKNESS_TOLERANCE " -2"};          }          else {             puts {MACRO THICKNESS_TOLERANCE " -1"};          };          if { {IGNORE} == {CUSTOM} } {             puts {MACRO ANGULAR_TOLERANCE " <Unused>"};          }          elseif { {IGNORE} == {IGNORE} } {             puts {MACRO ANGULAR_TOLERANCE " -2"};          }          else {             puts {MACRO ANGULAR_TOLERANCE " -1"};          };          ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME FaceReplacer_FaceCreator    INPUT  FEATURE_TYPE Tester_3_FAILED    INPUT  FEATURE_TYPE Tester_3_PASSED    OUTPUT FEATURE_TYPE ___TOREJECTOR___          @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)          @GeometryType(fme_face, $(THICKNESS_TOLERANCE), $(ANGULAR_TOLERANCE))
+FACTORY_DEF * TeeFactory    FACTORY_NAME FaceReplacer_FaceCreator    INPUT  FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT FEATURE_TYPE ___TOREJECTOR___          @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)          @GeometryType(fme_face, $(THICKNESS_TOLERANCE), $(ANGULAR_TOLERANCE))
 FACTORY_DEF * TestFactory    FACTORY_NAME FaceReplacer_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT PASSED FEATURE_TYPE FaceReplacer_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE FaceReplacer_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeFilter    INPUT  FEATURE_TYPE FaceReplacer_OUTPUT    INPUT  FEATURE_TYPE FaceReplacer_<REJECTED>    OUTPUT FEATURE_TYPE AttributeFilter_FILTER
@@ -5583,11 +5797,9 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2 Roof Splitter"   INPU
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter_2 RoofSuperstructure Splitter"   INPUT FEATURE_TYPE AttributeFilter_2_RoofSuperstructure   OUTPUT FEATURE_TYPE AttributeFilter_2_RoofSuperstructure_0_lQbEYmZWjAI=   OUTPUT FEATURE_TYPE AttributeFilter_2_RoofSuperstructure_1_G8rpaUEkMoU=
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} SurfaceDissolveFactory    INPUT  FEATURE_TYPE AttributeFilter_2_Roof_1_pUiWOW0AWDU=    INPUT  FEATURE_TYPE AttributeFilter_2_RoofSuperstructure_1_G8rpaUEkMoU=    INPUT  FEATURE_TYPE AttributeFilter_2_Overhang    FACTORY_NAME SurfaceDissolver_2    GROUP_BY { BuildingId }    FLUSH_WHEN_GROUPS_CHANGE No    DISSOLVE_COUNT_ATTRIBUTE ""    NORMAL_TOLERANCE "1"    OFFSET_TOLERANCE "1"    MATCHING_APPS No    SEPARATE_SURFACES No    DEAGGREGATE_INPUT Yes    ACCUM_INPUT_ATTRS One    LIST_NAME "<Unused>"    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    OUTPUT SURFACE FEATURE_TYPE SurfaceDissolver_2_SURFACE    OUTPUT REJECTED FEATURE_TYPE SurfaceDissolver_2_<REJECTED>
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME SurfaceDissolver_2_<Rejected> INPUT FEATURE_TYPE SurfaceDissolver_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SurfaceDissolver_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 INCLUDE [          if { ({VERTICAL} == {SPECIFIED}) } {             puts {MACRO Extruder_3_func @GeometryType(REJECTABLE, fme_extrusion_exact,"<Unused>","<Unused>","<Unused>")};          } else {             puts {MACRO Extruder_3_func @GeometryType(REJECTABLE, fme_extrusion_exact,0.0,0.0,0.0,"-0.2","VERTICAL")};          }          ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME Extruder_3    INPUT  FEATURE_TYPE SurfaceDissolver_2_SURFACE    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)         $(Extruder_3_func)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Extruder_3    INPUT  FEATURE_TYPE SurfaceDissolver_2_SURFACE    INPUT  FEATURE_TYPE SurfaceDissolver_2_<REJECTED>    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)         $(Extruder_3_func)
 FACTORY_DEF * TestFactory    FACTORY_NAME Extruder_3_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) == ""    OUTPUT PASSED FEATURE_TYPE Extruder_3_EXTRUDED       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE Extruder_3_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME Extruder_3_<Rejected> INPUT FEATURE_TYPE Extruder_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, Extruder_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
@@ -5733,7 +5945,7 @@ else:
 END_INCLUDE
 DEFAULT_MACRO SolidDissolver_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(SolidDissolver_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(SolidDissolver_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SolidDissolver_WORKSPACE_NAME)_Solids1566739527 Input Splitter"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_Solids"   OUTPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_Solids"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SolidDissolver_WORKSPACE_NAME)_Solids1568308371 Input Splitter"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_Solids"   OUTPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_Solids"
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_GeometryRefiner    INPUT  FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_Solids"    OUTPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryRefiner_OUTPUT"        @Geometry(fme_simplify_geometry)
 # -------------------------------------------------------------------------
@@ -5769,8 +5981,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_Geomet
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_InstanceTest    INPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_INSTANCE"    OUTPUT FAILED FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_CollectionTest    INPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_Deagg    INPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Input___    OUTPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Prepped___        $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_d0d7fb44_e37b_485b_96d1_f8eaad54eb5c16_targetFeatureType @Lookup($(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_Router    INPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Prepped___    TEST @Value($(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_d0d7fb44_e37b_485b_96d1_f8eaad54eb5c16_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value($(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_d0d7fb44_e37b_485b_96d1_f8eaad54eb5c16_targetFeatureType))                                 @RemoveAttributes($(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_d0d7fb44_e37b_485b_96d1_f8eaad54eb5c16_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_<UNFILTERED>"        @RemoveAttributes($(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_d0d7fb44_e37b_485b_96d1_f8eaad54eb5c16_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Input___    OUTPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Prepped___        $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_a9d6867a_8622_4d8f_8e56_b50fb36028102_targetFeatureType @Lookup($(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_Router    INPUT FEATURE_TYPE $(SolidDissolver_WORKSPACE_NAME)_GeometryFilter___Prepped___    TEST @Value($(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_a9d6867a_8622_4d8f_8e56_b50fb36028102_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value($(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_a9d6867a_8622_4d8f_8e56_b50fb36028102_targetFeatureType))                                 @RemoveAttributes($(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_a9d6867a_8622_4d8f_8e56_b50fb36028102_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_<UNFILTERED>"        @RemoveAttributes($(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_a9d6867a_8622_4d8f_8e56_b50fb36028102_targetFeatureType)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter <UNFILTERED> Transformer Output Nuker"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_<UNFILTERED>"
 # -------------------------------------------------------------------------
 FACTORY_DEF * GQueryFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_GeometryCoercer    INPUT  FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_SOLID"    GQUERY "@EvaluateExpression(FDIV,STRING_ENCODED,for<space><dollar>geom<space>in<space><solidus><solidus>geometry<lf>where<space><dollar>geom<solidus>count<openparen>parent::geometry<closeparen><space>=<space>0<lf>return<space>number<openparen><dollar>geom<solidus><at>fme_id<closeparen>,$(SolidDissolver_WORKSPACE_NAME)_GeometryCoercer)"    ACTION COERCE_GEOMETRY    PARAMETER fme_brep_solid BASENAME $(SolidDissolver_WORKSPACE_NAME)_GeometryCoercer    OUTPUT RESULT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryCoercer_COERCED"    OUTPUT UNTOUCHED FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryCoercer_UNTOUCHED"
@@ -5778,8 +5990,8 @@ FACTORY_DEF * GQueryFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_Geo
 DEFAULT_MACRO $(SolidDissolver_WORKSPACE_NAME)_Aggregator_BREAK_ATTR
 INCLUDE [if {"No" == "Yes"} {puts {MACRO $(SolidDissolver_WORKSPACE_NAME)_Aggregator_BREAK_ATTR BREAK_BEFORE_FIELD_CHANGE $($(SolidDissolver_WORKSPACE_NAME)_Group_1)} }]
 FACTORY_DEF {*} AggregateFactory    FACTORY_NAME $(SolidDissolver_WORKSPACE_NAME)_Aggregator    INPUT  FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryCoercer_COERCED"    INPUT  FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryCoercer_UNTOUCHED"    MODE ONE_LEVEL    GROUP_BY { $($(SolidDissolver_WORKSPACE_NAME)_Group_1) }    $($(SolidDissolver_WORKSPACE_NAME)_Aggregator_BREAK_ATTR)    REMOVE_GEOMETRY NO    ACCUMULATE_ATTRIBUTES Yes    PRODUCE_MULTIS YES    OUTPUT AGGREGATE FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_Aggregator_AGGREGATE"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SolidDissolver_WORKSPACE_NAME)_Dissolved1566739527 Output Collector"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_Aggregator_AGGREGATE"   OUTPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_Dissolved"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SolidDissolver_WORKSPACE_NAME)_<Rejected>1566739527 Output Collector"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_POINT"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_LINE"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_ARC"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_AREA"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_ELLIPSE"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_TEXT"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_RASTER"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_POINTCLOUD"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_SURFACE"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_COLLECTION"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_NULL"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_INSTANCE"   OUTPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_<Rejected>"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SolidDissolver_WORKSPACE_NAME)_Dissolved1568308371 Output Collector"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_Aggregator_AGGREGATE"   OUTPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_Dissolved"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(SolidDissolver_WORKSPACE_NAME)_<Rejected>1568308371 Output Collector"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_POINT"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_LINE"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_ARC"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_AREA"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_ELLIPSE"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_TEXT"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_RASTER"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_POINTCLOUD"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_SURFACE"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_COLLECTION"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_NULL"   INPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_GeometryFilter_INSTANCE"   OUTPUT FEATURE_TYPE "$(SolidDissolver_WORKSPACE_NAME)_<Rejected>"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(SolidDissolver_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SolidDissolver Dissolved Output Renamer/Nuker"   INPUT FEATURE_TYPE SolidDissolver_Dissolved   OUTPUT FEATURE_TYPE SolidDissolver_Dissolved
 FACTORY_DEF * TeeFactory   FACTORY_NAME "SolidDissolver <Rejected> Output Renamer/Nuker"   INPUT FEATURE_TYPE SolidDissolver_<Rejected>   OUTPUT FEATURE_TYPE SolidDissolver_<Rejected>

@@ -1,32 +1,52 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿//======================================= 2019, Stéphane Malta e Sousa, sitn-vr =======================================
+//
+// Needs to be added to a box collider that has IsTrigger enabled. Checks if building is entirely inside its boundaries
+//
+//=====================================================================================================================
+
 using UnityEngine;
 
-public class BuildingAuthorizer : MonoBehaviour
-{
-    private BoxCollider bCollider;
-    // Start is called before the first frame update
-    void Start()
-    {
-        bCollider = GetComponent<BoxCollider>();
-    }
 
-    private void OnTriggerStay(Collider other)
+namespace SITN
+{
+    public class BuildingAuthorizer : MonoBehaviour
     {
-        Vector3[] groundBounds;
-        if (other.GetComponentInParent<PlayableBuilding>() != null)
+        private BoxCollider bCollider; // box collider
+
+        //--------------------------------------------------------------------------------------------------
+        // Start is called before the first frame update
+        //--------------------------------------------------------------------------------------------------
+        void Start()
         {
-            PlayableBuilding building = other.GetComponentInParent<PlayableBuilding>();
-            groundBounds = building.GetColliderVertices();
-            bool isFullyContained = true;
-            for (int i = 0; i < groundBounds.Length; i++)
+            bCollider = GetComponent<BoxCollider>();
+        }
+
+        //--------------------------------------------------------------------------------------------------
+        // Fires every time another collider touches this collider boundaries
+        //--------------------------------------------------------------------------------------------------
+        private void OnTriggerStay(Collider other)
+        {
+            Vector3[] groundBounds;
+            
+            // only if the other collider is a PlayableBuilding
+            if (other.GetComponentInParent<PlayableBuilding>() != null)
             {
-                if (!bCollider.bounds.Contains(groundBounds[i]))
+                PlayableBuilding building = other.GetComponentInParent<PlayableBuilding>();
+
+                // gets the ground vertices from building
+                groundBounds = building.GetColliderVertices();
+                bool isFullyContained = true;
+
+                // for every ground vertex, control if it's inside
+                for (int i = 0; i < groundBounds.Length; i++)
                 {
-                    isFullyContained = false;
+                    if (!bCollider.bounds.Contains(groundBounds[i]))
+                    {
+                        isFullyContained = false;
+                    }
                 }
+                building.SetValid(isFullyContained);
             }
-            building.SetValid(isFullyContained);
         }
     }
 }

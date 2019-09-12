@@ -7,46 +7,56 @@
 using UnityEditor;
 using UnityEngine;
 
-public class CreateBoundingCollider: ScriptableWizard
+
+namespace SITN
 {
-    public GameObject building;
-
-
-    CreateBoundingCollider()
+    public class CreateBoundingCollider: ScriptableWizard
     {
-        building = null;
-    }
+        public GameObject building;
 
-    [MenuItem("SITN/Create bounding collider")]
-    static void CreateWizard()
-    {
-        ScriptableWizard.DisplayWizard<CreateBoundingCollider>("Create bounding collider", "Create");
-    }
 
-    void OnWizardCreate()
-    {
-        try
+        public CreateBoundingCollider()
         {
-            Bounds bounds = building.GetComponent<Renderer>().bounds;
-            GameObject newParent = new GameObject(building.name + "_wrapper");
-            newParent.transform.position = building.transform.position;
-            building.transform.SetParent(newParent.transform);
-            newParent.AddComponent<PlayableBuilding>();
-            BoxCollider bc = newParent.AddComponent<BoxCollider>();
-            bc.center = bounds.center;
-            bc.size = bounds.size;
-        }
-        catch (UnityException)
-        {
-            EditorUtility.DisplayDialog("Error", "Something went terribly wrong!", "Cancel");
-            return;
+            building = null;
         }
 
-    }
+        //-------------------------------------------------
+        // Make it visible as a menu in Editor
+        //-------------------------------------------------
+        [MenuItem("SITN/Create bounding collider")]
+        static void CreateWizard()
+        {
+            ScriptableWizard.DisplayWizard<CreateBoundingCollider>("Create bounding collider", "Create");
+        }
 
-    void OnWizardUpdate()
-    {
-        helpString = "";
-        isValid = (building != null);
+        //--------------------------------------------------------------------------------------------------
+        // Wraps a GameObject with a collider allowing the GameObject to be manipulated inside the wrapper
+        // Adds PlayableBuilding script
+        //--------------------------------------------------------------------------------------------------
+        void OnWizardCreate()
+        {
+            try
+            {
+                Bounds bounds = building.GetComponent<Renderer>().bounds;
+                GameObject newParent = new GameObject(building.name + "_wrapper");
+                newParent.transform.position = building.transform.position;
+                building.transform.SetParent(newParent.transform);
+                newParent.AddComponent<PlayableBuilding>();
+                BoxCollider bc = newParent.AddComponent<BoxCollider>();
+                bc.center = bounds.center;
+                bc.size = bounds.size;
+            }
+            catch (UnityException)
+            {
+                EditorUtility.DisplayDialog("Error", "Something went terribly wrong!", "Cancel");
+                return;
+            }
+
+        }
+
+        void OnWizardUpdate()
+        {
+            isValid = (building != null);
+        }
     }
 }
